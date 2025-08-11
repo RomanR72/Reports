@@ -1,0 +1,237 @@
+﻿Распределение алертов по правилам корреляции
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:51+03:00
+[ТД] Универсал Привалова
+
+metric,value
+1,R077_Обнаружено вредоносное ПО
+1,R058_Локальная учетная запись была создана подозрительным пользователем
+1,R003_Удаленный вход под учетной записью локального администратора
+1,R294_Обфускация команд PowerShell
+1,R079_Несколько хостов заражены одним типом вируса
+1,R080_Всплеск заражений ВПО
+1,R107_Использование сжатия данных
+1,R105_Подозрение на обфускацию кода с использованием спецсимволов
+
+Общее количество алертов и их статусы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:51+03:00
+[ТД] Универсал Привалова
+
+value,metric
+Closed,6
+New,2
+
+"Общее число событий, обработанных в текущем периоде"
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:51+03:00
+[ТД] Универсал Привалова
+
+metric,value
+11577329,An account was successfully logged on.
+9568333,An account was logged off.
+2596707,A privileged service was called.
+2532998,Credential Manager credentials were read.
+2429917,Special privileges assigned to new logon.
+357959,A logon was attempted using explicit credentials.
+317656,Auditing settings on object were changed.
+171559,Жизненный цикл поставщика
+129450,A security-enabled local group membership was enumerated.
+110827,Key file operation.
+110431,Cryptographic operation.
+85492,
+61466,A security-enabled local group was changed.
+59813,Key migration operation.
+59372,A Windows Filtering Platform filter has been changed.
+57686,Контроль устройств
+44781,Permissions on an object were changed.
+44488,An account failed to log on.
+43128,A new process has been created.
+43020,Modifying activity Id and correlating
+42747,Creating Scriptblock text
+33087,A rule was listed when the Windows Firewall started.
+31899,Предотвращение вторжений
+30515,Жизненный цикл обработчика
+30405,Поиск вредоносного ПО (регламентное)
+23809,Защита
+21241,Windows PowerShell has started an IPC listening thread
+19913,Обновление
+17081,Runspace state changed
+16104,PowerShell console is starting up
+16096,PowerShell console is ready for user input
+11703,The system time was changed.
+11523,Поиск вредоносного ПО
+9062,Group membership information.
+8900,Vault credentials were read.
+8532,Обновление (регламентное)
+7827,A user's local group membership was enumerated.
+4275,Creating RunspacePool object
+4273,Opening RunspacePool
+4272,Creating Runspace object
+4260,Установка требуемых обновлений и закрытие уязвимостей
+4077,Контроль приложений
+4048,Boot Configuration Data loaded.
+4029,A primary token was assigned to process.
+3956,The event logging service has shut down
+3310,Защита от файловых угроз
+3210,R031_01_Вход с разных хостов на один Windows хост под одной учетной записью
+2769,An attempt was made to query the existence of a blank password for an account.
+2672,A Windows Filtering Platform callout has been changed.
+2486,The Windows Firewall Driver has started successfully.
+2485,The Windows Firewall Service has started successfully.
+2483,The Per-user audit policy table was created.
+2483,Windows is starting up.
+2458,Windows Firewall did not apply the following rule
+2173,User initiated logoff
+2169,Other System Events
+1693,System Integrity
+1635,An operation was attempted on a privileged object.
+1013,A change has been made to Windows Firewall exception list. A rule was added.
+1012,Загрузка обновлений в хранилище Сервера администрирования
+836,The following filter was present when the Windows Filtering Platform Base Filtering Engine started.
+777,Веб-Контроль
+723,A service was installed in the system.
+696,Databases and Modules Update for Kaspersky Endpoint Agent
+684,The following callout was present when the Windows Filtering Platform Base Filtering Engine started.
+660,A change has been made to Windows Firewall exception list. A rule was deleted.
+501,A trusted logon process has been registered with the Local Security Authority.This logon process will be trusted to submit logon requests.
+456,Анализ поведения
+453,Адаптивный контроль аномалий
+452,Защита от веб-угроз
+450,Защита от эксплойтов
+450,Защита от сетевых угроз
+450,Сетевой экран
+450,Защита от почтовых угроз
+444,AMSI-защита
+380,A security package has been loaded by the Local Security Authority.
+317,Поиск уязвимостей и требуемых обновлений
+271,An attempt was made to register a security event source.
+265,An attempt was made to unregister a security event source.
+230,A Windows Filtering Platform sub-layer has been changed.
+190,A Windows Filtering Platform provider has been changed.
+173,An object was added to the COM+ Catalog.
+167,Добавление ключа
+164,Update
+126,Code integrity determined that the image hash of a file is not valid
+114,A rule has been ignored by Windows Firewall because it could not parse the rule.
+114,A Windows Filtering Platform provider context has been changed.
+114,The following provider was present when the Windows Filtering Platform Base Filtering Engine started.
+112,Сведения о конвейерном выполнении
+112,Command Invocation
+81,Обработка события
+76,The following sub-layer was present when the Windows Filtering Platform Base Filtering Engine started.
+72,A notification package has been loaded by the Security Account Manager.
+66,The workstation was locked.
+62,The workstation was unlocked.
+57,Logon
+46,Windows Firewall has changed the active profile.
+38,The following policy was active when the Windows Firewall started.
+38,IPsec Services has started successfully.
+36,An authentication package has been loaded by the Local Security Authority.
+36,System security access was removed from an account.
+35,System security access was granted to an account.
+35,A cryptographic function operation was attempted.
+32,A cryptographic function provider operation was attempted.
+30,A user account was changed.
+28,R406_01_Получение учетных данных через GUI-запросы (Windows)
+28,R406_Получение учетных данных через GUI-запросы
+24,TaskAudit
+23,R081_02_KSC. Повторное заражение ВПО
+22,System audit policy was changed.
+20,The name of an account was changed
+17,A security-enabled local group was created.
+17,User Account Management
+17,A member was added to a security-enabled local group.
+13,The domain controller attempted to validate the credentials for an account.
+13,Security State Change
+12,Windows Firewall Group Policy settings has changed. The new settings have been applied.
+10,Process Creation
+9,Resource attributes of the object were changed.
+8,R052_Учетная запись была удалена из группы подозрительным пользователем
+8,A member was removed from a security-enabled local group.
+7,Logoff
+7,Domain Policy was changed.
+6,A user account was enabled.
+6,This event occurs when an object is deleted from the COM+ catalog.
+6,Event processing
+6,R102_Доступ к WinAPI
+6,R102_01_Доступ к WinAPI с использованием PowerShell
+5,Установка KES
+5,A user account was disabled.
+5,An attempt was made to reset an account's password.
+5,Установка агента KSC
+4,Audit Policy Change
+4,A user account was deleted.
+4,A member was removed from a security-enabled global group.
+4,Error Message
+3,A session was disconnected from a Window Station.
+3,R058_Локальная учетная запись была создана подозрительным пользователем
+3,Резервное копирование данных Сервера администрирования
+3,R077_02_KSC. Обнаружено вредоносное ПО
+3,A member was added to a security-enabled global group.
+3,R058_01_Локальная учетная запись в ОС Windows была создана подозрительным пользователем
+3,R061_09_Включение системных учетных записей
+3,Special Logon
+3,R061_Действия над учетной записью
+3,The file could be improperly signed without page hashes or corrupt due to unauthorized modification.
+3,R077_Обнаружено вредоносное ПО
+3,A user account was created.
+2,R035_Возможный подбор пароля методом перебора учетных записей
+2,The state of a transaction has changed.
+2,R110_01_Использование подозрительных опций в командах PowerShell
+2,R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей
+2,R051_Учетная запись была добавлена в группу подозрительным пользователем
+2,Data Recovery Agent group policy for Encrypting File System (EFS) has changed. The new changes have been applied.
+2,R294_Обфускация команд PowerShell
+2,R105_Подозрение на обфускацию кода с использованием спецсимволов
+2,R109_01_Использование известных зловредных фреймворков для эксплуатации уязвимостей
+2,R035_02_Попытки входа на один хост под разными учетными записями
+2,The event logging service encountered an error while processing an incoming event published from %1
+2,R060_Большое количество манипуляций с группами за короткий промежуток времени
+2,A security-enabled global group was changed.
+2,R110_Использование подозрительных опций в командах PowerShell
+2,Обслуживание Сервера администрирования
+1,R229_02_Обнаружение сбора информации о системных сервисах с помощью PowerShell
+1,R107_Использование сжатия данных
+1,A session was reconnected to a Window Station.
+1,R059_01_Большое количество манипуляций с учетными записями за короткий промежуток времени в ОС Windows
+1,R063_Добавление учетной записи в группу доменных или локальных администраторов
+1,R229_Сбор информации о службах
+1,R080_Всплеск заражений ВПО
+1,R105_05_Подозрительное экранирование символов в командной строке (PowerShell)
+1,A cryptographic provider operation was attempted.
+1,R079_03_KSC. Несколько хостов заражены одним типом вируса (по хешу)
+1,R107_01_Использование сжатия данных в PowerShell
+1,R079_Несколько хостов заражены одним типом вируса
+1,R063_04_Включение пользователя в критичную группу
+1,R294_02_Обфускация команд PowerShell с использованием экранирования
+1,R105_04_Подозрительные PowerShell команды. Подозрение на обфускацию
+1,R079_02_KSC. Несколько хостов заражены одним типом вируса
+1,R080_02_KSC. Всплеск заражений ВПО
+1,R294_05_Обфускация кода PowerShell с помощью функции substring
+
+Последние инциденты
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:51+03:00
+[ТД] Универсал Привалова
+
+No Data
+
+Последние 10 алертов
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:51+03:00
+[ТД] Универсал Привалова
+
+tenantID,correlationRuleName,priority,id,status,name,firstSeen,tenantName,userName,severity
+b5f1f6b4-9a66-4409-aa57-7745201ed167,R294_Обфускация команд PowerShell,3,75828229-3c80-4252-80b2-c693feb867a5,New,R294_Обфускация команд PowerShell,2025-04-07T12:28:10+03:00,[ТД] Универсал Привалова,,High
+b5f1f6b4-9a66-4409-aa57-7745201ed167,R105_Подозрение на обфускацию кода с использованием спецсимволов,2,5177f79c-05f5-4f61-bb10-33a33b04f215,New,R105_Подозрение на обфускацию кода с использованием спецсимволов,2025-04-01T08:58:50+03:00,[ТД] Универсал Привалова,,Medium
+
+Затронутые активы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:51+03:00
+[ТД] Универсал Привалова
+
+frequency,tenantID,tenantName,id,displayName,criticality
+1,b5f1f6b4-9a66-4409-aa57-7745201ed167,[ТД] Универсал Привалова,bed45a47-f745-4ae2-8d59-895ca5a94d59,PC-MKPKU-23960,1
+1,b5f1f6b4-9a66-4409-aa57-7745201ed167,[ТД] Универсал Привалова,18fa7ee0-6db1-4fc9-8e2a-92c915177145,PC-MKPKU-31545,1
+
+Активы в инцидентах
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:51+03:00
+[ТД] Универсал Привалова
+
+No Data
+

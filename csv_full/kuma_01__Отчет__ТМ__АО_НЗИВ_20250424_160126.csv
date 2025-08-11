@@ -1,0 +1,298 @@
+﻿"Общее число событий, обработанных в текущем периоде"
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:26+03:00
+[ТМ] НЗИВ
+
+metric,value
+20477569,
+11195029,log
+10843323,path
+6698647,execve
+1808436,An account was successfully logged on.
+1501190,Жизненный цикл поставщика
+1267468,Special privileges assigned to new logon.
+1204645,redential Manager credentials were read.
+668983,Агент Центра обновления Windows
+646400,An account was logged off.
+465833,Жизненный цикл обработчика
+437521,open
+301339,firewall
+181799,setgid
+179463,setuid
+170858,Обновление (1)
+127201,openat
+119901,mknodat
+117874,Общие
+112609,A new process has been created.
+101430,A logon was attempted using explicit credentials.
+80136,A security-enabled local group membership was enumerated.
+72108,Событие состояния службы
+69051,Auditing settings on object were changed.
+61229,write
+60496,Ведение журнала и восстановление
+60371,capset
+59738,Загрузка обновлений в хранилище Сервера администрирования
+44867,A security-enabled local group was changed.
+33185,Драйвер
+29559,Key file operation.
+29253,Cryptographic operation.
+28830,Ведение журнала/Восстановление
+28374,Защита
+25399,Контроль приложений
+22854,Поиск уязвимостей и требуемых обновлений
+20186,Сведения о конвейерном выполнении
+19648,Установка требуемых обновлений и закрытие уязвимостей
+17093,A user's local group membership was enumerated.
+16855,umount2
+16547,Key migration operation.
+15738,Сервер
+14959,An attempt was made to create a hard link.
+14130,R031_01_Вход с разных хостов на один Windows хост под одной учетной записью
+10939,Служба поиска
+10345,Обновление Баз
+10119,Агент центра обновления Windows
+8753,The system time was changed.
+8550,Контроль устройств
+8461,Инвентаризация
+7706,Установка remove_tightvnc
+6776,Защита от файловых угроз
+6685,События сбоев приложения
+5986,An attempt was made to query the existence of a blank password for an account.
+5941,An account failed to log on.
+5657,Vault credentials were read.
+5175,Unprotection of auditable protected data was attempted.
+4808,Запуск отражателя UMDF
+4419,R281_02_Установка нового сервиса из общедоступной директории
+4077,nat
+3970,R281_01_Установка сервиса не из системной директории
+3862,setregid
+3620,A new external device was recognized by the system.
+3237,User initiated logoff
+3177,Installation or update of device drivers.
+3119,Обновление
+3084,Поиск вредоносного ПО
+3081,setreuid
+2802,sendmsg
+2539,Автоматическое обновление
+2498,unlink
+2280,sendto
+2190,LMS
+1426,Установка драйвера
+1426,Завершение работы службы
+1196,Boot Configuration Data loaded.
+1184,A primary token was assigned to process.
+1183,R081_02_KSC. Повторное заражение ВПО
+1119,Установка или обновление драйверов устройств.
+1046,mknod
+1038,The Per-user audit policy table was created.
+1036,Windows is starting up.
+1011,Databases and Modules Update for Kaspersky Endpoint Agent
+979,The Windows Firewall Driver has started successfully.
+976,The Windows Firewall Service has started successfully.
+954,Миграция драйвера
+952,bpf
+946,Настройка драйвера после установки
+924,Средство сбора данных
+876,removexattr
+862,Other System Events
+798,R077_02_KSC. Обнаружено вредоносное ПО
+798,R077_Обнаружено вредоносное ПО
+744,Автоматическая установка - Kaspersky Endpoint Security для Windows (12.3.0) (Русский) (Strong ~15...
+743,mkdir
+737,The file could be improperly signed without page hashes or corrupt due to unauthorized modification.
+609,The domain controller attempted to validate the credentials for an account.
+581,Startup of the UMDF reflector
+577,An operation was performed on an object.
+575,Защита от сетевых угроз
+545,chmod
+533,Обработка события
+532,События диагностики исчерпания ресурсов
+482,Кэширование страниц базы данных
+435,R060_Большое количество манипуляций с группами за короткий промежуток времени
+417,rename
+339,Быстродействие
+328,readlink
+321,TM
+314,sethostname
+248,Вход
+247,fsetxattr
+204,ddos_protection
+199,Автоматическая установка - Kaspersky Endpoint Security 11.3.0 для Linux (Русский)_11.3.0.7441
+179,A cryptographic self test was performed.
+170,Кэш входов
+169,Другие системные события
+167,unlinkat
+144,chown
+122,Диагностика успешно завершена
+120,Logon Cache
+116,fchown
+116,R152_Запущенный процесс имеет подозрительный родительский процесс
+116,R152_08_Запуск командной оболочки Linux от подозрительного процесса
+115,fchmod
+107,Recovery of data protection master key was attempted.
+98,R290_06_Регистрация DLL с помощью regsvr32.exe из общедоступных директорий
+98,The workstation was unlocked.
+98,R290_Запуск скриптов из общедоступной директории
+97,The workstation was locked.
+94,An attempt was made to unregister a security event source.
+94,An attempt was made to register a security event source.
+89,Операции
+80,mkdirat
+76,Surprise Removal
+70,Исправность поставщика
+68,Выполнение службы
+64,SVC
+59,Добавление ключа
+54,Защита от веб-угроз
+53,R084_01_Использование ПО для удаленного администрирования (cmd)
+49,Сведения о классе модуля поддержки
+45,System security access was granted to an account.
+44,R296_06_Подозрительный родительский процесс у regsvr32.exe
+42,A user account was changed.
+42,creat
+42,mount
+40,Security policy in the group policy objects has been applied successfully.
+36,getxattr
+35,R084_Использование ПО для удаленного администрирования
+34,Неполадки с драйверами пользовательского режима.
+31,R003_02_Удаленный вход под учетной записью администратора в Windows
+31,R003_Удаленный вход под учетной записью локального администратора
+29,Служба событий
+27,R296_Подозрительные аргументы при запуске системной утилиты
+27,Code integrity determined that the image hash of a file is not valid
+26,"Журнал ""TaskScheduler/Operational"" был отключен"
+21,R230_Доступ к данным об учетных записях в реестре Windows
+21,R230_02_Копирование данных с учетными данными из реестра Windows
+19,User-mode Driver problems.
+18,lgetxattr
+18,%1
+17,R291_03_Вызов внешних ресурсов для системных приложений Windows (runll32)
+16,R224_02_Сбор информации об удаленной системе стандартными средствами Windows
+16,Предотвращение вторжений
+15,Update
+14,R051_Учетная запись была добавлена в группу подозрительным пользователем
+14,A member was added to a security-enabled local group.
+14,Инициализация/Завершение
+13,Запуск службы
+13,Резервное копирование данных Сервера администрирования
+13,R224_Сбор информации о системе
+13,Исправность обработчика
+12,Проверка завершена с ошибкой
+12,Установка ЯНДЕКС
+12,System security access was removed from an account.
+12,Сведения для установки
+12,Сведения ОС
+10,fchmodat
+10,A member was removed from a security-enabled local group.
+10,"R283_01_Выполнение кода через приложения, использующие Chromium"
+10,symlink
+9,R052_Учетная запись была удалена из группы подозрительным пользователем
+7,Event Service
+6,R063_04_Включение пользователя в критичную группу
+6,Обслуживание Сервера администрирования
+6,PnP
+6,R063_Добавление учетной записи в группу доменных или локальных администраторов
+5,Backup of data protection master key was attempted.
+5,R423_Подозрительный процесс компиляции файла
+5,R423_02_Компиляция с помощью csc.exe из подозрительной директории
+4,R083_Обнаружены следы использования нежелательных утилит
+4,R035_02_Попытки входа на один хост под разными учетными записями
+4,An attempt was made to reset an account's password.
+4,A user account was disabled.
+4,A user account was enabled.
+4,R035_Возможный подбор пароля методом перебора учетных записей
+4,R083_04_Возможная активность крипто-майнера
+3,Очистка журнала
+3,Protection of auditable protected data was attempted.
+3,Enable Add-on
+3,Установка службы
+2,Domain Policy was changed.
+2,Отключение правила на 1 час
+2,A security-enabled local group was created.
+2,Кластер
+2,R055_Изменение группы в ОС Windows подозрительным пользователем
+2,Отключение правила на 24 часа
+2,An attempt was made to change an account's password.
+2,R205_Обнаружен новый DNS сервер
+1,A member was added to a security-enabled global group.
+1,R053_Создание группы на Windows системе подозрительным пользователем
+1,A user account was created.
+1,Проверка успешно завершена
+1,R058_Локальная учетная запись была создана подозрительным пользователем
+1,R080_Всплеск заражений ВПО
+1,R224_14_Обнаружение активностей разведки на Windows
+1,$d21c8964-3e48-4e11-9b6c-687e85fd40d2
+1,R058_01_Локальная учетная запись в ОС Windows была создана подозрительным пользователем
+1,Ошибка RPC службы
+1,Восстановление после сбоя
+1,A user account was locked out.
+1,R407_Обнаружение следов возможного перехвата вводимых данных
+1,R061_09_Включение системных учетных записей
+1,CRM
+1,R407_02_Обнаружение троянов-шпионов
+1,Включить надстройку
+1,Vault Find Credential.
+1,R061_Действия над учетной записью
+1,R059_01_Большое количество манипуляций с учетными записями за короткий промежуток времени в ОС Windows
+1,R080_02_KSC. Всплеск заражений ВПО
+
+Последние инциденты
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:26+03:00
+[ТМ] НЗИВ
+
+No Data
+
+Общее количество алертов и их статусы
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:26+03:00
+[ТМ] НЗИВ
+
+metric,value
+4,New
+4,Closed
+1,In progress
+
+Распределение алертов по правилам корреляции
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:26+03:00
+[ТМ] НЗИВ
+
+metric,value
+1,R063_Добавление учетной записи в группу доменных или локальных администраторов
+1,R061_Действия над учетной записью
+1,R296_Подозрительные аргументы при запуске системной утилиты
+1,R083_Обнаружены следы использования нежелательных утилит
+1,R407_Обнаружение следов возможного перехвата вводимых данных
+1,R152_Запущенный процесс имеет подозрительный родительский процесс
+1,R205_Обнаружен новый DNS сервер
+1,R060_Большое количество манипуляций с группами за короткий промежуток времени
+1,R423_Подозрительный процесс компиляции файла
+
+Последние 10 алертов
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:26+03:00
+[ТМ] НЗИВ
+
+userName,severity,firstSeen,status,correlationRuleName,priority,id,tenantName,tenantID,name
+,Medium,2025-04-18T11:16:00+03:00,New,R083_Обнаружены следы использования нежелательных утилит,2,aa29e7fe-43f5-46e9-adb1-bd5793607c6f,[ТМ] НЗИВ,e11db800-5751-4266-bb62-28102f9b5949,R083_Обнаружены следы использования нежелательных утилит
+Александра Зейферт,High,2025-04-08T07:10:55+03:00,In progress,R063_Добавление учетной записи в группу доменных или локальных администраторов,3,6f6c1695-a08d-4039-b973-6421778fa76c,[ТМ] НЗИВ,e11db800-5751-4266-bb62-28102f9b5949,R063_Добавление учетной записи в группу доменных или локальных администраторов
+,Low,2025-04-08T02:25:01+03:00,New,R152_Запущенный процесс имеет подозрительный родительский процесс,1,784b346c-453c-4bb3-9990-c089cb3ae61a,[ТМ] НЗИВ,e11db800-5751-4266-bb62-28102f9b5949,R152_Запущенный процесс имеет подозрительный родительский процесс
+,Low,2025-04-01T10:18:58+03:00,New,R061_Действия над учетной записью,1,9fbafacf-889a-4bda-bff1-aa0e43dd419d,[ТМ] НЗИВ,e11db800-5751-4266-bb62-28102f9b5949,R061_Действия над учетной записью
+,Medium,2025-04-01T10:18:38+03:00,New,R423_Подозрительный процесс компиляции файла,2,27554c52-c9f1-4452-b34d-d78f4d4bbf0c,[ТМ] НЗИВ,e11db800-5751-4266-bb62-28102f9b5949,R423_Подозрительный процесс компиляции файла
+
+Активы в инцидентах
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:26+03:00
+[ТМ] НЗИВ
+
+No Data
+
+Затронутые активы
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:26+03:00
+[ТМ] НЗИВ
+
+tenantName,id,displayName,criticality,frequency,tenantID
+[ТМ] НЗИВ,1118a53d-b748-469e-9f79-c934d6a8f3c6,FO2,1,1,e11db800-5751-4266-bb62-28102f9b5949
+[ТМ] НЗИВ,f295402c-a27c-4e7b-92bd-319abe3900df,GUARDS,1,1,e11db800-5751-4266-bb62-28102f9b5949
+[ТМ] НЗИВ,cad0686e-29b5-4aeb-acab-61faba6bb05e,OIT18,1,1,e11db800-5751-4266-bb62-28102f9b5949
+[ТМ] НЗИВ,25b52ba4-bd37-479d-aa46-3703776af16f,OIT69,1,1,e11db800-5751-4266-bb62-28102f9b5949
+[ТМ] НЗИВ,b345d5ed-98c6-4980-a654-7ce89c77a314,OKS18,1,1,e11db800-5751-4266-bb62-28102f9b5949
+[ТМ] НЗИВ,738f90ea-33cf-4681-ac39-329520b8ff08,OTB-19,1,1,e11db800-5751-4266-bb62-28102f9b5949
+[ТМ] НЗИВ,30aeabba-559a-4b9d-9584-fe51024ebd58,SOT3,1,1,e11db800-5751-4266-bb62-28102f9b5949
+[ТМ] НЗИВ,aebcc4c3-5ddc-4ed8-b277-b6f702016dad,U7-18,1,1,e11db800-5751-4266-bb62-28102f9b5949
+

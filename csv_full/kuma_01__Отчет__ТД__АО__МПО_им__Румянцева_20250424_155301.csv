@@ -1,0 +1,517 @@
+﻿Последние 10 алертов
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:01+03:00
+[ТД] МПО Румянцева
+
+name,firstSeen,severity,tenantName,priority,userName,id,correlationRuleName,tenantID,status
+R083_Обнаружены следы использования нежелательных утилит,2025-04-23T13:36:06+03:00,Medium,[ТД] МПО Румянцева,2,Руслан Яргаев,c0454d9e-08b0-4614-a50a-1bf3c2e6485e,R083_Обнаружены следы использования нежелательных утилит,435de520-6641-4c42-b0f0-20e5e4267a23,In incident
+R084_Использование ПО для удаленного администрирования,2025-04-21T11:32:54+03:00,High,[ТД] МПО Румянцева,3,,28a288b7-8b7e-41ec-9a73-918e314051bf,R084_Использование ПО для удаленного администрирования,435de520-6641-4c42-b0f0-20e5e4267a23,New
+R110_Использование подозрительных опций в командах PowerShell,2025-04-18T16:44:42+03:00,Medium,[ТД] МПО Румянцева,2,,1313abf3-e76c-47ac-9826-9951a2d5e675,R110_Использование подозрительных опций в командах PowerShell,435de520-6641-4c42-b0f0-20e5e4267a23,New
+R071_Получен доступ к ADMIN$,2025-04-18T15:50:13+03:00,High,[ТД] МПО Румянцева,3,,8e5118af-fbf2-4e8f-8a34-3a5bca2116f8,R071_Получен доступ к ADMIN$,435de520-6641-4c42-b0f0-20e5e4267a23,New
+R423_Подозрительный процесс компиляции файла,2025-04-18T15:13:15+03:00,Medium,[ТД] МПО Румянцева,2,,e7abe0c3-d9bd-4b79-8865-88f2dbb6132f,R423_Подозрительный процесс компиляции файла,435de520-6641-4c42-b0f0-20e5e4267a23,New
+R296_Подозрительные аргументы при запуске системной утилиты,2025-04-18T13:18:09+03:00,High,[ТД] МПО Румянцева,3,,de4e23d8-2359-46a6-9ec5-ce2995433aea,R296_Подозрительные аргументы при запуске системной утилиты,435de520-6641-4c42-b0f0-20e5e4267a23,New
+R351_Подозрение на фишинг при создании подозрительного файла,2025-04-18T10:44:54+03:00,Low,[ТД] МПО Румянцева,1,,3750f582-6790-4b8c-ba62-49ee1e671662,R351_Подозрение на фишинг при создании подозрительного файла,435de520-6641-4c42-b0f0-20e5e4267a23,New
+R071_Получен доступ к ADMIN$,2025-04-14T13:41:34+03:00,High,[ТД] МПО Румянцева,3,Александра Зейферт,de147bb8-8874-4249-ba88-2cc5904c3f37,R071_Получен доступ к ADMIN$,435de520-6641-4c42-b0f0-20e5e4267a23,In incident
+R415_Изменение настроек питания,2025-04-09T10:22:22+03:00,Low,[ТД] МПО Румянцева,1,,4d45e87d-6613-44f0-acb9-c367afe8807d,R415_Изменение настроек питания,435de520-6641-4c42-b0f0-20e5e4267a23,New
+R224_Сбор информации о системе,2025-04-07T22:30:01+03:00,Low,[ТД] МПО Румянцева,1,,dfdd8fef-37dd-4365-b94e-01595858bb14,R224_Сбор информации о системе,435de520-6641-4c42-b0f0-20e5e4267a23,New
+
+Активы в инцидентах
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:01+03:00
+[ТД] МПО Румянцева
+
+tenantName,name,weight,count,id,tenantID
+[ТМ] Прибор Голембиовского,NOVOSELOV,1,1,65654dfa-5813-48de-851b-2c06475acaa8,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТД] Искра,Z18-504-11,1,1,69cf00f1-5029-4aec-a963-ccdcf384262f,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+[ТМ] Прибор Голембиовского,SIRIN711,1,1,c8d7b797-8c57-4434-87ab-5d30765d1082,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТМ] НЗИВ,U7-18,1,1,aebcc4c3-5ddc-4ed8-b277-b6f702016dad,e11db800-5751-4266-bb62-28102f9b5949
+[ТМ] ХЗ Планта,BI3,1,1,5b0b7e6a-ef1b-4d43-afd9-20d8739f2856,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] Прибор Голембиовского,GAPONOV436K,1,1,b306c53f-82c8-40f7-a4a8-e19bf24fc57d,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТМ] ХЗ Планта,MB4,1,1,76df8ed4-df21-4b37-8d5c-d4be62915d41,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] Прибор Голембиовского,NASENKOV226K,1,1,2eb7d94e-cba8-43ce-b46d-cb14bb2dc286,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТМ] КМЗ,PC-IT14-14,1,1,9bf4113d-d821-4640-969b-5342235962aa,2e1e2ace-2778-4dc5-9755-b79d2ac32087
+[ТМ] ХЗ Планта,AHO4,1,1,24f45e69-1c5e-4d22-a0b9-5bf405e0489f,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] Прибор Голембиовского,1CMEDVEDEVA472,1,1,bce10aec-9dfb-4ee4-8f16-2c958d24fbb7,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТМ] Прибор Голембиовского,1CROMANOVA409,1,1,016cebf6-cdd1-4259-97d6-812415bad207,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТМ] ХЗ Планта,BI1,1,1,de5f2471-3c00-436e-b0dc-4b1e089c4bd3,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] ХЗ Планта,NB2,1,1,d4137a58-4d8b-48bd-8ab3-bd0f73af480e,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] Прибор Голембиовского,1CMEKANS,1,1,a5cf1088-0418-4753-9076-e994ebe4b28f,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТД] Искра,ORD-4,1,1,a4f5681b-1505-4a64-b8ef-58261a83620b,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+[ТД] Гипронииавиапром,128-TOLSTIKOV,1,1,e58d3a5b-fe34-4f93-9f6f-43357a479837,aa7e37e9-8934-4d8a-b905-f16b6e14096e
+[ТМ] Прибор Голембиовского,1CROMANENKO215,1,1,a098bea7-c8f0-43b0-a192-64063b444178,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТД] Электропривод,S08-SDC,1,1,df3853a9-5bf1-4018-a327-36236ae5fefc,17f758ed-acec-40dd-9022-cec548a56ed3
+[ТМ] ХЗ Планта,PE5,1,1,4f5ef1ad-0069-4240-a067-415fa1f51e3f,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТД] Универсал Привалова,PC-MKPKU-11002,1,1,c0d4458d-0797-465c-8a3f-a009a5e753cb,b5f1f6b4-9a66-4409-aa57-7745201ed167
+[ТД] Электропривод,OTD12PC53,1,1,48366e6b-9ed3-4e60-b5ef-1431bd6e9bfc,17f758ed-acec-40dd-9022-cec548a56ed3
+[ТМ] КМЗ,PC-OB52-12,1,1,19de6cd6-e700-4275-8363-59ccab58cfc6,2e1e2ace-2778-4dc5-9755-b79d2ac32087
+[ТМ] ХЗ Планта,OKS5,1,1,e7d2d5cd-7f4a-4b6a-bb83-f9faa7383ca0,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТД] Полет,IT11,1,1,5a7b6d31-1e20-40a2-9793-2f798c932ae8,79b70d38-ca99-4525-95c6-31e888cbf02f
+[ТД] Искра,OVAIK-3,1,1,442bce8e-30a5-4e22-9db5-983488a889ad,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+[ТД] Электропривод,IT01,1,1,bab6c7c7-f617-4707-94b0-7e2ee3b211ae,17f758ed-acec-40dd-9022-cec548a56ed3
+[ТМ] Прибор Голембиовского,TROFIMOV234,1,1,b7a323b3-945c-4f7d-b5bd-3d425717a1ef,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТМ] ХЗ Планта,KO1,1,1,be21e9ea-1447-474e-a979-babdce5c0ed1,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] ХЗ Планта,PE10,1,1,b49fd535-4282-4ec2-a8d2-7484e0b7bf73,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] Прибор Голембиовского,NOVICKAYA409,1,1,7b093bd9-520d-49df-8f32-aeecaa522900,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТД] Искра,OLSIE-BLIS-1,1,1,128f9226-e67c-4ba8-b48b-41ebc7ca9340,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+[ТД] Электропривод,TEHDIR,1,1,e876a5e1-4e56-4fe8-9349-7f4111f6e112,17f758ed-acec-40dd-9022-cec548a56ed3
+[ТМ] ХЗ Планта,ATS1,1,1,e2a9d244-9e25-4fde-9da7-78fac87b279f,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] Прибор Голембиовского,K352A1CKOTOVA,1,1,6158ce7e-af80-45a2-ae68-634be264a114,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТМ] ХЗ Планта,KO6,1,1,a82a572e-6ac5-48ee-806e-c6a8d5ae4eaa,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТД] Искра,OTZ-6,1,1,d2842d25-142c-481c-a7f3-27d22f20e085,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+[ТМ] ХЗ Планта,PRDO7,1,1,f385a30a-dfc5-4d0f-b7fb-225bfb6aae4d,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] ХЗ Планта,OMTS4,1,1,ae53695e-23a7-4b4d-85f3-4ddf97310141,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТД] Универсал Привалова,PC-MKPKU-49600,1,1,b098d77c-0333-4abb-b168-71c4181a35b8,b5f1f6b4-9a66-4409-aa57-7745201ed167
+[ТД] Электропривод,KASSA,1,1,3fd1103a-9abe-4bb4-b563-d6008a036461,17f758ed-acec-40dd-9022-cec548a56ed3
+[ТМ] Полимер,SPEC-BD,1,1,add61080-962d-4fa4-9861-8d97d01ad5d4,f0ffa808-1c3e-43c3-8a54-aeb8afd38747
+[ТМ] ХЗ Планта,TO6,1,1,f231d5da-3831-4449-8655-e287ff4c610b,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] ХЗ Планта,NB1,1,1,8cda5a0d-b7f4-46c0-a671-233bc66669a9,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] ХЗ Планта,PB3,1,1,19584e8a-eee6-47cf-97d8-991d3e781f50,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТД] Солнечногорский МЗ,1CSRV,1,1,5424b833-d97d-4de5-abbe-369bdb1ef921,5a04be15-7477-4fc8-a22c-7c7a6603a501
+[ТД] Электропривод,IT17,1,1,7685f88d-984f-46ac-a597-11bfa0c67c40,17f758ed-acec-40dd-9022-cec548a56ed3
+[ТД] Искра,Z05-301-1,1,1,b3b43e02-bdcf-48e0-9843-cb80545dcae0,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+[ТМ] Прибор Голембиовского,SCANMETROLOGI,1,1,5ab505fd-58a6-470d-a684-628a07dc0d37,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТД] МПО Румянцева,MD-WS-44-003,1,1,0ba9b860-0fa5-4562-bd9d-04a82c39fed9,435de520-6641-4c42-b0f0-20e5e4267a23
+[ТМ] ХЗ Планта,METROLOG2,1,1,5f8e35ef-7475-478c-bef6-610c13262aac,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТД] Искра,OGT-ZGT,1,1,ffaad54b-3d9f-44a8-82a7-362082898050,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+[ТМ] ХЗ Планта,OT12,1,1,24459308-aee6-4ad1-9583-6ee931e0bc81,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТД] Искра,Z16-D6-9,1,1,d77c1a5b-053e-4c1b-ac2e-93e28a4e43f0,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+[ТМ] ХЗ Планта,SNAB6,1,1,89cc7b7b-1774-4496-b408-90c08cae92a9,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТД] Искра,IT-P-SEA,1,1,c514e57c-6e11-4ddc-ab57-d38e4056e431,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+[ТМ] ХЗ Планта,BI5,1,1,41bbe627-314b-40c4-a151-70880d20b538,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] ХЗ Планта,FO5,1,1,ddb94bd6-fe74-4890-a6a1-117dbbc4bf2e,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] ХЗ Планта,MB5,1,1,33d0541e-4d35-4cdd-941d-c2e771d85572,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] БХЗ 50-летия СССР,PERUN,1,1,c11cdd9c-9122-4748-b850-753423205105,fa51c743-5ac0-4984-9a7d-a616587a3e7c
+[ТМ] Полимер,SQL1CPLMR,1,1,8fac3995-243e-4279-b3d6-dc997b9dc321,f0ffa808-1c3e-43c3-8a54-aeb8afd38747
+[ТД] Электропривод,PLOTD17,1,1,41541f14-e96e-455c-ac92-5347cb882878,17f758ed-acec-40dd-9022-cec548a56ed3
+[ТД] Электропривод,OTD12PC52,1,1,05044306-aea9-4de3-a33e-4666b9b44e73,17f758ed-acec-40dd-9022-cec548a56ed3
+[ТМ] Прибор Голембиовского,GRISHINA428,1,1,c4bf16c9-c4b3-4926-bd4a-2ba8a9986434,3a7d74b5-ba66-4c71-a627-3746d5f66540
+[ТМ] ХЗ Планта,PE4,1,1,92aaa784-797c-449b-8607-103a09c8f02f,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТМ] ХЗ Планта,SK2,1,1,a8a79357-f899-4e1d-9aa9-68d7c281999f,a551cc84-0c62-48ae-941d-6c1b2e368b27
+[ТД] Электропривод,KBR02,1,1,3c55ac42-7360-467d-8fab-6348f433c4db,17f758ed-acec-40dd-9022-cec548a56ed3
+
+Общее количество алертов и их статусы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:01+03:00
+[ТД] МПО Румянцева
+
+metric,value
+120,Closed
+8,New
+3,In incident
+
+"Общее число событий, обработанных в текущем периоде"
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:01+03:00
+[ТД] МПО Румянцева
+
+metric,value
+541405815,A privileged service was called.
+152102344,A handle to an object was requested.
+108492749,The handle to an object was closed.
+60667932,An account was successfully logged on.
+55779797,An account was logged off.
+53060792,An attempt was made to duplicate a handle to an object.
+46702094,Special privileges assigned to new logon.
+29077318,A Windows Filtering Platform filter has been changed.
+15618922,An attempt was made to access an object.
+14649418,A new process has been created.
+14371868,A process has exited.
+12581755,
+8223263,Credential Manager credentials were read.
+5419102,Permissions on an object were changed.
+5025443,A network share object was checked to see whether client can be granted desired access
+3677180,A scheduled task was updated.
+3415883,An operation was performed on an object.
+3272609,Pipeline Execution Details
+2917947,PipeEvent (Pipe Connected)
+2453048,An object was deleted.
+1606515,An operation was attempted on a privileged object.
+1511381,A logon was attempted using explicit credentials.
+1460158,A network share object was accessed
+1196877,An attempt was made to create a hard link.
+1112475,A Windows Filtering Platform provider context has been changed.
+1002750,Обновление баз KES for Windows WS
+951630,RegistryEvent (Value Set)
+935280,The Windows Filtering Platform has blocked a connection.
+885389,Auditing settings on object were changed.
+780639,A rule was listed when the Windows Firewall started.
+696884,Cryptographic operation.
+696814,Key file operation.
+578052,Windows Firewall did not apply the following rule
+469482,Image loaded
+441482,A Windows Filtering Platform callout has been changed.
+352830,Key migration operation.
+304519,Network connection
+255397,Provider Lifecycle
+232558,A trusted logon process has been registered with the Local Security Authority.This logon process will be trusted to submit logon requests.
+223539,RegistryEvent (Object create and delete)
+153225,The state of a transaction has changed.
+147306,The following filter was present when the Windows Filtering Platform Base Filtering Engine started.
+144888,A change has been made to Windows Firewall exception list. A rule was added.
+130351,R031_01_Вход с разных хостов на один Windows хост под одной учетной записью
+128690,FileDeleteDetected (File Delete logged)
+128070,Общие
+119360,A service was installed in the system.
+118610,A change has been made to Windows Firewall exception list. A rule was deleted.
+95334,Process creation
+83099,The operating system started at system time
+81682,FileCreate
+80297,Engine Lifecycle
+80138,The following callout was present when the Windows Filtering Platform Base Filtering Engine started.
+78340,The Password Policy Checking API was called.
+70775,A new external device was recognized by the system.
+70624,An account failed to log on.
+63504,ServiceConfigurationChange
+61366,Driver loaded
+40884,A security package has been loaded by the Local Security Authority.
+40243,Поиск вредоносного ПО WS Быстрая
+34559,Событие состояния службы
+34467,A Windows Filtering Platform sub-layer has been changed.
+33810,A user's local group membership was enumerated.
+33244,Ведение журнала и восстановление
+32794,Windows Firewall has changed the active profile.
+32210,The workstation was locked.
+31261,The workstation was unlocked.
+30106,DNSEvent (DNS query)
+27261,Повреждение базы данных
+25126,A Windows Filtering Platform provider has been changed.
+24912,FileBlockExecutable
+23523,A network share object was added.
+21804,Агент Центра обновления Windows
+21724,A handle to an object was requested with intent to delete.
+19781,PipeEvent (Pipe Created)
+18673,The following provider was present when the Windows Filtering Platform Base Filtering Engine started.
+17839,The process has initiated the power off of computer on behalf of user for the following reason
+16665,The following sub-layer was present when the Windows Filtering Platform Base Filtering Engine started.
+16216,ClipboardChange (New content in the clipboard)
+15542,The system is entering sleep
+14775,A registry value was modified.
+14752,An attempt was made to query the existence of a blank password for an account.
+14521,Ведение журнала/Восстановление
+14207,Еженедельная полная проверка - Поиск вредоносного ПО
+13606,Vault credentials were read.
+13538,The system has resumed from sleep
+13533,The system time was changed.
+11435,WmiEvent (WmiEventFilter activity detected)
+11197,События сбоев приложения
+10968,The domain controller attempted to validate the credentials for an account.
+10856,ProcessTampering (Process image change)
+9771,R224_02_Сбор информации об удаленной системе стандартными средствами Windows
+9692,A scheduled task was disabled.
+9533,R224_Сбор информации о системе
+9051,Служба поиска
+8558,User initiated logoff
+8326,Sysmon service state changed
+8310,R423_02_Компиляция с помощью csc.exe из подозрительной директории
+7501,A process changed a file creation time
+7486,R423_Подозрительный процесс компиляции файла
+7378,A scheduled task was enabled.
+7170,Средство сбора данных
+7087,FileCreateStreamHash
+6999,A scheduled task was created.
+6819,R291_03_Вызов внешних ресурсов для системных приложений Windows (runll32)
+6804,A scheduled task was deleted.
+6630,WmiEvent (WmiEventConsumer activity detected)
+6615,The Windows Firewall Service blocked an application from accepting incoming connections on the network.
+6508,A notification package has been loaded by the Security Account Manager.
+6376,FileBlockShredding
+6371,A rule has been ignored by Windows Firewall because it could not parse the rule.
+6238,System audit policy was changed.
+6107,Поиск уязвимостей и требуемых обновлений KSC 14.2
+5952,Перезагрузка рабочих станций WS 2
+5699,The kernel power manager has initiated a shutdown transition
+5144,Перезагрузка рабочих станций WS
+5096,Отсутствует
+5061,R296_04_Подозрительные аргументы при запуске Msiexec.exe
+5032,A network share object was modified.
+4962,Windows Firewall Group Policy settings has changed. The new settings have been applied.
+4487,An attempt was made to reset an account's password.
+4379,A change has been made to Windows Firewall exception list. A rule was modified.
+4316,The Per-user audit policy table was created.
+4308,An authentication package has been loaded by the Local Security Authority.
+4215,The Windows Firewall Driver has started successfully.
+4209,Windows is starting up.
+4192,The following policy was active when the Windows Firewall started.
+4190,The Windows Firewall Service has started successfully.
+3882,Обновление модулей KS for Windows Servers (конвертированная)
+3839,Starting up database
+3809,Обновление баз KS for Windows Servers (конвертированная)
+3563,RegistryEvent (Key and Value Rename)
+3466,R110_Использование подозрительных опций в командах PowerShell
+3466,R110_04_Сокрытие окна выполнения PowerShell скрипта
+3397,"Установка Chrome 133 (Win10,11 x64 - ADLR, TMG,_TEST)"
+3391,Resource attributes of the object were changed.
+3252,Загрузка обновлений в хранилище Сервера администрирования
+3167,Веб-Контроль
+3142,The event logging service has shut down
+3084,Защита
+3007,Сервер
+2982,R223_02_Сбор информации о процессах стандартными средствами Windows
+2982,R223_Сбор информации о процессах
+2784,Installation or update of device drivers.
+2505,Контроль устройств
+2363,Кэширование страниц базы данных
+2293,7-Zip 24.09 x64
+2197,Boot Configuration Data loaded.
+2115,A primary token was assigned to process.
+2071,Другие системные события
+2067,LMS
+2055,Other System Events
+2026,R296_Подозрительные аргументы при запуске системной утилиты
+1839,An attempt was made to register a security event source.
+1837,Обновление
+1835,An attempt was made to unregister a security event source.
+1715,Process terminated
+1705,The screen saver was invoked.
+1701,The screen saver was dismissed.
+1679,Startup of the UMDF reflector
+1632,A new service was installed in the system
+1509,Login failed for user
+1503,R296_13_Регистрация DLL с помощью regsvr32.exe из файла с иным расширением
+1464,R296_06_Подозрительный родительский процесс у regsvr32.exe
+1336,R089_02_Подозрительное массовое переименование или удаление файлов (Windows)
+1326,Защита от файловых угроз
+1234,R071_Получен доступ к ADMIN$
+1229,R293_01_Аномальное дерево процессов для Windows
+1209,R288_02_Исполнение файла с неисполняемым расширением
+1136,Установка драйвера
+1121,Миграция драйвера
+1109,"R296_12_Подозрительная загрузка DLL процессами regsvcs, regasm"
+1100,"R283_01_Выполнение кода через приложения, использующие Chromium"
+1064,HTTP Configuration Property Trace Task
+988,Security policy in the group policy objects has been applied successfully.
+773,Драйвер
+773,The log file was cleared
+757,FileDelete (File Delete archived)
+728,HTTP Setup Trace Task
+708,Установка или обновление драйверов устройств.
+702,Запуск отражателя UMDF
+668,A session was disconnected from a Window Station.
+667,Error
+650,R290_06_Регистрация DLL с помощью regsvr32.exe из общедоступных директорий
+618,Диспетчер транзакций
+606,A device was disabled
+592,Проверка на вирусы быстрая для KS for Windows Server 11 (конвертированная)
+591,A session was reconnected to a Window Station.
+589,A device was enabled
+580,R302_Манипуляции с атрибутами файла
+573,R240_02_Конфигурирование межсетевого экрана через netsh.exe
+570,UNS
+551,The Federation Service stopped successfully
+533,Database backed up
+510,Постоянная защита файлов
+503,A request was made to disable a device
+501,A significant part of SQL Server process memory has been paged out
+501,A request was made to enable a device
+475,R077_Обнаружено вредоносное ПО
+475,R077_02_KSC. Обнаружено вредоносное ПО
+464,R081_02_KSC. Повторное заражение ВПО
+462,R302_03_Подозрительные изменения разрешений и атрибутов с использованием инструментов
+441,A cryptographic function provider operation was attempted.
+430,R296_07_Подозрительные аргументы при запуске Regasm.exe
+416,Обработка события
+406,A rule has been ignored because its major version number was not recognized by Windows Firewall.
+354,ShadowCopy
+343,A cryptographic self test was performed.
+339,ProcessAccess
+318,A cryptographic function operation was attempted.
+298,A user account was changed.
+293,Started invocation of ScriptBlock
+290,The event logging service encountered an error while processing an incoming event published from %1
+286,Data Recovery Agent group policy for Encrypting File System (EFS) has changed. The new changes have been applied.
+282,R302_01_Установка атрибута файла с целью его сокрытия
+270,A user account was deleted.
+254,Обновление баз KES Embedded for Windows WS
+253,R224_08_Сбор информации о системе стандартными средствами Windows
+250,7-Zip 24.09 x86
+227,R099_Манипуляции с задачами по расписанию
+204,FileExecutableDetected
+197,R099_04_Подозрительные аргументы при запуске schtasks.exe
+196,A user account was created.
+195,A user account was enabled.
+190,R300_02_Запуск Windows shell офисными приложениями
+186,R415_01_Обнаружение изменения настроек питания Windows через powercfg
+186,R415_Изменение настроек питания
+185,RawAccessRead
+184,R058_01_Локальная учетная запись в ОС Windows была создана подозрительным пользователем
+172,"Установка Chrome 109 (Win7 x64 - ADLR, TMG,_TEST)"
+157,"Поиск уязвимостей и требуемых обновлений KSC 14.2 (Win10 - ADL, TMG, _TEST)"
+154,События диагностики исчерпания ресурсов
+152,R290_Запуск скриптов из общедоступной директории
+149,Service State Event
+145,%1
+141,R296_11_Установка пакетов через msiexec в тихом режиме
+137,Защита от веб-угроз
+132,R222_Сбор информации о сетевых папках
+132,R222_02_Сбор информации о сетевых папках стандартными средствами Windows
+131,This instance of SQL Server has been using a process ID
+122,The following provider context was present when the Windows Filtering Platform Base Filtering Engine started.
+118,Исправность поставщика
+113,Trust monitoring cycle initiated
+110,R290_01_Запуск скриптов из общедоступной директории (ps1)
+108,Service endpoint is in disabled or stopped state
+106,Server local connection provider is ready to accept connection
+106,WmiEvent (WmiEventConsumerToFilter activity detected)
+103,R281_02_Установка нового сервиса из общедоступной директории
+93,"Поиск уязвимостей и требуемых обновлений KSC 14.2 (Win7 x64 - ADLR, TMG, _TEST)"
+89,R099_05_Отключение запуска задачи по расписанию
+
+Последние инциденты
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:01+03:00
+[ТД] МПО Румянцева
+
+status,id,severity,tenantName,tenantID,createdAt,name,priority
+1,INC-408,Medium,[ТД] МПО Румянцева,435de520-6641-4c42-b0f0-20e5e4267a23,2025-04-23T14:12:52+03:00,R083_Обнаружены следы использования нежелательных утилит,2
+1,INC-390,Low,[ТД] МПО Румянцева,435de520-6641-4c42-b0f0-20e5e4267a23,2025-04-07T16:44:09+03:00,R224_Сбор информации о системе,1
+
+Распределение алертов по правилам корреляции
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:01+03:00
+[ТД] МПО Румянцева
+
+value,metric
+R296_Подозрительные аргументы при запуске системной утилиты,25
+R291_Вызов внешних ресурсов для системных приложений Windows,18
+"R288_Манипуляции с файлами, имеющими нестандартные расширения",14
+R290_Запуск скриптов из общедоступной директории,8
+R089_Обнаружены возможные следы действий программ-вымогателей,7
+R223_Сбор информации о процессах,7
+R099_Манипуляции с задачами по расписанию,7
+R302_Манипуляции с атрибутами файла,6
+R110_Использование подозрительных опций в командах PowerShell,5
+R071_Получен доступ к ADMIN$,5
+R222_Сбор информации о сетевых папках,4
+R282_Остановка сервиса через CLI,4
+R423_Подозрительный процесс компиляции файла,3
+R059_Большое количество манипуляций с учетными записями за короткий промежуток времени,3
+R219_Использование VPN портов,2
+R224_Сбор информации о системе,2
+R293_Аномальное дерево процессов для Windows,2
+R240_Манипуляции с локальным межсетевым экраном,2
+R083_Обнаружены следы использования нежелательных утилит,2
+R229_Сбор информации о службах,1
+R084_Использование ПО для удаленного администрирования,1
+R225_Подозрительный доступ к данным веб-браузера,1
+R415_Изменение настроек питания,1
+R351_Подозрение на фишинг при создании подозрительного файла,1
+
+Затронутые активы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:01+03:00
+[ТД] МПО Румянцева
+
+frequency,tenantID,tenantName,id,displayName,criticality
+3,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,471a45a4-15ef-44d9-ab4b-3a69e5a00584,MA-WS-15-017,1
+3,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,8a1b0bc1-d5e3-4586-88d5-11c8d2150af3,MR-WS-12-044,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,b17132ea-db7a-4a3a-94f7-bcd8f55fcbea,CEH30-41,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,1a99ee9a-f559-4c80-800a-e7d3a4b67293,CEH30-52,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,9bfe5ae4-7969-47f4-b0c4-bb1a4b14bc54,CEH43-2,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,a4082395-a541-4aac-822e-11e2ee30340e,MA-WS-04-003,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,38ddd474-0699-47c0-81fa-ddfc45258a16,MA-WS-15-026,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,0f243e92-e772-4f60-866c-4d14b2160874,MD-WS-044-002,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,0ba9b860-0fa5-4562-bd9d-04a82c39fed9,MD-WS-44-003,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,2225e761-f8f7-4b1a-b4a5-904555739a4f,ML-WS-19-009,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,9cd27579-7138-4787-b817-f8c30ee49e57,ML-WS-32-013,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,d928192a-927b-4458-93e5-1eec2ffcca9e,MR-WS-06-008,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,560fd487-0637-472a-b726-3b29672fdbc8,MR-WS-26-003,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,df6e47bf-f72b-4cbd-a92d-18ce30da3eb4,MR-WS-37-003,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,c08d61ed-47c7-46a5-894c-2bfc12d5f5c9,MR-WS-61-026,1
+2,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,6a3f0271-9d01-4b95-8a5b-ec6f57acb01d,MR-WS-62-003,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,115c0e7f-0b76-4cc4-942f-755b58a77a02,INO-8,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,eb9e38b9-fc1b-49d4-a5e4-e0f145c1fc8c,MA-WS-04-004,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,018b6bea-944c-4d0c-bc9b-f82a5901668f,MA-WS-04-005,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,1e2f09e1-8952-4d95-9f3d-fb8c2f54de2b,MA-WS-04-006,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,f5991fe9-242c-4f1f-9e02-4a885f60198d,MA-WS-15-010,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,9f5881ca-0d23-48aa-9281-2c77ea8717eb,MA-WS-15-015,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,b1dab534-3bb0-4545-93a5-183f7fb928fd,MA-WS-15-028,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,a3c47bac-b886-4186-b03a-83cc9c20f817,MA-WS-30-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,2c4fa85b-18a7-49aa-803c-0ddb6b0dc31b,MA-WS-30-005,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,4d145452-ebf9-4cdb-9cfb-9742a00fa28a,MA-WS-30-006,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,f5cbd6d0-5b74-47b2-8f7b-2eca3a1f9a73,MA-WS-54-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,1dc8d0cd-684e-46d0-9b00-a5e3732cf818,MD-WS-37-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,52002598-baab-4ed6-9ceb-14a56a4094f4,MD-WS-44-004,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,f64afdd0-a081-4cc9-a438-6d4cefca7a1b,MD-WS-50-003,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,4e75ec98-c342-4ac5-b411-8d1e956eceef,MD-WS-61-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,601b794d-5549-4382-b24d-48a4a6aac4ba,MD-WS-D02-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,c3d71654-b8b3-4c0c-b74b-d2d2ea13aaf9,ML-WS-26-004,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,ce23e63f-4f5f-4dfd-9ab1-0d4cfcd26a17,ML-WS-30-016,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,4c88b85f-38e1-4203-b8fe-98eb345b759d,ML-WS-31-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,3cdf190e-ee0d-4321-95fe-eac8315feff0,ML-WS-31-002,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,9eee8f0d-8d5b-4462-9c30-3bd0d8eaf392,ML-WS-31-006,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,ef4b64b4-e602-43ae-82d1-edd15d692036,ML-WS-31-007,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,3e1d3211-3ce7-4b5f-8d65-534a5d145e7b,ML-WS-31-017,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,46a55143-43d3-4375-bffe-345f0d4e27ba,ML-WS-32-004,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,40e028a6-eede-4852-a30c-e9d195f72ddd,ML-WS-32-010,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,964954a3-f269-4553-8af7-e5506e3e3dbc,ML-WS-32-011,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,ca4ab755-8b80-4120-ab07-a230bd15172a,ML-WS-32-014,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,a3d4cb8b-db7e-43eb-80f0-e1446a0a67cd,ML-WS-33-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,27f0f8c2-3e98-4aa6-9a10-6f56373a24d4,ML-WS-33-011,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,55b698d0-4af9-45c4-ad8f-83f6b02b16b7,ML-WS-34-004,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,be4fb41f-f143-4258-a68e-ba7a5c918d15,ML-WS-34-005,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,897543d9-583c-403c-a212-a1647e9e0ab5,ML-WS-35-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,699af4a9-16ad-4c74-a0e2-1225af6a4394,ML-WS-37-005,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,4295ec83-131e-4601-bdde-15b66f454a24,ML-WS-41-004,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,30d834ae-c039-452f-8022-c315324be21d,ML-WS-41-005,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,501a7ba8-1a85-4d03-b832-31a2532c1f9e,ML-WS-41-006,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,0dbdb329-54e2-480d-a45e-4793e1b395e8,ML-WS-61-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,a95e11bc-1ee9-4e89-bb3d-21a18c01d7fc,ML-WS-61-008,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,669f703b-93ae-44d6-bf54-122fd81e6ab8,ML-WS-61-012,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,9e5bd1fc-5fd7-48e8-8944-ad48005d9f99,ML-WS-61-014,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,a4183c5f-79b1-46e7-9849-95575fca1084,ML-WS-61-016,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,3cdb1158-3511-44ca-a6d4-b1d474dc4486,ML-WS-61-021,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,b3246c4b-fcce-495e-b1e7-6204be358054,ML-WS-77-004,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,7ddbabdd-4bdd-4f08-94dd-df727e871253,ML-WS-D02-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,11b50bb3-6326-461a-8326-13539e3af53e,ML-WS-D16-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,e0aa0e68-9d9a-4551-860e-7d1de46d5744,ML-WS-SCUD-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,5fc33052-a1ee-44ab-b534-7dd9523a2197,ML-WS-T41-003,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,f9af40d2-fe45-4897-ab85-0b9b092070ab,MR-WS-05-002,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,d79a7098-3a53-4e46-9bdd-c54a8a7f8044,MR-WS-05-010,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,3d7fad6a-2c55-48a6-b629-b1e2f3e323eb,MR-WS-06-012,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,badaa3f3-aa88-4f7a-b90a-9bce5d5269bc,MR-WS-09-003,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,2d59da0d-6f43-420c-95e7-94046209f994,MR-WS-09-004,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,9fb6f885-8908-4218-be25-8002b1dedf9c,MR-WS-10-018,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,c6b808fe-613a-4da8-b63f-732baff7a69a,MR-WS-10-020,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,6862ee1c-96fd-4ecd-ae96-84854b1edf00,MR-WS-10-021,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,7c580816-2786-4302-b4d9-df8107a88c7d,MR-WS-10-023,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,b4632f6a-c833-4758-90b4-2763f6fa76ca,MR-WS-10-024,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,0828bbfd-fbb8-443d-933d-0d1a02c92aa5,MR-WS-10-029,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,8d664c91-ebf6-4e3d-aee1-9ebdb5f52895,MR-WS-10-032,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,4aed5cbc-2a04-4508-8dc6-091cfe0ee4af,MR-WS-11-004,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,2dc6c8a3-ae15-46b4-b4ea-3f52a05658fc,MR-WS-12-010,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,5904225b-ae3e-4c27-aa9d-49807a2e0260,MR-WS-12-014,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,a4ce225f-3cac-490c-ba4d-1fc2468babe6,MR-WS-12-034,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,7a2b9e95-a998-4e95-a0bf-b6379644ad67,MR-WS-12-036,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,1447c69c-2f39-4744-9f8e-739844166619,MR-WS-12-039,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,060cc641-388c-4da1-88d3-a3d6ed4d5ebe,MR-WS-12-040,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,92601956-960d-4503-b45e-bba4d6e69713,MR-WS-12-041,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,04b98b4a-6a9c-4e3c-9c9f-11e037fe1dfe,MR-WS-12-045,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,a584c25a-eab0-418c-b204-8f9d0f012e03,MR-WS-12-046,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,76ca3ba2-90df-4d70-abae-d7e7fb37ddf6,MR-WS-12-048,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,13ff1ed2-af06-404e-b7a3-56eb276963a2,MR-WS-16-003,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,cd59d2c1-34de-419a-93f3-b89ffd9b284b,MR-WS-16-013,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,e03caa75-5dbb-4d86-8140-0fba7b9b3e8d,MR-WS-20-003,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,8cbdc7c5-9680-4c85-846a-777b3997676c,MR-WS-20-024,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,bf52588c-1897-47a4-8bf6-012eceb5a89f,MR-WS-26-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,e32984f5-dd66-4450-9f30-d26394de157e,MR-WS-30-013,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,20831247-0632-468b-a23b-80528e7318a1,MR-WS-30-017,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,85856db5-9984-4dec-985a-964432d0f2a0,MR-WS-32-002,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,235fd561-d401-4f40-bd69-b34a0eada1b4,MR-WS-44-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,1dc5628f-3ad7-45d1-b5d8-3e6e7783d8bb,MR-WS-61-003,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,2e3a2183-acd1-4ff6-b9a1-e8da6ef9c82e,MR-WS-61-004,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,3486b03d-7118-4600-bab4-762d15309983,MR-WS-61-007,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,e1f5110b-5dc6-47a3-9e73-d36e0fa60c7b,MR-WS-61-009,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,c08b44b6-7304-4a6e-ba5c-a55857e77b3f,MR-WS-61-014,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,e726bbab-18b4-439a-bde3-a6ce03d7596e,MR-WS-61-018,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,f22ceb44-8d9e-47a9-a535-3bef55c64ff9,MR-WS-61-020,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,f1cc6ba5-b403-478c-a8d4-066afc4e0ac5,MR-WS-61-024,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,ae260d48-f9e3-4239-bee6-a8044011b9f1,MR-WS-61-031,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,8a2cea8e-868d-427c-b6af-4122ab7ec295,MR-WS-61-032,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,7d23f6bb-3411-403e-a853-9afdd445dfbd,MR-WS-65-002,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,64a6aae8-ea9c-48cf-b0dd-026e8edcf85e,MR-WS-65-006,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,244f33e0-31ec-4ed7-a56d-e1e7367e9aba,MR-WS-75-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,addfa003-36ca-499f-bcea-1ff5fbd4e6a2,MR-WS-77-009,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,ed815681-0f4e-4cda-b7e3-6815f5aedce3,MR-WS-D01-003,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,c9a8baf5-e539-4a47-a01d-16159130e157,MR-WS-D02-001,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,e1e34a06-a2ab-46b4-907b-477325ada744,MR-WS-D15-005,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,0de1fc41-c385-47ec-acff-acb5a9c01268,MR-WS-D18-002,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,af44dc0a-7fa8-42cc-8c57-458aa962c117,MR-WS-SKLADIT,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,732d09f8-1b8d-47d8-8926-ba7d2e666f34,OGK2-44,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,62adcb84-2cce-4acd-9a18-0b58f77be2e2,PR-OTDEL-2,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,6817a9f4-ae71-468a-bc09-3be58efe7594,UIT-8,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,bd308180-9620-4126-9e18-5a23ba979ed7,UPE-4,1
+1,435de520-6641-4c42-b0f0-20e5e4267a23,[ТД] МПО Румянцева,4abf2ca1-e5c9-47a7-a0b2-7ae5f6364a59,mr-ws-12-047.rum.mpo,1
+

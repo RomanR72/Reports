@@ -1,0 +1,559 @@
+﻿Затронутые активы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:58:38+03:00
+[ТД] Искра
+
+tenantID,tenantName,id,displayName,criticality,frequency
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ffaad54b-3d9f-44a8-82a7-362082898050,OGT-ZGT,1,6
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,128f9226-e67c-4ba8-b48b-41ebc7ca9340,OLSIE-BLIS-1,1,6
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,83229e74-94d8-4758-9921-3167895325c3,ORD-4,1,6
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d2842d25-142c-481c-a7f3-27d22f20e085,OTZ-6,1,6
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,442bce8e-30a5-4e22-9db5-983488a889ad,OVAIK-3,1,6
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c375e3ab-a2c4-4691-b3a5-a85c3006cf63,JUO-4,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,fbf6a53f-94bb-455b-b462-33245f9a01ec,OGE-6,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c7f8d69a-9798-4db3-b6b5-f0d6644d7736,OGE-7,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,310b6ebd-fab7-47c5-bef4-2e3dc0ec8245,OLSIE-BOOS-1,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,65ee1e22-a45b-4752-9008-2b5524464563,OM-5,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,70f3d7b3-90cd-4217-be91-fa820017e424,OS-VED-6,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d80cf230-52ce-4438-916f-8ced436f23fe,OS-VR-1,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ee581c37-1af6-4372-ac82-bb56dacc6e35,OS-VR-7,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,310eaaf4-211b-41a8-a430-3e999c8cdc95,OTZ-5,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c530077b-1692-4254-87a5-1814c24f3eb5,SKB-2-3,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,f4b9b4eb-9216-4770-8928-51790c2dcc16,Z01-B5-6,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,bf8b0340-0e2a-440d-9ddf-a1b863669653,Z13-EC-3,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ef666af4-8fdd-4f7b-ab92-5e82bdfde0d0,Z16-D6-13,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,674c8b6e-93f6-404e-bced-d9a04fbff202,Z18-B1-21,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,0f75198b-00b2-461f-829a-7b4845ae0ce9,Z21-B1B-2,1,5
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,806a989d-e512-4d23-8a7f-e3644b3cc615,SKB-A-N,1,4
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,819bf1b9-25d4-4646-b865-df417c0c5c57,Z04-530-2,1,4
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,0006eeda-4499-4306-b7cd-4af0287a5158,Z18-B1-12,1,4
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1de9368f-c2a2-41d3-9c22-009a665cdaa3,ZUS1,1,4
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c514e57c-6e11-4ddc-ab57-d38e4056e431,IT-P-SEA,1,3
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,8e3913d8-f079-4ab8-b432-38c21e61744a,IT-P-YGA,1,3
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,8c27a7f1-4aab-4137-baaa-0b665d8028c9,OVAIK-4,1,3
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ff250730-bda1-4224-b73c-3cdb6ff8eef6,Z03-189-1,1,3
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,8c79e9ed-91bd-4e8b-ac0a-80c91183d263,Z04-530-11,1,3
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,15b222b0-f4d0-40d4-87b3-ca7f672085de,Z05-405-5,1,3
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,340f6b17-700e-4cb0-9e23-e984804aaeed,Z18-504-4,1,3
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,e4085c32-0596-4eae-934a-82722a2d40e0,ZUS-1CT-28VM,1,3
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3c1fc20a-0b86-4d23-814d-6b4e94055b0a,AHO-4,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,620be47b-c7c2-429e-8a42-5432c122e71d,B-P-8VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,e326f834-4b2e-4a27-aac4-3ae4f7932fa9,FO-1VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,9602dce6-9b03-403d-93a2-9565624fe6e2,GO-2VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,36456ea0-b46b-4fa8-8b28-86f37b7332cf,IT-304-2,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,5f445105-494c-43d6-b775-bd7f9a356381,IT-TOKEN,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1d75e3a6-f390-4294-8d9c-f0a7d43f654a,OEB-3VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1437bbd5-a4a9-442d-acea-687e9aaac674,OEB-4VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,2ece1bb2-76cf-42bf-8cfc-327ce04235cf,OGE-18VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d1c52436-542e-4d11-b8bd-2b13a677ebbe,OGE-5VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,eb74ab79-6ccf-4343-b820-5cf128b8f06e,OGT-1-4VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,2d4c250b-6219-4010-b64c-2cd0a4090cc5,OGT-2-8VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,e8c7d3dc-fa88-47a1-afe4-bfd11b42ae28,OGT-KBOP-2VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3954a986-dbe0-42d6-b169-bf9dda07ac28,OK-5,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,2f965b66-00e0-4056-9c3f-1de98a58a1c0,OLSIE-BOOS-2VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,8323631d-567a-4563-8adb-16e78b8329ad,OMOIS-3VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,5841ad23-5095-40c6-8ef3-2e6b81b63803,OMTS-M-2VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c37c3f03-3fe5-464e-94d4-abdf217ad6be,OMTS-N-VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,60cfb9d3-c52f-4efb-b2a1-5c9b007489ef,OMTS-O-1VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d17457cc-d418-4ab6-a31e-5acfb27d8915,OMTS-O-5VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1991cc25-7cb5-464b-9a33-411292ebf4e0,OMTS-O-6VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,bee7c306-896d-466e-9fbd-6ff2bc042fc6,OMTS-SM-1VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3cef75d3-421c-4652-a554-313b36f4d4bc,OMTS-SM-2VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,a4412924-3a93-42cf-891a-c798d0c3a06d,OMTS-V-1VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,59e417a9-d035-46bc-a040-3c201fa5de5a,ONR-NVM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ebaa6c41-9f60-4993-aa9f-c37b93efa6e9,OPB-6VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,33945a7f-d8e8-4c76-bfaf-3686a49587aa,OPB-7VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,9bf1a313-0c62-4f6b-9dcd-9a36a9d2f1da,OPB-9VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,27278a4e-384e-402a-9e15-84dfd6b3d753,ORD-7VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d925b65a-3c8c-4f20-abf0-6a4deabbff26,ORD-8VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,0f55824b-0d9d-46d3-9256-c1003c177711,OTK-2VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,88f4b7b7-8680-4b7d-af15-2e021006d589,OTK-B1B-7VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,60b25cd8-0d68-4056-a322-7bc149a40d28,OVAIK-4,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,517f8c88-2017-433c-95be-e514d845bf0f,P-ZGD-BVM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d7be6f8b-0794-4cf2-b250-6523d77ca2c9,PDO-3,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ce36eb5a-6b62-4b29-8402-1c7f6e4f2f7d,PEO-7,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,115d4bd7-c11e-4c12-a26a-5ec99f4ea9ad,R-PGD-3VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,56b8de3e-4109-4f32-921c-f36a29a69621,R-ZGDB-VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,19e67c71-45df-404c-b1cd-2730af32cddc,SOOS-1VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,9d85ba09-aabe-46df-9c73-022d103446d1,SOOS-2VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d8874370-c257-48d5-820b-c51e51a07584,SOOS-3VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,abdf7931-fe8e-447a-8a35-da22a7011097,Z01-B4-12VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1428a301-530a-493e-bd86-103e9b615628,Z03-159-1,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1ec39708-c9aa-4f9a-ab06-61a33015017f,Z03-159-4VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c7a810e6-797d-4510-ac88-2dfde00a9495,Z03-199-8,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c7d1c75d-9fe6-4d3b-90c2-0bc443df4c4e,Z04-510-1,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,4403cfb4-a899-4efa-9ecc-0faa60987d95,Z04-530-8VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,e1bd3d8c-b45c-4b59-99f1-d837298169b2,Z05-169-3VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,50a12164-6c42-4c71-9f75-c9f8761d2354,Z05-169-6VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,49320a17-d983-4bfd-8640-949b89ea9dc0,Z05-179-5,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,90b570be-76a0-4fb0-ae24-6110255b1e86,Z05-179-5,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,efd9186a-46cf-4bf1-bb53-0df3ccb90971,Z12-130-2VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,9ab20292-05cd-4edb-977b-6eb9080507a1,Z14-KOMP-1VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3b66954b-9946-44b3-b345-83ee7b44ff0c,Z14-KOT-1,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ba306ff1-fdf9-4c62-a449-f06ac18bf940,Z14-KOT-6,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,62d9ab98-116a-4ab2-b5f9-a7948f083398,Z16-D6-11,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,8583a4d1-c38d-4c54-b867-3741982b4aaa,Z16-D6-15,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ef02d72a-b80c-4bea-bcee-9926c938e892,Z18-B1-1VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c0686924-f633-4cd9-9fd2-03bd62bb793e,Z20-B1B-4VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,9043da02-2703-4f6d-b95e-82b00cc5b49e,Z21-625-5VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,50e5d4c2-3500-4159-a109-d37c80c966d4,ZUS-ASCON-VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1c573373-d978-4ea1-be91-07ad2a7be4b6,ZUS-DC-2VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d00e6113-cf9c-4968-afc4-023704533e7f,ZUS-DC-3VM,1,2
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,badaaab7-9421-4d4a-a8fa-6ca7bb0c0e6c,AHO-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,0f188949-d1bc-4b71-8953-0ace69142bed,AHO-2,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,72439980-3f8c-4a5d-b536-c8232c374e01,B-GB-VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,69d794b1-5c58-40a6-a3c8-4ff0273a8c05,B-M-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ef5a910b-ed6d-4c8d-a87f-76d3e515c2b4,B-M-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ee0b172b-5241-47af-998a-1f38cbcea7d9,B-M-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,8315b444-36b9-4b4e-9807-1efeef0b1826,B-O-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,4afdab08-3315-4b79-82d0-73ab49d74565,B-O-5VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,303fc947-fac4-4591-a7f7-d2aeabece619,B-O-6VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,36bfcb87-b12e-4051-b17c-e9d196c575a5,B-P-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,2ae0c45d-4b61-49c2-b978-048eb8ba52b8,B-P-7VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1ed3076e-6722-4f56-bcbb-232583ea433a,B-R-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3fb4f3b9-5339-4b2b-a6de-60b7c783e733,B-R-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,da656fed-ca7c-4879-8353-4afedc3b26dd,B-R-N,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,f35d2a8f-c12e-4002-b849-e8aa7aee7246,IT-304-3,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,5631f7ec-cfce-4e59-93a0-69220deb5ba6,IT-T-PIA-VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1e9224aa-ceb3-4b03-98eb-e7cd56afa904,OEB-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,9fcd778a-3ff2-4cf2-bb01-5e302c2cdcc9,OGE-16VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,277e4bed-41f7-4b9c-9e97-b328560f0ef5,OGE-19VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,67f0c8ba-fd20-4e4d-9e59-b2d27a5c736f,OGE-3,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1ee1c6a9-290d-4335-bf8a-a16e212d13c4,OGE-8VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,8f97efeb-e70a-4eed-8ee9-723e76330ea0,OGM-11VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,2d68f19d-4f7b-427d-a159-a7966245f504,OGM-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,0d3bc897-e69c-4adf-abd0-00784f969ab8,OGT-1-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,02b4f08a-26d1-414d-853c-d47ff710bd95,OGT-2-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3ce8742a-f11d-4fde-898a-93907259ba49,OGT-2-5VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,caf04daf-3374-4d63-b35b-13cc0972999f,OGT-2-9,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,8f8fe03e-60e2-442a-a893-13f7e7558b0b,OGT-BMN-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,cd1cca26-9a14-47c1-a760-4150fd669926,OGT-KBOP-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,79d4000c-59ae-4c8e-bb47-0f99ecc0c006,OGT2-4,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,9edb5ae0-d80c-4304-9751-4abb353c5b89,OIB-2,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ab1f8094-7c77-49ff-a563-6e041086ab28,OIB-3,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,f10103b4-6f5c-4593-afbb-d88f1828aa3e,OIB-5,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ee5acb5c-65f3-443d-acc3-d12df76b03ae,OK-12VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,80aee78f-cf14-426d-bb1a-1aa09902869e,OK-13VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,5a895780-254b-4973-b6b5-24937237c8d9,OK-2,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,6d5c5111-80e8-45ca-b90e-d00b23f14ffd,OK-3,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,6ec7297f-fd2d-4c5b-939b-543bca3e0d86,OK-9,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,70623597-4083-4d9d-b25f-42f9f3dc21f3,OLSIE-BOOS-1,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,309bf6fb-fd8b-4e44-a0bf-8c6f2332053e,OM-7VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,233ddebb-8702-4d5d-871b-acc4ad4ef055,OMOIS-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3afd56ab-beee-4ff4-8dd9-d1b0405b9322,OMOIS-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,5ad69a34-41c0-491a-9202-2da5fe3b9a07,OMTS-H-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,74a5518e-dbfa-4c37-9486-aac955af5740,OMTS-H-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d7e508b2-3b7d-4f07-8c2d-aaba4bcc42b8,OMTS-K-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,dedee8f0-28eb-4a5d-b756-3016cddf9374,OMTS-K-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,72b16f15-e2d4-49ca-887a-1ac70631c787,OMTS-K-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,da70f244-01f6-4d6e-84d2-4754ef6b48d8,OMTS-M-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,5a6a6f02-e065-43af-82f1-9091eb86f281,OMTS-M-5VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,7c2d86cc-1063-4125-85ee-bf27bcca9ae2,OMTS-O-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,bf45f40a-49ea-4f8b-8f13-46f3207ab810,OMTS-O-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,a6cb2ed5-8436-476d-a2e4-8613b2d46cfa,OMTS-O-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,dc00f53c-0218-43aa-8f33-93aec68924f9,OMTS-O-7VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,87bd102f-446b-473e-ac53-a67343e96c61,OMTS-O-8VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3ad2ff8b-aef1-4f14-84e8-acfb1dfeb0b0,OMTS-P-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,cfe35fcd-bb3f-43cf-9163-62c841a46478,OMTS-P-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,9e4a56e1-0e26-45fb-b50c-eb1d13386d7a,OMTS-V-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ca091ccc-edbc-4d6d-b191-8d1885487fc9,OMTS-V-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3477e5ab-0f8f-4524-bca6-34b6f05aae80,ONR-530-1,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,e5e23d08-dead-417e-bbb2-0a4389cd1cfa,OPB-10VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,f55a2c37-e09b-47dc-8938-751133c990fd,OPB-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ddb2b440-fcf6-4942-9477-c6576338aeaf,OPB-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,df4cca43-a10c-4c9a-923b-9712b1b2eb0d,OPB-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,a4f5681b-1505-4a64-b8ef-58261a83620b,ORD-4,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,a888f73c-1f42-40d6-bd39-288a1beb7a4e,OS-VR-5,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,2f991a8e-acc5-406d-b5dd-ba07dce9dd81,OSIR-10VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,a218217e-3a2d-4e83-b290-bd193f0f5c5f,OTB-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,fedec65c-89e3-4ac7-8550-b8fa3d82672f,OTB-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ad880510-9f45-4a05-8097-4cccdc29ab7a,OTB-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,9c7b16d2-8240-4f48-836d-624f48c51e2a,OTB-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,96e0c6a3-4318-48a3-985a-1b37ccb69865,OTB-5VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ee41da0e-644b-4e24-9ccb-fce464063a3e,OTB-6VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,29877a24-4c06-4653-bad4-6b4c8858328c,OTB-7VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,95442b1b-d2ce-47d7-a3b7-379cc0f38720,OTK-5VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,7c9df142-7e6f-4853-aa56-1c50d6cb2cc9,OTK-B1B-9VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,cb1e3bc0-8c04-491f-b1c5-8a240db698fe,OTK-N,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,8b488774-7e24-4a3a-865e-4a591f331fc0,OTZ-4,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,5dcd6069-c4e2-432c-9550-4c2528cbce1c,OVK-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ad73b830-0e25-42cf-9567-13d7c99cf4a2,PEO-1,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d06373e7-6d4c-4d60-8684-f319ae467519,PEO-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,726277a5-70b1-4412-b4a4-285d3aec1353,PEO-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,2f4a765d-4e98-474f-918b-012870eabd18,R-SEKRETAR-VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,64ec5375-cf8c-4188-86d3-488f7ae5a8c7,R-ZDP-VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,4f30f707-5c52-4acd-9612-995f9b47d391,RSO-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,5aa9c1c6-f2dd-44f0-a2f4-64639a6ef580,SKB-1-7,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,7aeee464-1181-4827-bc3d-8f41d2ee929a,SKB-2-8,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,428f9443-b4f9-4a87-81c5-bb7535054c63,SKB-A-3,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,8be81c78-1df6-4946-b143-31236ff239d6,SKB-A-5,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,b0a7b753-a4a0-4380-bc4a-5d1a1623b8bf,SPPP-901-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,620333ec-62bf-4fa0-8b7a-259ae51dfc12,SS-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,7309eed2-7f28-4b1b-a979-47afdabac789,SS-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c109b500-5ae0-4d3f-bea9-4a226236107e,UP-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,37cebbdb-6c61-4dbb-a80c-8e72f8ba70d8,Z01-90-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,5af23326-57c4-49a5-b89c-72bfacc9294b,Z01-90-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,2e660985-f1f7-4128-827a-a8f9104f8eca,Z01-B4-ZN,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,bf520f05-0bf2-4162-80b2-b35ddace18e7,Z01-B5-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d7a33f78-9871-44bb-8b99-38c7aa021e70,Z03-199-10VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,f277792f-7257-4ac4-a7a7-30c8efed830f,Z03-199-7VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,f7a77a2c-81e3-4182-890d-88dbe0c94254,Z03-216-2,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3c37c928-8545-4d48-b958-5e21614b74f4,Z03-216-4,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c3b38cc8-2c16-4657-8e73-5e6b3dc1ab68,Z04-5071-2,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ee484608-1a1e-4613-a668-66f516739f25,Z04-530-12VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,84004f09-a071-444e-9d42-724df65bd331,Z04-530-3VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,0f96064d-b322-4879-a8bd-eb6430b034fd,Z05-169-4VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,5984bd23-fe65-4d0b-b6d4-9249362c606a,Z05-169-7VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,cf240e95-51fe-42b4-9319-4f34802994b4,Z05-405-13VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,270d2fbb-3d73-4ff2-8418-a42c695ab141,Z05-405-14VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,77c0a015-c916-4975-bc79-eb7284a57fba,Z05-405-2,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,b30b03b9-8885-4cab-8c3a-3f8f1fcbe40b,Z05-M1-6,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,1fa676ee-8695-4b4c-abb2-bd291ef7f7dd,Z12-651-12VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,a50a484f-1ca2-4fb8-a666-2f1e58e654ed,Z13-EC-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,9400103a-98b0-4c3c-a81c-7816446aabbf,Z14-KOMP-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,e6bb190c-6773-4b60-890d-eccc73498077,Z14-KOT-1,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,ba3e50c7-f76e-4f58-9c06-16391679234b,Z14-KOT-15,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,0ba58069-a5b7-4a57-a182-e270e658c21c,Z14-KOT-16VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,846a28cc-6503-4416-8aa2-317c482a9604,Z14-KOT-17VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,2b910953-4e89-402d-b6c1-699ddf00d406,Z14-KOT-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,b362f9db-c153-41ef-8700-2f58047b5708,Z16-D6-18VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,328a467c-4c0e-4e96-a35d-b6863a9d5d8c,Z16-D6-8,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,d77c1a5b-053e-4c1b-ac2e-93e28a4e43f0,Z16-D6-9,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,881d2bfe-0e3c-44be-a561-ef885bde385c,Z18-504-10,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,69cf00f1-5029-4aec-a963-ccdcf384262f,Z18-504-11,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,23643dda-5a64-42b9-945a-41d33fd34286,Z18-504-15VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,a2158dd7-f5a2-4f5b-acc4-7e4353799854,Z18-B1B-1VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,7d54a56a-6f81-4fe7-9f8a-050653525026,Z18-B1B-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,33cf8fd3-b4f2-4922-a2f9-9b78bfb5aed5,Z20-178-11VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,6cde1031-6362-4515-bd6d-abd646af7608,Z20-B1B-3,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,10ebd8a7-67d0-4c84-8712-49efce2098eb,Z21-625-12VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,18ed27c6-8a57-49b9-b91e-204aef5fde44,Z60-25-11VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,c9b33db9-24a2-4e64-9f4b-8562a11ad5f3,Z60-25-2VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,de14230b-2de8-4b91-84df-468d7fd81586,ZKB-A-6,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,70874744-efb0-4aa6-9a33-3855438cb91e,ZUS-1CR-99VM,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,11f089cb-d660-4ce5-8180-38d65a13e265,ZUS-CAD1,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,6032dbb9-4823-4703-9202-9d69d0fa194c,ZUS-CAD1,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,3a590acc-5275-4154-98c5-2fa2f1f14c77,ZUS-CAD1,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,eb6344d8-710a-41c2-9db9-1550aa2639cd,ZUS-CAD1,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,a540dc3b-57ed-472f-9065-faa6c5b63240,ZUS-CAD1,1,1
+2a663000-d01a-49a9-98b4-dd92d7f9f6cd,[ТД] Искра,858b3a96-0886-4f20-af08-6e4a817fd6ce,ZUS-WSUS2,1,1
+
+Активы в инцидентах
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:58:38+03:00
+[ТД] Искра
+
+No Data
+
+"Общее число событий, обработанных в текущем периоде"
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:58:38+03:00
+[ТД] Искра
+
+metric,value
+202241915,RegistryEvent (Value Set)
+121350341,RegistryEvent (Object create and delete)
+92665484,Network connection
+79405999,PipeEvent (Pipe Connected)
+48253371,FileCreate
+40148244,An account was successfully logged on.
+32852972,An account was logged off.
+21894186,Process creation
+19166782,Special privileges assigned to new logon.
+13555360,Credential Manager credentials were read.
+8114524,A handle to an object was requested.
+7554812,The domain controller attempted to validate the credentials for an account.
+7277525,Pipeline Execution Details
+7273023,Command Invocation
+6475804,A Kerberos service ticket was requested.
+6275833,Error
+5635953,DNSEvent (DNS query)
+4603329,PipeEvent (Pipe Created)
+4090959,ProcessAccess
+2867144,A new process has been created.
+2858355,A network share object was checked to see whether client can be granted desired access
+2843732,A process has exited.
+2470157,A logon was attempted using explicit credentials.
+1594134,Creating Scriptblock text
+1288335,The handle to an object was closed.
+1206256,Cryptographic operation.
+1206091,Key file operation.
+1089579,RawAccessRead
+1078486,Completed invocation of ScriptBlock
+1078468,Started invocation of ScriptBlock
+1007253,A network share object was accessed
+921558,Process terminated
+867177,An operation was performed on an object.
+866767,CreateRemoteThread
+786383,Image loaded
+625339,An attempt was made to duplicate a handle to an object.
+604624,Key migration operation.
+348626,Provider Lifecycle
+291589,An account failed to log on.
+265518,A security-enabled local group membership was enumerated.
+244979,Auditing settings on object were changed.
+224398,A Kerberos authentication ticket (TGT) was requested.
+221224,R031_01_Вход с разных хостов на один Windows хост под одной учетной записью
+171015,An attempt was made to query the existence of a blank password for an account.
+152887,A security-enabled local group was changed.
+146169,The Windows Filtering Platform has blocked a connection.
+129254,Kerberos pre-authentication failed.
+104501,Engine Lifecycle
+80113,A new external device was recognized by the system.
+78392,Обновление
+61709,A process changed a file creation time
+57408,FileCreateStreamHash
+54942,The state of a transaction has changed.
+44892,An attempt was made to access an object.
+41162,PowerShell console is starting up
+41157,PowerShell console is ready for user input
+35990,Windows PowerShell has started an IPC listening thread
+34812,core
+33406,Защита
+28693,
+27500,Добавление ключа
+19462,Поиск вредоносного ПО
+17171,R110_Использование подозрительных опций в командах PowerShell
+17005,An Active Directory replica destination naming context was modified.
+14632,R110_01_Использование подозрительных опций в командах PowerShell
+14604,A user's local group membership was enumerated.
+13543,Driver loaded
+10728,R406_01_Получение учетных данных через GUI-запросы (Windows)
+10728,R406_Получение учетных данных через GUI-запросы
+10531,The system time was changed.
+10298,A scheduled task was updated.
+9977,The file could be improperly signed without page hashes or corrupt due to unauthorized modification.
+6610,firewall
+6209,R105_Подозрение на обфускацию кода с использованием спецсимволов
+6202,R105_04_Подозрительные PowerShell команды. Подозрение на обфускацию
+5881,ProcessTampering (Process image change)
+5527,User initiated logoff
+5086,Vault credentials were read.
+4984,R109_01_Использование известных зловредных фреймворков для эксплуатации уязвимостей
+4984,R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей
+4223,Обновление модулей программы Server
+3945,Установка Kaspersky Endpoint Security для Windows (12.8.0) (Русский) (Lite encryption)_12. (1)
+3841,The Per-user audit policy table was created.
+3796,Windows is starting up.
+3725,The Windows Firewall Service has started successfully.
+3722,The Windows Firewall Driver has started successfully.
+2635,The event logging service has shut down
+2521,R110_03_Загрузка и выполнение кода на PowerShell
+2418,R229_02_Обнаружение сбора информации о системных сервисах с помощью PowerShell
+2418,R229_Сбор информации о службах
+1879,The screen saver was invoked.
+1878,The screen saver was dismissed.
+1771,An attempt was made to unregister a security event source.
+1771,An attempt was made to register a security event source.
+1702,Sysmon service state changed
+1253,R221_Сбор информации о группах
+1208,R221_03_Обнаружение сбора информации о доменных группах Windows с помощью PowerShell
+1044,Boot Configuration Data loaded.
+921,A cryptographic self test was performed.
+921,The workstation was locked.
+920,A primary token was assigned to process.
+851,Permissions on an object were changed.
+829,The workstation was unlocked.
+771,Контроль устройств
+739,Code integrity determined that the image hash of a file is not valid
+733,A computer account was changed.
+616,Обновление баз программы Server
+505,A network share object was added.
+484,R081_02_KSC. Повторное заражение ВПО
+427,Загрузка обновлений в хранилище Сервера администрирования
+392,Error Message
+383,A session was disconnected from a Window Station.
+326,An attempt was made to change an account's password.
+320,A session was reconnected to a Window Station.
+282,A user account was changed.
+258,R288_02_Исполнение файла с неисполняемым расширением
+230,R224_02_Сбор информации об удаленной системе стандартными средствами Windows
+230,R224_Сбор информации о системе
+219,R003_Удаленный вход под учетной записью локального администратора
+219,R003_02_Удаленный вход под учетной записью администратора в Windows
+211,Защита от почтовых угроз
+204,Защита от сетевых угроз
+190,"R283_01_Выполнение кода через приложения, использующие Chromium"
+175,R077_02_KSC. Обнаружено вредоносное ПО
+175,R077_Обнаружено вредоносное ПО
+174,Установка Kaspersky Endpoint Security для Windows (12.8.0) (Русский) (Lite encryption)_12.
+167,Установка Агент администрирования Kaspersky Security Center для Windows (15) (Русский)_15.
+164,R423_02_Компиляция с помощью csc.exe из подозрительной директории
+154,The event logging service encountered an error while processing an incoming event published from %1
+151,R423_Подозрительный процесс компиляции файла
+143,A security-enabled local group was created.
+132,R087_Подозрение на внедрение в процесс
+132,R087_02_Подозрительная загрузка сборки с использованием .NET Reflection через PowerShell
+116,The Windows Firewall Service blocked an application from accepting incoming connections on the network.
+112,A security-enabled local group was deleted.
+110,Выполнение конвейера
+108,Исправность поставщика
+105,A network share object was modified.
+104,R296_04_Подозрительные аргументы при запуске Msiexec.exe
+97,Удаленная деинсталляция программы
+95,R222_01_Сбор информации о сетевых папках через PowerShell
+95,R222_Сбор информации о сетевых папках
+91,Удаленная деинсталляция программы (1)
+90,R035_02_Попытки входа на один хост под разными учетными записями
+90,R035_Возможный подбор пароля методом перебора учетных записей
+87,R099_04_Подозрительные аргументы при запуске schtasks.exe
+80,A member was added to a security-enabled local group.
+77,R099_01_Запуск задачи по расписанию из публичной директории
+73,Установка требуемых обновлений и закрытие уязвимостей
+72,R099_Манипуляции с задачами по расписанию
+69,Контроль приложений
+67,System security access was granted to an account.
+64,R296_11_Установка пакетов через msiexec в тихом режиме
+64,R302_Манипуляции с атрибутами файла
+62,A user account was locked out.
+60,Управление защитой
+58,Установка Kaspersky Endpoint Security для Windows (12.8.0) (Русский) (Lite encryption)_12. (7)
+56,A scheduled task was created.
+54,An attempt was made to reset an account's password.
+54,A scheduled task was deleted.
+50,A directory service object was modified.
+46,R051_Учетная запись была добавлена в группу подозрительным пользователем
+45,R221_02_Обнаружение сбора информации о локальных группах Windows с помощью PowerShell
+44,R099_05_Отключение запуска задачи по расписанию
+42,Modifying activity Id and correlating
+40,Добавление ключа (1)
+38,R302_03_Подозрительные изменения разрешений и атрибутов с использованием инструментов
+37,R302_01_Установка атрибута файла с целью его сокрытия
+37,Защита от файловых угроз
+34,A user account was enabled.
+34,Security policy in the group policy objects has been applied successfully.
+33,R293_01_Аномальное дерево процессов для Windows
+29,Веб-Антивирус
+29,Файловый Антивирус
+29,Защита от сетевых атак
+29,Контроль активности программ
+29,Почтовый Антивирус
+29,Мониторинг системы
+29,Веб-Контроль
+28,System security access was removed from an account.
+27,A user account was disabled.
+24,A scheduled task was disabled.
+20,Защита от веб-угроз
+19,A registry value was modified.
+18,Защита от атак BadUSB
+18,IM-Антивирус
+18,R110_02_Кодировка исполняемого кода на PowerShell
+16,Runspace state changed
+15,"R288_Манипуляции с файлами, имеющими нестандартные расширения"
+15,R291_03_Вызов внешних ресурсов для системных приложений Windows (runll32)
+15,R080_Всплеск заражений ВПО
+15,R080_02_KSC. Всплеск заражений ВПО
+14,R060_Большое количество манипуляций с группами за короткий промежуток времени
+14,A computer account was deleted.
+13,R220_Сбор информации об учетных записях
+13,R055_Изменение группы в ОС Windows подозрительным пользователем
+12,R061_Действия над учетной записью
+12,R061_01_Действия над учетной записью из командной строки (cmd)
+11,Резервное копирование данных Сервера администрирования
+11,A security-enabled global group was changed.
+10,Установка Агент администрирования Kaspersky Security Center для Windows (15) (Русский)_15. (1)
+10,R106_Подозрительные PowerShell команды. Подозрение на кодирование команд
+10,R106_01_Подозрительные PowerShell команды. Подозрение на кодирование команд
+9,Установка Kaspersky Endpoint Security для Windows (12.8.0) (Русский) (Lite encryption)_12. (4)
+9,Удаленная деинсталляция программы (2)
+9,A member was added to a security-enabled global group.
+9,Установка Kaspersky Endpoint Security для Windows (12.8.0) (Русский) (Lite encryption)_12. (3)
+8,R102_01_Доступ к WinAPI с использованием PowerShell
+8,A member was removed from a security-enabled local group.
+8,R102_Доступ к WinAPI
+7,R294_01_Обфускация команд PowerShell с использованием экранирования (cmd)
+7,ServiceConfigurationChange
+7,R294_Обфускация команд PowerShell
+7,R052_Учетная запись была удалена из группы подозрительным пользователем
+7,R105_02_Подозрительное экранирование символов в командной строке (cmd)
+6,Windows PowerShell ISE has started to run script file
+6,RegistryEvent (Key and Value Rename)
+6,R220_02_Сбор информации об учетных записях стандартными средствами Windows
+6,Поиск уязвимостей и требуемых обновлений
+6,A computer account was created.
+6,Обслуживание Сервера администрирования
+5,Установка Kaspersky Endpoint Security для Windows (12.8.0) (Русский) (Lite encryption)_12. (2)
+5,Установка Kaspersky Endpoint Security для Windows (12.8.0) (Русский) (Lite encryption)_12. (6)
+5,R220_01_Сбор информации о доменных учетных записях через PowerShell
+5,R063_04_Включение пользователя в критичную группу
+5,Установка Kaspersky Endpoint Security для Windows (12.8.0) (Русский) (Lite encryption)_12. (5)
+4,An attempt was made to create a hard link.
+4,R058_Локальная учетная запись была создана подозрительным пользователем
+4,Creating Runspace object
+4,A user account was created.
+4,Creating RunspacePool object
+4,R293_Аномальное дерево процессов для Windows
+4,R058_01_Локальная учетная запись в ОС Windows была создана подозрительным пользователем
+4,Opening RunspacePool
+3,R079_Несколько хостов заражены одним типом вируса
+3,R063_Добавление учетной записи в группу доменных или локальных администраторов
+3,R071_Получен доступ к ADMIN$
+2,R290_02_Запуск скриптов из общедоступной директории (hta)
+2,The name of an account was changed
+2,R079_03_KSC. Несколько хостов заражены одним типом вируса (по хешу)
+2,A member was removed from a security-enabled global group.
+2,R290_Запуск скриптов из общедоступной директории
+2,"R296_12_Подозрительная загрузка DLL процессами regsvcs, regasm"
+2,R296_01_Подозрительные аргументы при запуске rundll32.exe
+2,R220_03_Сбор информации о локальных учетных записях через PowerShell
+1,An object was added to the COM+ Catalog.
+1,R059_01_Большое количество манипуляций с учетными записями за короткий промежуток времени в ОС Windows
+1,R078_Обнаружено большое количество вредоносных объектов на одном хосте
+1,R107_01_Использование сжатия данных в PowerShell
+1,R078_02_KSC. Обнаружено большое количество вредоносных объектов на одном хосте
+
+Последние инциденты
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:58:38+03:00
+[ТД] Искра
+
+No Data
+
+Последние 10 алертов
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:58:38+03:00
+[ТД] Искра
+
+userName,tenantName,priority,firstSeen,id,name,correlationRuleName,status,severity,tenantID
+,[ТД] Искра,1,2025-04-24T04:17:07+03:00,d5553ea5-e244-4843-a5d1-1206d360de25,R222_Сбор информации о сетевых папках,R222_Сбор информации о сетевых папках,New,Low,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+,[ТД] Искра,1,2025-04-24T03:59:50+03:00,f9c72e41-8df9-4a15-8643-09754dce3854,R003_Удаленный вход под учетной записью локального администратора,R003_Удаленный вход под учетной записью локального администратора,New,Low,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+,[ТД] Искра,2,2025-04-23T23:41:23+03:00,1465b2f0-44c5-4020-9262-e79462a912d5,R105_Подозрение на обфускацию кода с использованием спецсимволов,R105_Подозрение на обфускацию кода с использованием спецсимволов,New,Medium,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+,[ТД] Искра,1,2025-04-23T22:00:32+03:00,4178ba9e-1d17-40a9-bdda-d7261aa9e119,R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей,R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей,New,Low,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+,[ТД] Искра,1,2025-04-23T15:19:20+03:00,c4bbbc58-d6f4-4f30-bda8-37fc16321653,R035_Возможный подбор пароля методом перебора учетных записей,R035_Возможный подбор пароля методом перебора учетных записей,New,Low,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+,[ТД] Искра,1,2025-04-23T10:30:04+03:00,1874cc31-dcd7-486f-b3ba-0d24c7a4d3f6,R229_Сбор информации о службах,R229_Сбор информации о службах,New,Low,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+,[ТД] Искра,2,2025-04-18T20:44:33+03:00,c616323c-05e6-446e-8e3f-11515ef0c1ff,R110_Использование подозрительных опций в командах PowerShell,R110_Использование подозрительных опций в командах PowerShell,New,Medium,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+,[ТД] Искра,2,2025-04-18T20:44:23+03:00,60f29a28-0309-4536-9d26-34918e63e026,R406_Получение учетных данных через GUI-запросы,R406_Получение учетных данных через GUI-запросы,New,Medium,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+,[ТД] Искра,1,2025-04-08T08:46:28+03:00,231ec414-9256-4fea-b5de-01a7939e0f94,R224_Сбор информации о системе,R224_Сбор информации о системе,New,Low,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+,[ТД] Искра,1,2025-04-05T11:07:03+03:00,5c3bf4c1-09e6-482f-b923-b302c827515f,R099_Манипуляции с задачами по расписанию,R099_Манипуляции с задачами по расписанию,New,Low,2a663000-d01a-49a9-98b4-dd92d7f9f6cd
+
+Распределение алертов по правилам корреляции
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:58:38+03:00
+[ТД] Искра
+
+metric,value
+21,R105_Подозрение на обфускацию кода с использованием спецсимволов
+7,R229_Сбор информации о службах
+5,R222_Сбор информации о сетевых папках
+4,R003_Удаленный вход под учетной записью локального администратора
+4,R035_Возможный подбор пароля методом перебора учетных записей
+3,R055_Изменение группы в ОС Windows подозрительным пользователем
+3,R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей
+2,R302_Манипуляции с атрибутами файла
+2,R051_Учетная запись была добавлена в группу подозрительным пользователем
+1,R059_Большое количество манипуляций с учетными записями за короткий промежуток времени
+1,R294_Обфускация команд PowerShell
+1,R110_Использование подозрительных опций в командах PowerShell
+1,R052_Учетная запись была удалена из группы подозрительным пользователем
+1,R224_Сбор информации о системе
+1,R099_Манипуляции с задачами по расписанию
+1,R107_Использование сжатия данных
+1,R078_Обнаружено большое количество вредоносных объектов на одном хосте
+1,R071_Получен доступ к ADMIN$
+1,R058_Локальная учетная запись была создана подозрительным пользователем
+1,R406_Получение учетных данных через GUI-запросы
+1,R152_Запущенный процесс имеет подозрительный родительский процесс
+
+Общее количество алертов и их статусы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:58:38+03:00
+[ТД] Искра
+
+value,metric
+Closed,51
+New,10
+In progress,2
+

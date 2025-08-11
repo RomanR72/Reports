@@ -1,0 +1,471 @@
+﻿Распределение алертов по правилам корреляции
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:54:04+03:00
+[ТД] Электропривод
+
+value,metric
+R240_Манипуляции с локальным межсетевым экраном,13
+R105_Подозрение на обфускацию кода с использованием спецсимволов,9
+R282_Остановка сервиса через CLI,8
+R110_Использование подозрительных опций в командах PowerShell,7
+R302_Манипуляции с атрибутами файла,6
+R051_Учетная запись была добавлена в группу подозрительным пользователем,5
+R423_Подозрительный процесс компиляции файла,5
+R280_Изменение параметров сервиса Windows,5
+"R288_Манипуляции с файлами, имеющими нестандартные расширения",4
+R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей,4
+R055_Изменение группы в ОС Windows подозрительным пользователем,4
+R291_Вызов внешних ресурсов для системных приложений Windows,4
+R107_Использование сжатия данных,3
+R205_Обнаружен новый DNS сервер,3
+R080_Всплеск заражений ВПО,3
+R089_Обнаружены возможные следы действий программ-вымогателей,2
+R293_Аномальное дерево процессов для Windows,2
+R295_Манипуляции с системой непривилегированным процессом,2
+R059_Большое количество манипуляций с учетными записями за короткий промежуток времени,2
+R296_Подозрительные аргументы при запуске системной утилиты,2
+R099_Манипуляции с задачами по расписанию,2
+R221_Сбор информации о группах,1
+R078_Обнаружено большое количество вредоносных объектов на одном хосте,1
+R052_Учетная запись была удалена из группы подозрительным пользователем,1
+R102_Доступ к WinAPI,1
+R079_Несколько хостов заражены одним типом вируса,1
+R224_Сбор информации о системе,1
+R060_Большое количество манипуляций с группами за короткий промежуток времени,1
+R071_Получен доступ к ADMIN$,1
+R222_Сбор информации о сетевых папках,1
+R084_Использование ПО для удаленного администрирования,1
+R152_Запущенный процесс имеет подозрительный родительский процесс,1
+R223_Сбор информации о процессах,1
+R035_Возможный подбор пароля методом перебора учетных записей,1
+
+Общее количество алертов и их статусы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:54:04+03:00
+[ТД] Электропривод
+
+metric,value
+89,Closed
+15,New
+3,In incident
+1,In progress
+
+Активы в инцидентах
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:54:04+03:00
+[ТД] Электропривод
+
+id,tenantID,tenantName,name,weight,count
+903c29cd-7bea-4ab1-b942-683188969d2d,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,KBEA50,1,1
+5f8c28be-f72d-40a1-ac21-799ea9e6806a,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,KASSA01,1,1
+2785cc35-f76c-4b41-a9cb-2e9948484231,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,KO30,1,1
+0be93631-4822-405d-b535-d051e573fcd0,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,VKS,1,1
+48366e6b-9ed3-4e60-b5ef-1431bd6e9bfc,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,OTD12PC53,1,1
+b962fe0e-314a-44d2-b5d9-478c51873ffe,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,BN10,1,1
+d42ecd84-0547-471e-8b66-467f6a5d07d4,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,HRM21,1,1
+05044306-aea9-4de3-a33e-4666b9b44e73,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,OTD12PC52,1,1
+
+"Общее число событий, обработанных в текущем периоде"
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:54:04+03:00
+[ТД] Электропривод
+
+metric,value
+942071174,A privileged service was called.
+264319532,An operation was attempted on a privileged object.
+97010772,Network connection
+54454668,A handle to an object was requested.
+46501712,A network share object was checked to see whether client can be granted desired access
+40985493,RegistryEvent (Object create and delete)
+23499387,RegistryEvent (Value Set)
+23333404,The domain controller attempted to validate the credentials for an account.
+22049644,PipeEvent (Pipe Connected)
+21349421,An account was successfully logged on.
+19829422,A Windows Filtering Platform filter has been changed.
+18265515,An account was logged off.
+17638534,The handle to an object was closed.
+13931289,A new process has been created.
+13751273,A process has exited.
+12000908,
+7335634,FileCreate
+7136109,An attempt was made to duplicate a handle to an object.
+6716103,Process creation
+4597487,Error
+3904489,Permissions on an object were changed.
+3486758,The Windows Filtering Platform has blocked a connection.
+3396519,Special privileges assigned to new logon.
+2981611,Credential Manager credentials were read.
+2966677,A network share object was accessed
+1944508,PipeEvent (Pipe Created)
+1546143,DNSEvent (DNS query)
+1277369,A scheduled task was updated.
+1252611,Pipeline Execution Details
+1183774,Command Invocation
+958945,A logon was attempted using explicit credentials.
+713389,A rule was listed when the Windows Firewall started.
+686035,Image loaded
+633250,Provider Lifecycle
+551398,An attempt was made to access an object.
+415893,An operation was performed on an object.
+347387,A Windows Filtering Platform provider context has been changed.
+337914,An account failed to log on.
+290010,Windows Firewall did not apply the following rule
+224841,A security-enabled local group membership was enumerated.
+193005,A change has been made to Windows Firewall exception list. A rule was added.
+191121,A change has been made to Windows Firewall exception list. A rule was deleted.
+187873,A Windows Filtering Platform callout has been changed.
+170849,Engine Lifecycle
+165720,Modifying activity Id and correlating
+144295,R223_02_Сбор информации о процессах стандартными средствами Windows
+141595,The following filter was present when the Windows Filtering Platform Base Filtering Engine started.
+138421,Process terminated
+137369,An object was deleted.
+129354,RawAccessRead
+125730,Creating Scriptblock text
+123799,R223_Сбор информации о процессах
+112844,A scheduled task was created.
+112815,A scheduled task was deleted.
+105831,Started invocation of ScriptBlock
+105741,Completed invocation of ScriptBlock
+80631,The state of a transaction has changed.
+73335,The Windows Filtering Platform has allowed a connection.
+71437,R031_01_Вход с разных хостов на один Windows хост под одной учетной записью
+70188,FileCreateStreamHash
+68757,A trusted logon process has been registered with the Local Security Authority.This logon process will be trusted to submit logon requests.
+68613,CreateRemoteThread
+67872,Windows PowerShell has started an IPC listening thread
+65546,An attempt was made to create a hard link.
+64908,The following callout was present when the Windows Filtering Platform Base Filtering Engine started.
+64755,A service was installed in the system.
+61233,Driver loaded
+55033,A new external device was recognized by the system.
+46768,Защита от файловых угроз
+43503,PowerShell console is starting up
+43496,PowerShell console is ready for user input
+43091,A network share object was modified.
+42086,The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.
+38581,Runspace state changed
+38486,A security-enabled local group was changed.
+34522,The Windows Filtering Platform has permitted a bind to a local port.
+32001,Auditing settings on object were changed.
+29985,A handle to an object was requested with intent to delete.
+26734,Общие
+26449,ProcessTampering (Process image change)
+25110,A security package has been loaded by the Local Security Authority.
+21194,The workstation was locked.
+20652,The workstation was unlocked.
+20035,A Windows Filtering Platform sub-layer has been changed.
+19834,Key file operation.
+19786,Cryptographic operation.
+19359,A network share object was added.
+18212,ServiceConfigurationChange
+17360,A Windows Filtering Platform provider has been changed.
+15055,Защита
+14026,R293_01_Аномальное дерево процессов для Windows
+13926,A user's local group membership was enumerated.
+13921,Событие состояния службы
+13235,The following sub-layer was present when the Windows Filtering Platform Base Filtering Engine started.
+12766,The Windows Firewall Service blocked an application from accepting incoming connections on the network.
+12298,The following provider was present when the Windows Filtering Platform Base Filtering Engine started.
+12112,Контроль устройств
+11759,A token right was adjusted.
+10447,Windows Firewall has changed the active profile.
+9648,Creating RunspacePool object
+9647,Creating Runspace object
+9646,Opening RunspacePool
+9422,Key migration operation.
+8759,A user account was changed.
+8650,An attempt was made to reset an account's password.
+8294,Vault credentials were read.
+8093,An attempt was made to query the existence of a blank password for an account.
+8049,Ведение журнала и восстановление
+7421,Обновление для всех Win (создана 15.04.2025)
+7404,A registry value was modified.
+7115,События сбоев приложения
+5751,A process changed a file creation time
+5713,A scheduled task was disabled.
+5710,R423_02_Компиляция с помощью csc.exe из подозрительной директории
+5383,The system time was changed.
+5081,Агент Центра обновления Windows
+4978,R423_Подозрительный процесс компиляции файла
+4643,A scheduled task was enabled.
+4556,User initiated logoff
+4477,FileDeleteDetected (File Delete logged)
+4370,A rule has been ignored by Windows Firewall because it could not parse the rule.
+4353,ClipboardChange (New content in the clipboard)
+4182,A notification package has been loaded by the Security Account Manager.
+4178,Защита от веб-угроз
+4149,Поиск вредоносного ПО
+3962,Windows Firewall Group Policy settings has changed. The new settings have been applied.
+3452,Защита от почтовых угроз
+3416,FileBlockExecutable
+3412,Веб-Контроль
+3407,Защита от эксплойтов
+3407,Анализ поведения
+3380,Предотвращение вторжений
+3369,Сетевой экран
+3368,Адаптивный контроль аномалий
+3363,Защита от сетевых угроз
+3343,Средство сбора данных
+3306,Ведение журнала/Восстановление
+3177,The process has initiated the power off of computer on behalf of user for the following reason
+2845,Сервер
+2764,Update
+2730,The system is entering sleep
+2704,WmiEvent (WmiEventConsumer activity detected)
+2676,The following policy was active when the Windows Firewall started.
+2675,The Windows Firewall Service has started successfully.
+2671,The Windows Firewall Driver has started successfully.
+2659,The system has resumed from sleep
+2626,The operating system started at system time
+2599,The Per-user audit policy table was created.
+2594,An authentication package has been loaded by the Local Security Authority.
+2568,Windows is starting up.
+2357,Служба поиска
+2135,R224_02_Сбор информации об удаленной системе стандартными средствами Windows
+2121,Sysmon service state changed
+2047,R110_Использование подозрительных опций в командах PowerShell
+2011,The event logging service has shut down
+2000,The kernel power manager has initiated a shutdown transition
+1790,AMSI-защита
+1775,LMS
+1695,A change has been made to Windows Firewall exception list. A rule was modified.
+1599,The Federation Service stopped successfully
+1598,RegistryEvent (Key and Value Rename)
+1591,The log file was cleared
+1493,Boot Configuration Data loaded.
+1484,R296_13_Регистрация DLL с помощью regsvr32.exe из файла с иным расширением
+1444,A primary token was assigned to process.
+1411,R296_06_Подозрительный родительский процесс у regsvr32.exe
+1365,R110_01_Использование подозрительных опций в командах PowerShell
+1267,R295_01_Манипуляции с реестром непривилегированным процессом (reg)
+1249,R291_03_Вызов внешних ресурсов для системных приложений Windows (runll32)
+1101,A new service was installed in the system
+1096,Resource attributes of the object were changed.
+1059,"R283_01_Выполнение кода через приложения, использующие Chromium"
+1056,An attempt was made to register a security event source.
+1050,An attempt was made to unregister a security event source.
+990,Security policy in the group policy objects has been applied successfully.
+976,Кэш входов
+907,The file could be improperly signed without page hashes or corrupt due to unauthorized modification.
+803,A session was disconnected from a Window Station.
+689,Обновление для всех Win
+679,Обновление
+662,R288_02_Исполнение файла с неисполняемым расширением
+649,A session was reconnected to a Window Station.
+625,A cryptographic function provider operation was attempted.
+518,Резервное копирование
+489,Драйвер
+470,R221_Сбор информации о группах
+470,R221_02_Обнаружение сбора информации о локальных группах Windows с помощью PowerShell
+462,Setting database option
+458,Database backed up
+453,A cryptographic function operation was attempted.
+449,%1
+440,Starting up database
+405,Read-only user password to expire shortly / Read-only user password expired
+391,License
+370,R110_04_Сокрытие окна выполнения PowerShell скрипта
+345,Отсутствует
+345,Code integrity determined that the image hash of a file is not valid
+312,"R287_01_Выполнение кода PowerShell, записанного в файле"
+312,R110_05_Использование подозрительных опций в командах PowerShell (cmd)
+288,Error Message
+288,File_Threat_Protection
+282,Device_Control
+251,Web_Threat_Protection
+247,R081_02_KSC. Повторное заражение ВПО
+227,Removable_Drives_Scan
+213,Установка или обновление драйверов устройств.
+206,Login failed for user
+204,"R287_Выполнение кода скрипта, записанного в файле или ключе реестра"
+202,R302_Манипуляции с атрибутами файла
+199,UNS
+194,Behavior_Detection
+194,Network_Threat_Protection
+193,R099_Манипуляции с задачами по расписанию
+190,R282_02_Остановка сервиса через CLI (net.exe)
+182,R280_03_Манипуляции над службами Windows с помощью утилиты net.exe
+173,Firewall_Management
+161,A cryptographic self test was performed.
+156,A directory service object was modified.
+155,R222_Сбор информации о сетевых папках
+154,R302_03_Подозрительные изменения разрешений и атрибутов с использованием инструментов
+145,R222_01_Сбор информации о сетевых папках через PowerShell
+140,A rule has been ignored because its major version number was not recognized by Windows Firewall.
+132,R099_05_Отключение запуска задачи по расписанию
+131,R071_Получен доступ к ADMIN$
+127,R280_Изменение параметров сервиса Windows
+124,Network Policy Server granted full access to a user because the host met the defined health policy.
+123,Network Policy Server granted access to a user
+116,Проверка важных областей
+114,The Windows Filtering Platform blocked a packet.
+111,Выполнение службы
+110,R282_Остановка сервиса через CLI
+102,R295_Манипуляции с системой непривилегированным процессом
+102,Data Recovery Agent group policy for Encrypting File System (EFS) has changed. The new changes have been applied.
+102,The event logging service encountered an error while processing an incoming event published from %1
+100,R224_Сбор информации о системе
+99,Установка драйвера
+96,Server is listening
+93,WmiEvent (WmiEventFilter activity detected)
+92,События диагностики исчерпания ресурсов
+92,This instance of SQL Server has been using a process ID
+92,R302_01_Установка атрибута файла с целью его сокрытия
+91,ProcessAccess
+90,Installation or update of device drivers.
+88,HTTP Configuration Property Trace Task
+87,R290_Запуск скриптов из общедоступной директории
+86,R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей
+86,R109_01_Использование известных зловредных фреймворков для эксплуатации уязвимостей
+82,Service endpoint is in disabled or stopped state
+82,Server local connection provider is ready to accept connection
+81,R105_04_Подозрительные PowerShell команды. Подозрение на обфускацию
+
+Последние инциденты
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:54:04+03:00
+[ТД] Электропривод
+
+tenantID,createdAt,name,priority,status,id,severity,tenantName
+17f758ed-acec-40dd-9022-cec548a56ed3,2025-04-14T10:24:47+03:00,R105_Подозрение на обфускацию кода с использованием спецсимволов,2,1,INC-395,Medium,[ТД] Электропривод
+17f758ed-acec-40dd-9022-cec548a56ed3,2025-04-01T13:53:06+03:00,R295_Манипуляции с системой непривилегированным процессом,3,1,INC-355,High,[ТД] Электропривод
+
+Затронутые активы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:54:04+03:00
+[ТД] Электропривод
+
+criticality,frequency,tenantID,tenantName,id,displayName
+1,5,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,22ded160-4a63-41ec-9219-cd8f6626c6ed,IT50
+1,5,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,cb507aa7-b4d5-416b-9094-fadb4919b74d,S01-PDC
+1,4,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,7685f88d-984f-46ac-a597-11bfa0c67c40,IT17
+1,4,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,5f8c28be-f72d-40a1-ac21-799ea9e6806a,KASSA01
+1,4,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,5626d259-58d9-406b-a715-a70bc42b1075,OFFICE14
+1,3,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,3839ebf1-b240-44a9-9b41-7697b1761575,BSN31
+1,3,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,9d56f948-86f0-4415-a3a8-f6b26c184130,CERT03
+1,3,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,9ff24ea5-df69-466a-893d-f5103e34b24c,CERT04
+1,3,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,d14bb16c-f6c2-457d-81c6-38f6576a1e38,CKO20
+1,3,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,9ffe5e08-dfce-4e7a-90c8-272e534a3688,IT10
+1,3,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,21a9a317-fde0-49f5-a97d-bf96cbcb0fb4,MANAGER30
+1,3,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,99baeef2-11a3-48ae-8c32-f5bd5f2afd0f,TEHNO34
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,aceaf37c-904c-49c5-bd85-948f2a1f214a,BTZ23
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,dbb92b08-1ae4-441e-8723-4bf4945d9c70,C75MASTER40
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,71826ddf-dd65-462f-847a-52073002120f,C76SBORKA13
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,d0e9d10b-fa50-4da5-bfc3-2bfb8b63cd4f,C77-IRK30
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,7403cdc5-84bb-4457-bf79-45f4aa4a865f,C77MASTER43
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,2442bafb-6be4-4149-9a12-f83e5142729d,C77MASTER45
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,f6f98cdb-219a-4018-8db0-ea63c40a3c87,CKO21
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,bab6c7c7-f617-4707-94b0-7e2ee3b211ae,IT01
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,6c877e16-b5ab-4207-b535-33cf0f3192ae,KBNO22
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,3c55ac42-7360-467d-8fab-6348f433c4db,KBR02
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,9f9da1be-9190-4894-8cba-b5dbbc48a37e,KBTEHNO23
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,751d9407-bed3-490a-9b95-53cfafcc5c20,KO20
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,f5ddbda8-5476-4311-a271-34e027135d6b,METROLOG20
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,32fd084a-eab4-4114-ad5d-fd593127d5b3,OTD12NOT09
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,f98e95d0-e0e8-4d16-81bc-d8e06ea76738,OTD12PC21
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,f2d5286c-f35d-4cf1-8503-d1a8cab984f3,OTD12PC35
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,771fbdf0-a819-4f52-8141-8c311ffd15ed,PDB31
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,c323a2f5-5580-4754-ba2c-75bb56a80817,PLOTD40
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,a006a9cd-4e5f-4df8-8e88-bf42f785bc2f,PLOTD42
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,7068bc2e-5b4b-4a69-bed3-ada57e2e5aa2,S07-FILE
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,27cf086f-e7c5-42bf-ab3c-167be4320083,S16-KSC
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,5d45b810-044d-49c1-9fa0-a7e4870d9a0f,S41-DC1
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,3e5f7a8f-d3a4-45b9-8c42-e891da8d8edf,SNAB20
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,277e0c83-c8b1-44c8-8f64-80291c9a88eb,TEHNO20
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,aa63c4db-20c1-4f37-8bdc-36d4917c569b,TEHNO_HEMILAB30
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,0be93631-4822-405d-b535-d051e573fcd0,VKS
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,7bb75b88-b495-44f5-a46d-8890f647c189,VPCOMP10
+1,2,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,99665caf-4be2-4c68-bdde-c9109bfc8f50,ZAKUP51
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,f5849cc3-2751-41c3-aafb-5763ea916e80,BSN30
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,ff754e82-e5c6-4553-bcb1-01e88211e382,C75-30
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,ce5a8e99-6f31-4b34-86f4-9b68a61c3d63,C77-30
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,e36a93c5-05f9-46b2-99ec-87b3e7d921cb,C77-IRK32
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,b12d28c3-805e-40ab-8dad-dc0667d7f21c,C77BOSS30
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,8f3168fe-b6e9-407b-9c77-d4c4068e3aa0,C77MASTER41
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,a48fd10d-a354-4e66-ab4f-2b2214a13a84,C77MASTER42
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,7f9db688-f4a3-4d19-a704-b684c2dc0944,CERT02
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,cfeb3e04-45a6-4bb8-88bd-341a34698f4d,CERT10
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,22873158-9a88-4008-a66f-90983f4efcf3,CKS11
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,381a6310-5959-408c-b2b1-ddfcad2e5585,CKS43
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,bfc9a50d-805c-4648-acc5-caca90ac33a4,ENERGI31
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,a21954a5-0cd8-43a2-9d79-a95687d3b4fa,ENERGI32
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,96140b53-4820-4243-9f88-3ee821a8954e,ENERGI34
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,0e1af100-6e3c-4f8f-833d-80cdbeb22354,GOCHS10
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,1b782eb0-0dd4-49ff-bcd5-256a280b8d31,HRM10
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,c6c0a629-fbb2-414a-9667-077d646b903a,KBEA14
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,91ed10c1-c2bd-49c8-b4be-e0baec95eaef,KBEA42
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,defd7d1a-a77a-4270-b2da-0946e15e82c3,KBEA43
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,903c29cd-7bea-4ab1-b942-683188969d2d,KBEA50
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,d682136a-791a-451c-a067-deef659f3381,KBEA51
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,96defe37-6e32-4101-884e-d410e3edd6a1,KBEM42
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,1b43b512-4c09-4c67-8a84-01fb64251430,KBEM51
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,0a8d139a-03bb-470d-9ddf-2ef7093a4ade,KBNO20
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,52fa0938-dbaf-40a4-8536-2330efc6f119,KBNO23
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,c59ba511-58c9-4b4f-835f-7e431fab03ca,KBNO24
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,ead856be-6d76-4c6c-acff-ffd47b480c75,KBNO30
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,29c8a2fe-764a-4cff-897f-9ed6c33ca3de,KBPR40
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,b2316ae8-bc75-49e6-9a60-a505528e3e45,KBPR50
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,eaa87524-e5ad-4c4c-93a8-f5555ef9fdbf,KBSEA16
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,3f154ae5-4bfa-464a-963d-40b1aea0c571,KBSEA20
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,5753c023-a1a8-4bff-b991-ca81c5631c1e,KBSEA50
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,0db89be9-1b8a-4d7b-8109-71802e95ff5e,KBSEA52
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,7bb94213-28ed-4a84-9599-c1ab3206af2a,KBTEHNO20
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,7e9690f6-f85d-4cf4-a620-c603d18008aa,MANAGER100
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,f0ae2e93-33f4-4ce4-9d50-15ac40703c20,MANAGER70
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,affb2336-0e93-4b33-ad6e-3e9cd21ed3b9,MARK50
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,ce271bee-ecd6-446a-b224-ddfe49baf7f6,METROLOG15
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,4846c3e2-20bc-407a-8a2c-3b3a6374bde0,METROLOG21
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,6d1abdee-5645-4987-bb2e-84526a2c74bc,METROLOG32
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,f76c4549-05b5-413e-a01b-4d7cfddfbe9a,METROLOG37
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,d4d4b525-f102-4ed1-a728-fc4649ec9589,OTD12NOT03
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,f4771855-d48f-40de-9dba-8953ee341591,OTD12NOT06
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,b75bc985-7b74-4350-9fa2-dcff80514e9e,OTD12PC33
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,10e2f797-7a09-4d9f-9214-98a004472366,OTD12PC36
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,0684cd27-048d-463e-b461-448c7b72a162,OTD12PC40
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,eb737406-bff4-422f-b139-8ed8a2a3da29,OTD12PC44
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,05044306-aea9-4de3-a33e-4666b9b44e73,OTD12PC52
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,48366e6b-9ed3-4e60-b5ef-1431bd6e9bfc,OTD12PC53
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,22878ffb-2771-4172-a304-64a34eaf5e69,PDB04
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,9c31ef53-8f79-47d6-a565-ff3e586f275e,PDB20
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,d12bd60c-b95a-45d7-8c71-22c77c29ca67,PDB21
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,44d19f85-c935-48c5-881d-114b09abd12b,PDB22
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,bd50fefb-e7f5-49bd-acec-a68322d1ea87,PDB25
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,41541f14-e96e-455c-ac92-5347cb882878,PLOTD17
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,969be4a1-c615-4a52-ae36-1ddac39d3686,PRO50
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,52076ef7-1e14-4b80-8b8a-ceffa81f604b,PRO51
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,7339a287-f548-467f-93fe-9f22f14eae9e,S05-CRT
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,5b52ace8-e066-4d87-b747-00967df98ffc,S06-SVC
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,68d9b835-142c-4780-b87a-6f4dd3e9a352,S09-TFD
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,a62f5c32-0736-46cb-8aa2-5ed2f85e99c0,S11-TFD
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,bd0ecce5-de58-49bd-8aa7-281573b37580,S12-TRM
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,d5f15cee-e8d8-4fe9-9ccb-06c5f95d4698,S22-RAM
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,ff476c1f-c179-41e3-993c-11c73b702630,S23-YTU
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,de05da68-c04e-4d8a-a108-be345bcb6a76,S26-ANSYS
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,8f4eb686-bdaf-40d1-95ee-ddbab9bb3d2a,S28-TEMPDB
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,e86f6991-e638-49ef-b18a-7b892658246a,S29-PSPP
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,0df97b79-3594-4643-af43-890db4d74a7f,S29-PSPP-TMP
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,eaebc9d4-bb1e-4f7d-9a15-ad08ab386e99,S30-ATC
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,94806d7f-951b-4f05-a502-57ae72217f5d,S31-DLP
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,bbacc9b6-155f-4348-b1a5-589fd6116981,S33-1CINT
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,c744d75e-c5dd-41a1-a4b4-112a2bcaa371,S45-ARCH
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,e0e607eb-857f-40a8-a48e-ce7255e2ae67,SNAB30
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,e876a5e1-4e56-4fe8-9349-7f4111f6e112,TEHDIR
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,578a8968-3558-4f0f-b8d3-913f0f2661c7,TEHNO22
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,c48be118-ebc0-4ce4-b722-9676c7264fd4,TEHNO24
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,73de846f-f60f-4dd9-8dd3-d17555d16240,TEHNO50
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,8764afa0-e5ea-4cb1-9e71-5e0f3f177de3,TEHNO_HEMILAB33
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,39b7e7f1-4b26-4c31-9a11-6c86c6cf82dc,VEDP05
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,163e119e-3c2d-41ed-8c4b-bcc70399ccf4,VEDP51
+1,1,17f758ed-acec-40dd-9022-cec548a56ed3,[ТД] Электропривод,c19374be-bd5e-4c4c-a300-c1b57f7c4700,ZAKUP50
+
+Последние 10 алертов
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:54:04+03:00
+[ТД] Электропривод
+
+correlationRuleName,firstSeen,status,name,tenantID,userName,severity,priority,id,tenantName
+R071_Получен доступ к ADMIN$,2025-04-24T08:17:32+03:00,In progress,R071_Получен доступ к ADMIN$,17f758ed-acec-40dd-9022-cec548a56ed3,Александра Зейферт,High,3,93cf97b7-d552-446a-aca4-3384306a7292,[ТД] Электропривод
+R240_Манипуляции с локальным межсетевым экраном,2025-04-24T04:10:30+03:00,New,R240_Манипуляции с локальным межсетевым экраном,17f758ed-acec-40dd-9022-cec548a56ed3,,High,3,0dda52f3-007f-4a0a-a90f-8843bce8e45b,[ТД] Электропривод
+R099_Манипуляции с задачами по расписанию,2025-04-23T21:00:32+03:00,New,R099_Манипуляции с задачами по расписанию,17f758ed-acec-40dd-9022-cec548a56ed3,,Low,1,01679e05-1d33-4f57-9fa6-5066f66ee4a9,[ТД] Электропривод
+R080_Всплеск заражений ВПО,2025-04-23T07:45:56+03:00,New,R080_Всплеск заражений ВПО,17f758ed-acec-40dd-9022-cec548a56ed3,,Medium,2,82629185-62eb-4f0a-947b-1569277ebe01,[ТД] Электропривод
+R221_Сбор информации о группах,2025-04-23T07:19:46+03:00,New,R221_Сбор информации о группах,17f758ed-acec-40dd-9022-cec548a56ed3,,Low,1,6671de18-247d-4875-a18b-2cc04987e337,[ТД] Электропривод
+R102_Доступ к WinAPI,2025-04-23T07:19:46+03:00,New,R102_Доступ к WinAPI,17f758ed-acec-40dd-9022-cec548a56ed3,,Low,1,3092ad94-a774-40f5-af98-bc55a99db13d,[ТД] Электропривод
+R059_Большое количество манипуляций с учетными записями за короткий промежуток времени,2025-04-22T21:04:15+03:00,New,R059_Большое количество манипуляций с учетными записями за короткий промежуток времени,17f758ed-acec-40dd-9022-cec548a56ed3,,Low,1,a8517649-3d84-404f-a875-e87fb46afa83,[ТД] Электропривод
+R051_Учетная запись была добавлена в группу подозрительным пользователем,2025-04-22T21:03:50+03:00,New,R051_Учетная запись была добавлена в группу подозрительным пользователем,17f758ed-acec-40dd-9022-cec548a56ed3,,Low,1,7eae5c23-415a-4a90-8e53-fae2e72fefc8,[ТД] Электропривод
+R055_Изменение группы в ОС Windows подозрительным пользователем,2025-04-22T21:03:50+03:00,New,R055_Изменение группы в ОС Windows подозрительным пользователем,17f758ed-acec-40dd-9022-cec548a56ed3,,Low,1,d2c12b40-648a-4e3c-822e-9bfeec919b6d,[ТД] Электропривод
+R110_Использование подозрительных опций в командах PowerShell,2025-04-22T16:40:47+03:00,New,R110_Использование подозрительных опций в командах PowerShell,17f758ed-acec-40dd-9022-cec548a56ed3,,Medium,2,eb06a45c-abbc-470b-94af-6c22f819550f,[ТД] Электропривод
+

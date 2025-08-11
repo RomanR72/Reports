@@ -1,0 +1,305 @@
+﻿Общее количество алертов и их статусы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:44:09+03:00
+Технодинамика
+
+metric,value
+14,Closed
+2,New
+
+Распределение алертов по правилам корреляции
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:44:09+03:00
+Технодинамика
+
+metric,value
+12,R219_Использование VPN портов
+2,R080_Всплеск заражений ВПО
+1,R060_Большое количество манипуляций с группами за короткий промежуток времени
+1,R050_Очистка журнала событий Windows
+
+Последние 10 алертов
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:44:09+03:00
+Технодинамика
+
+name,status,tenantName,firstSeen,severity,userName,tenantID,correlationRuleName,id,priority
+R219_Использование VPN портов,New,Технодинамика,2025-04-24T15:28:17+03:00,Medium,,21c166b9-62f0-4a97-9928-2059a1e20b1e,R219_Использование VPN портов,76fca02a-715a-4137-a5b5-6606a5e6056d,2
+R080_Всплеск заражений ВПО,New,Технодинамика,2025-04-03T13:01:47+03:00,Medium,,21c166b9-62f0-4a97-9928-2059a1e20b1e,R080_Всплеск заражений ВПО,d374d6d0-5251-469c-9eed-eec74083fa8b,2
+
+Затронутые активы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:44:09+03:00
+Технодинамика
+
+criticality,frequency,tenantID,tenantName,id,displayName
+1,1,21c166b9-62f0-4a97-9928-2059a1e20b1e,Технодинамика,1203b96b-f25f-4a07-82d7-c1951d2c3e9e,DC-SR-FS02
+1,1,21c166b9-62f0-4a97-9928-2059a1e20b1e,Технодинамика,e8d54eea-a791-41e8-86f3-06161f37c626,DC-SR-KES02
+1,1,21c166b9-62f0-4a97-9928-2059a1e20b1e,Технодинамика,9873f37c-b987-485b-97f8-a48f494efdd0,NB-TS-006
+1,1,21c166b9-62f0-4a97-9928-2059a1e20b1e,Технодинамика,853e7804-655b-49df-8dd8-1e27661ddc82,PC-TD-533
+1,1,21c166b9-62f0-4a97-9928-2059a1e20b1e,Технодинамика,e71db2ee-dd3b-425f-bfba-193c6780fb87,TD-NB-050
+
+Активы в инцидентах
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:44:09+03:00
+Технодинамика
+
+No Data
+
+"Общее число событий, обработанных в текущем периоде"
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:44:09+03:00
+Технодинамика
+
+metric,value
+9474558073,A privileged service was called.
+168313344,A Windows Filtering Platform filter has been changed.
+113489148,
+53973076,Permissions on an object were changed.
+46050135,Credential Manager credentials were read.
+30912275,An account was successfully logged on.
+22052967,An account was logged off.
+17168112,A Windows Filtering Platform provider context has been changed.
+14909797,A logon was attempted using explicit credentials.
+11342168,Special privileges assigned to new logon.
+9585341,Group membership information.
+3148681,An account failed to log on.
+2615490,The operating system started at system time
+2224777,Windows Firewall did not apply the following rule
+1980844,A security-enabled local group membership was enumerated.
+1894139,Auditing settings on object were changed.
+1712806,Cryptographic operation.
+1710771,Key file operation.
+976775,The state of a transaction has changed.
+856371,A rule was listed when the Windows Firewall started.
+816810,Key migration operation.
+771780,Проверка объектов на карантине
+543206,A change has been made to Windows Firewall exception list. A rule was added.
+524862,Общие
+513306,A change has been made to Windows Firewall exception list. A rule was deleted.
+472110,as scan result
+472058,mlf scan result
+472056,ap scan result
+472054,kt scan status
+472054,av scan result
+472054,ma scan result
+470664,cf scan status
+362260,IPsec received a packet from a remote computer with an incorrect Security Parameter Index (SPI)
+350664,The domain controller attempted to validate the credentials for an account.
+294384,A Windows Filtering Platform callout has been changed.
+265116,Vault credentials were read.
+263424,A trusted logon process has been registered with the Local Security Authority.This logon process will be trusted to submit logon requests.
+233533,Process creation
+210809,Windows Firewall has changed the active profile.
+199952,R081_02_KSC. Повторное заражение ВПО
+199923,R077_Обнаружено вредоносное ПО
+199923,R077_02_KSC. Обнаружено вредоносное ПО
+199208,A service was installed in the system.
+169154,The system time was changed.
+167402,The file could be improperly signed without page hashes or corrupt due to unauthorized modification.
+149656,Sysmon service state changed
+137701,ServiceConfigurationChange
+137063,Обновление KES
+105395,The following filter was present when the Windows Filtering Platform Base Filtering Engine started.
+100108,The Federation Service stopped successfully
+90431,A user's local group membership was enumerated.
+88254,ClipboardChange (New content in the clipboard)
+83551,The workstation was locked.
+80083,The workstation was unlocked.
+78110,The following callout was present when the Windows Filtering Platform Base Filtering Engine started.
+75483,Resource attributes of the object were changed.
+69157,An attempt was made to query the existence of a blank password for an account.
+67240,IPsec dropped an inbound packet that failed a replay check.
+67122,The system has resumed from sleep
+63214,The system is entering sleep
+57550,An operation was attempted on a privileged object.
+57182,Driver loaded
+54611,A new process has been created.
+44651,PipeEvent (Pipe Connected)
+41003,A security package has been loaded by the Local Security Authority.
+39584,FileBlockExecutable
+38847,Surprise Removal
+34563,BINLSVC
+32539,Ведение журнала и восстановление
+31756,IPsec dropped an inbound packet that failed an integrity check.
+31513,A Windows Filtering Platform sub-layer has been changed.
+30918,Image loaded
+28342,FileCreate
+24326,Событие состояния службы
+23935,R031_01_Вход с разных хостов на один Windows хост под одной учетной записью
+21940,A Windows Filtering Platform provider has been changed.
+21196,The log file was cleared
+20114,A new service was installed in the system
+19395,Сервис загрузки
+19239,An IPsec Quick Mode security association was established.
+19033,FileCreateStreamHash
+18400,An IPsec Quick Mode security association ended.
+17052,Контроль устройств
+15749,A member was added to a security-enabled local group.
+15567,Драйвер
+15364,The following provider was present when the Windows Filtering Platform Base Filtering Engine started.
+15231,A member was removed from a security-enabled local group.
+14948,A process changed a file creation time
+14780,Windows Firewall Group Policy settings has changed. The new settings have been applied.
+13468,User initiated logoff
+12790,The following sub-layer was present when the Windows Filtering Platform Base Filtering Engine started.
+12703,ProcessTampering (Process image change)
+12509,Installation or update of device drivers.
+11616,A cryptographic function provider operation was attempted.
+11490,FileDeleteDetected (File Delete logged)
+10810,A change has been made to Windows Firewall exception list. A rule was modified.
+10801,Агент Центра обновления Windows
+10418,R281_02_Установка нового сервиса из общедоступной директории
+10109,Диспетчер транзакций
+9114,Оперативная дефрагментация
+9062,RegistryEvent (Key and Value Rename)
+9040,Обновление KS WS
+8945,"R402_Успешная доставка письма от внешнего отправителя, письма которого ранее блокировались"
+8735,Ведение журнала/Восстановление
+8446,Databases and Modules Update for Kaspersky Endpoint Agent
+8094,Internal resources allocated for the queuing of audit messages have been exhausted
+8033,A cryptographic function operation was attempted.
+7984,Повреждение базы данных
+7711,WmiEvent (WmiEventConsumer activity detected)
+7606,core
+7238,A notification package has been loaded by the Security Account Manager.
+7112,The process has initiated the power off of computer on behalf of user for the following reason
+7058,Служба поиска
+7045,An attempt was made to register a security event source.
+6917,События сбоев приложения
+6790,An attempt was made to unregister a security event source.
+6755,An IPsec main mode negotiation failed
+5992,A rule has been ignored by Windows Firewall because it could not parse the rule.
+5784,LMS
+5600,An IPsec Main Mode security association was established. Extended Mode was not enabled.  Certificate authentication was not used.
+5516,Активация программы KSS
+5438,Добавление ключа KES
+5386,An IPsec Main Mode security association ended.
+5337,The screen saver was invoked.
+5268,Startup of the UMDF reflector
+5243,Установка драйвера
+5165,The Windows Firewall Service has started successfully.
+5039,The screen saver was dismissed.
+4850,The Windows Firewall Driver has started successfully.
+4849,Проверка KES
+4829,Other System Events
+4813,The event logging service has shut down
+4703,message part scan result
+4663,IPsec Services has started successfully.
+4578,The following policy was active when the Windows Firewall started.
+4439,FileBlockShredding
+4230,The Per-user audit policy table was created.
+4206,WmiEvent (WmiEventFilter activity detected)
+4079,Миграция драйвера
+4017,Windows is starting up.
+3930,The kernel power manager has initiated a shutdown transition
+3861,Anti-Spam bases updated
+3861,Anti-Spam bases are up to date
+3861,Anti-Spam bases applied
+3812,RegistryEvent (Value Set)
+3808,Защита
+3610,An authentication package has been loaded by the Local Security Authority.
+3085,Поиск уязвимостей и требуемых обновлений
+2885,Средство сбора данных
+2868,Выполнение службы
+2866,Boot Configuration Data loaded.
+2863,Установка или обновление драйверов устройств.
+2781,A primary token was assigned to process.
+2745,A session was disconnected from a Window Station.
+2497,Другие системные события
+2224,An IPsec Quick Mode negotiation failed.
+2183,Обработка события
+2094,Обновление
+2014,A session was reconnected to a Window Station.
+2005,Anti-Phishing bases applied
+2005,Anti-Phishing bases are up to date
+1932,Logon Cache
+1901,PnP
+1895,Process terminated
+1873,HTTP Setup Trace Task
+1865,Data Recovery Agent group policy for Encrypting File System (EFS) has changed. The new changes have been applied.
+1768,Security policy in the group policy objects has been applied successfully.
+1766,The event logging service encountered an error while processing an incoming event published from %1
+1629,R219_Использование VPN портов
+1523,MALWAREPROTECTION_CONFIG_CHANGED
+1480,Started invocation of ScriptBlock
+1460,message backup result
+1415,A cryptographic self test was performed.
+1342,PipeEvent (Pipe Created)
+1274,Быстродействие
+1214,Anti-Phishing bases updated
+1206,A member was added to a security-enabled global group.
+1177,Anti-Virus bases applied
+1177,R058_01_Локальная учетная запись в ОС Windows была создана подозрительным пользователем
+1177,A user account was created.
+1177,Anti-Virus bases are up to date
+1171,An attempt was made to reset an account's password.
+1125,R005_01_Попытка входа под стандартной учетной записью в Windows
+1116,A user account was changed.
+1113,Windows PowerShell ISE has started to run script file
+1082,Argument injection in PHP-CGI
+1079,Network connection
+1071,A user account was enabled.
+1020,ProcessAccess
+1017,A user account was deleted.
+1011,A member was removed from a security-enabled global group.
+998,%1
+942,Windows PowerShell ISE is stopping the current command
+927,The requested credentials delegation was disallowed by policy.
+907,Загрузка обновлений в хранилище Сервера администрирования
+869,Anti-Virus bases updated
+866,Инвентаризация
+814,Запуск отражателя UMDF
+656,Постоянная защита файлов
+601,MALWAREPROTECTION_ANTISPYWARE_DISABLED
+546,HTTP Configuration Property Trace Task
+513,FileDelete (File Delete archived)
+394,The following provider context was present when the Windows Filtering Platform Base Filtering Engine started.
+389,cc
+378,The Password Policy Checking API was called.
+369,USB Device Enumeration
+365,Одноранговый
+347,Update
+343,FileExecutableDetected
+333,Добавление ключа KES БЦТ
+330,A security-enabled local group was created.
+318,A security-enabled local group was changed.
+295,Сервер
+290,Service State Event
+280,R060_Большое количество манипуляций с группами за короткий промежуток времени
+266,R035_Возможный подбор пароля методом перебора учетных записей
+266,R035_02_Попытки входа на один хост под разными учетными записями
+253,MALWAREPROTECTION_RTP_DISABLED
+231,R281_01_Установка сервиса не из системной директории
+208,An IPsec Main Mode security association was established. Extended Mode was not enabled.  A certificate was used for authentication.
+177,Verification operation failed.
+171,Настройка драйвера после установки
+157,During Quick Mode negotiation  IPsec received an invalid negotiation packet.
+156,Domain Policy was changed.
+154,R059_01_Большое количество манипуляций с учетными записями за короткий промежуток времени в ОС Windows
+151,MALWAREPROTECTION_SCAN_STARTED
+149,admin_console
+148,R080_Всплеск заражений ВПО
+148,R080_02_KSC. Всплеск заражений ВПО
+134,DNSEvent (DNS query)
+127,WmiEvent (WmiEventConsumerToFilter activity detected)
+126,Защита от сетевых угроз
+125,System Integrity
+117,События зависания
+107,Event processing
+99,Error Message
+99,nothing to update
+94,RDP Server Brute Force Exploit
+89,События диагностики исчерпания ресурсов
+75,Служба лицензирования удаленных рабочих столов запущена.
+73,A cryptographic provider operation was attempted.
+72,Driver Installation
+66,Сведения о классе модуля поддержки
+63,TM
+62,MALWAREPROTECTION_SCAN_COMPLETED
+61,Защита от веб-угроз
+60,Path traversal and file disclosure vulnerability in Apache 2.4.49
+60,System audit policy was changed.
+56,Nmap UserAgent
+50,Производительность
+
+Последние инциденты
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:44:09+03:00
+Технодинамика
+
+No Data
+

@@ -1,0 +1,303 @@
+﻿Активы в инцидентах
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:42+03:00
+[ТМ] НИТИ Снегирева
+
+No Data
+
+"Общее число событий, обработанных в текущем периоде"
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:42+03:00
+[ТМ] НИТИ Снегирева
+
+metric,value
+15847779,
+1991572,admin_console
+1047028,path
+839950,Apache HTTP Server
+710135,execve
+478950,Жизненный цикл поставщика
+410399,Установка обновлений
+324306,Агент Центра обновления Windows
+315307,ServiceConfigurationChange
+192263,Process creation
+155671,Жизненный цикл обработчика
+134279,mkdir
+124959,Driver loaded
+116113,Общие
+85610,Windows PowerShell has started an IPC listening thread
+68216,Событие состояния службы
+66878,PowerShell console is starting up
+66417,PowerShell console is ready for user input
+53347,PipeEvent (Pipe Connected)
+52932,The system is entering sleep
+50662,The system has resumed from sleep
+50095,core
+47014,FileBlockExecutable
+46668,ProcessTampering (Process image change)
+45574,Auditing settings on object were changed.
+44312,Creating Scriptblock text
+42051,openat
+38935,ClipboardChange (New content in the clipboard)
+29896,Ведение журнала и восстановление
+29131,Image loaded
+25564,Защита
+25211,The Federation Service stopped successfully
+24717,setgid
+24035,WmiEvent (WmiEventFilter activity detected)
+22264,setuid
+22032,Ведение журнала/Восстановление
+21342,The operating system started at system time
+20649,FileCreateStreamHash
+20190,FileDeleteDetected (File Delete logged)
+19800,A new service was installed in the system
+17375,The process has initiated the power off of computer on behalf of user for the following reason
+17212,WmiEvent (WmiEventConsumer activity detected)
+15584,Sysmon service state changed
+15200,FileCreate
+12918,Installation or update of device drivers.
+10195,Служба поиска
+9898,Update
+9777,The kernel power manager has initiated a shutdown transition
+9167,RegistryEvent (Key and Value Rename)
+8788,A new process has been created.
+8537,Обновление
+8216,События сбоев приложения
+7782,RegistryEvent (Value Set)
+7291,A process changed a file creation time
+6179,The system time was changed.
+5402,Установка драйвера
+5109,Process terminated
+4767,Миграция драйвера
+4173,rename
+4019,R281_01_Установка сервиса не из системной директории
+3741,R281_02_Установка нового сервиса из общедоступной директории
+3637,Загрузка обновлений в хранилище Сервера администрирования
+3611,Поиск уязвимостей и требуемых обновлений
+3306,Установка или обновление драйверов устройств.
+3163,DNSEvent (DNS query)
+2970,Databases and Modules Update for Kaspersky Endpoint Agent
+2946,Поиск вредоносного ПО Еженедельное
+2687,Read-only user password to expire shortly / Read-only user password expired
+2437,An account was successfully logged on.
+2329,Credential Manager credentials were read.
+2273,FileExecutableDetected
+2040,Поиск вредоносного ПО
+1702,A security-enabled local group membership was enumerated.
+1673,PipeEvent (Pipe Created)
+1650,readlink
+1604,LMS
+1578,Special privileges assigned to new logon.
+1548,Запуск отражателя UMDF
+1543,The System log file was cleared
+1505,write
+1394,Драйвер
+1276,Кэширование страниц базы данных
+1239,Повреждение базы данных
+1088,File_Threat_Protection
+1072,Защита от сетевых угроз
+819,Boot Configuration Data loaded.
+784,A primary token was assigned to process.
+677,Windows PowerShell ISE has started to run script file
+601,Windows PowerShell ISE is stopping the current command
+556,Контроль устройств
+515,Средство сбора данных
+485,The event logging service has shut down
+471,RawAccessRead
+466,Проверка важных областей
+427,Обработка события
+352,cmd execute
+352,sudo used
+352,sudo logout
+351,%1
+311,Startup of the UMDF reflector
+305,fsetxattr
+297,Network connection
+273,Cryptographic operation.
+267,Error Message
+241,Key file operation.
+235,A logon was attempted using explicit credentials.
+229,MALWAREPROTECTION_SCAN_COMPLETED
+221,Проверка целостности системы
+198,A security-enabled local group was changed.
+180,Key migration operation.
+175,System audit policy was changed.
+174,Выполнение службы
+168,UNS
+164,vpn_server
+162,mknod
+144,setregid
+143,setreuid
+135,A user's local group membership was enumerated.
+133,Command Invocation
+131,Удаленная установка Аскон Агента 5.0
+118,ssh logout
+118,ssh login
+110,TM
+96,Диагностика успешно завершена
+95,Удаленная установка программы  AGENT
+91,Удаленная установа dotnet
+90,KES 12.7 через агента
+89,Удаленная установка aspnet
+80,The name of an account was changed
+80,A user account was changed.
+66,Быстродействие
+65,Служба событий
+63,Удаленная установка программы NET AGENT
+60,Инвентаризация Cloud_ATLAS
+58,Сведения о классе модуля поддержки
+58,Logon Cache
+54,unlinkat
+54,fchownat
+54,fchmodat
+54,События диагностики исчерпания ресурсов
+54,renameat2
+54,Защита от файловых угроз
+52,Modifying activity Id and correlating
+51,Настройка драйвера после установки
+44,A security-enabled local group was created.
+44,Сведения ОС
+41,Сведения для установки
+41,SVC
+40,A member was added to a security-enabled local group.
+40,System security access was granted to an account.
+39,ProcessAccess
+39,Сведения о конвейерном выполнении
+37,An account was logged off.
+36,R081_02_KSC. Повторное заражение ВПО
+36,System security access was removed from an account.
+33,Security policy in the group policy objects has been applied successfully.
+31,cpa_auth_form
+29,NTLM Authentication
+28,PnP
+27,The Windows Firewall Driver has started successfully.
+27,The Per-user audit policy table was created.
+27,Windows is starting up.
+26,Vault credentials were read.
+26,Event Service
+26,The Windows Firewall Service has started successfully.
+24,capset
+21,R077_02_KSC. Обнаружено вредоносное ПО
+21,Операции
+21,R077_Обнаружено вредоносное ПО
+20,User initiated logoff
+18,Device_Control
+18,Установка требуемых обновлений и закрытие уязвимостей
+17,R152_08_Запуск командной оболочки Linux от подозрительного процесса
+17,R152_Запущенный процесс имеет подозрительный родительский процесс
+16,Проверка завершена с ошибкой
+15,Запуск службы
+14,Оперативная дефрагментация
+13,Защита от веб-угроз
+12,R058_01_Локальная учетная запись в ОС Windows была создана подозрительным пользователем
+12,A user account was created.
+12,Резервное копирование данных Сервера администрирования
+12,Domain Policy was changed.
+12,Runspace state changed
+12,An attempt was made to reset an account's password.
+12,A user account was disabled.
+12,A member was added to a security-enabled global group.
+11,System Integrity Check
+11,Anti_Cryptor
+11,su used
+11,FileDelete (File Delete archived)
+10,License
+10,Malware Scan
+10,R052_Учетная запись была удалена из группы подозрительным пользователем
+10,A member was removed from a security-enabled local group.
+10,Critical Areas Scan
+10,Behavior_Detection
+10,CM
+10,R051_Учетная запись была добавлена в группу подозрительным пользователем
+9,Network_Threat_Protection
+9,Служба лицензирования удаленных рабочих столов запущена.
+9,Catalog
+9,An account failed to log on.
+9,Деинсталляция KES
+8,R207_Сканирование на уязвимости
+8,R207_02_Один тип сетевой атаки на нескольких хостах за короткий промежуток времени (KSC)
+8,Кэш входов
+8,Инициализация/Завершение
+8,A security-enabled global group was changed.
+8,Поиск вредоносного ПО с Выбором ПК
+8,A user account was enabled.
+8,Application_Control
+7,Адаптивный контроль аномалий
+6,Защита от атак BadUSB
+6,Ошибка настройки планировщика обслуживания
+6,Обслуживание Сервера администрирования
+6,R058_Локальная учетная запись была создана подозрительным пользователем
+6,Установка Kaspersky Endpoint Security для Windows (12.1.0) (Русский) (Lite encryption)_12. (1)
+6,CRM
+6,Неполадки с драйверами пользовательского режима.
+6,R031_01_Вход с разных хостов на один Windows хост под одной учетной записью
+5,"Журнал ""TaskScheduler/Operational"" был отключен"
+5,An LDAP client connection was closed because it was disconnected on the client side
+5,An attempt was made to register a security event source.
+5,An attempt was made to unregister a security event source.
+5,R063_04_Включение пользователя в критичную группу
+5,MALWAREPROTECTION_RTP_DISABLED
+5,An attempt was made to query the existence of a blank password for an account.
+5,A WS-Trust endpoint that was configured could not be opened
+5,Creating RunspacePool object
+5,FileBlockShredding
+4,Security
+4,R059_01_Большое количество манипуляций с учетными записями за короткий промежуток времени в ОС Windows
+4,Безопасность
+4,MALWAREPROTECTION_RTP_ENABLED
+4,Firing Agent
+4,Creating Runspace object
+4,Антивирусная проверка
+4,A user account was deleted.
+4,Opening RunspacePool
+4,A member was removed from a security-enabled global group.
+3,R080_02_KSC. Всплеск заражений ВПО
+3,System_Integrity_Monitoring
+3,R080_Всплеск заражений ВПО
+3,Включить надстройку
+3,R063_Добавление учетной записи в группу доменных или локальных администраторов
+2,Параметры восстановления после сбоя
+2,fchmod
+2,Кластер
+2,User-mode Driver problems.
+2,"Определение таблицы, столбца, индекса"
+
+Последние 10 алертов
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:42+03:00
+[ТМ] НИТИ Снегирева
+
+status,firstSeen,id,name,correlationRuleName,priority,severity,tenantName,tenantID,userName
+New,2025-04-23T16:18:37+03:00,c237e2fd-63ec-4199-bb2b-ecc8d30a5f19,R077_Обнаружено вредоносное ПО,R077_Обнаружено вредоносное ПО,2,Medium,[ТМ] НИТИ Снегирева,8adae92d-f4af-4c50-b763-62050bc38b26,
+
+Последние инциденты
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:42+03:00
+[ТМ] НИТИ Снегирева
+
+No Data
+
+Распределение алертов по правилам корреляции
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:42+03:00
+[ТМ] НИТИ Снегирева
+
+value,metric
+R152_Запущенный процесс имеет подозрительный родительский процесс,6
+R077_Обнаружено вредоносное ПО,5
+R051_Учетная запись была добавлена в группу подозрительным пользователем,4
+R052_Учетная запись была удалена из группы подозрительным пользователем,4
+R063_Добавление учетной записи в группу доменных или локальных администраторов,3
+R058_Локальная учетная запись была создана подозрительным пользователем,2
+R080_Всплеск заражений ВПО,2
+R407_Обнаружение следов возможного перехвата вводимых данных,1
+
+Затронутые активы
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:42+03:00
+[ТМ] НИТИ Снегирева
+
+No Data
+
+Общее количество алертов и их статусы
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:01:42+03:00
+[ТМ] НИТИ Снегирева
+
+metric,value
+26,Closed
+1,New
+

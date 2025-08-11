@@ -1,0 +1,341 @@
+﻿Активы в инцидентах
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:27+03:00
+[ТД] Солнечногорский МЗ
+
+id,tenantID,tenantName,name,weight,count
+aa2b2603-fea0-4e19-83b2-0c3c8f7b1d8e,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,KTO-16025,1,1
+6fd99e88-bfbc-433c-85f1-5c96ffeddcb5,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,GENDIR-M,1,1
+3964e2cf-e03d-42dc-9ef8-84280054e692,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,OIO-15083,1,1
+8b8099ae-4562-4fe6-9bb8-85d4ccdcb283,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,OIO-23001,1,1
+f029d687-a6c5-4350-a83d-70f5fcc204f2,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,WEBKASPSRV,1,1
+
+Общее количество алертов и их статусы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:27+03:00
+[ТД] Солнечногорский МЗ
+
+metric,value
+24,Closed
+5,New
+1,In incident
+1,In progress
+
+"Общее число событий, обработанных в текущем периоде"
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:27+03:00
+[ТД] Солнечногорский МЗ
+
+metric,value
+47290016,RegistryEvent (Object create and delete)
+45616029,Network connection
+9587293,RegistryEvent (Value Set)
+7689841,FileCreate
+5239453,An account was successfully logged on.
+4637835,PipeEvent (Pipe Connected)
+3950834,The Windows Filtering Platform has allowed a connection.
+2567820,
+2245979,Credential Manager credentials were read.
+2082533,Process creation
+1333442,DNSEvent (DNS query)
+627235,PipeEvent (Pipe Created)
+616270,An account was logged off.
+432250,Pipeline Execution Details
+432228,Command Invocation
+286303,Error
+285680,A Kerberos service ticket was requested.
+263848,Установка обновлений
+169679,A new process has been created.
+149770,A process has exited.
+144263,An attempt was made to access an object.
+135174,Started invocation of ScriptBlock
+135161,Completed invocation of ScriptBlock
+105392,A logon was attempted using explicit credentials.
+103270,Контроль устройств
+100746,The Windows Filtering Platform has blocked a bind to a local port.
+92119,Предотвращение вторжений
+86021,Image loaded
+78665,A handle to an object was requested.
+55367,An object was deleted.
+54922,Process terminated
+54105,The domain controller attempted to validate the credentials for an account.
+41490,The handle to an object was closed.
+40457,Общие
+38318,A Kerberos authentication ticket (TGT) was requested.
+37754,Повреждение базы данных
+36680,Creating Scriptblock text
+32915,Driver loaded
+31679,An attempt was made to create a hard link.
+25447,An account failed to log on.
+25327,Special privileges assigned to new logon.
+25244,A network share object was accessed
+24751,FileCreateStreamHash
+22304,Поиск вредоносного ПО
+21978,Защита
+21339,A user's local group membership was enumerated.
+19037,An attempt was made to query the existence of a blank password for an account.
+18050,An attempt was made to duplicate a handle to an object.
+16281,A security-enabled local group membership was enumerated.
+16279,Provider Lifecycle
+15820,ServiceConfigurationChange
+15239,Ведение журнала и восстановление
+14954,Обновление
+14219,Событие состояния службы
+12976,Кэширование страниц базы данных
+12787,A handle to an object was requested with intent to delete.
+12164,R031_01_Вход с разных хостов на один Windows хост под одной учетной записью
+10391,Защита от файловых угроз
+7556,Starting up database
+7241,A registry value was modified.
+6046,Удаленная деинсталляция программы vnc
+5594,ProcessTampering (Process image change)
+5130,Engine Lifecycle
+4820,The Federation Service stopped successfully
+4406,Удаленная деинсталляция программы vnc2
+4220,A process changed a file creation time
+4087,Удаленная деинсталляция программы vnc3
+3800,Защита от сетевых угроз
+3551,The state of a transaction has changed.
+3458,A Kerberos service ticket was renewed.
+3318,Vault credentials were read.
+3308,Загрузка обновлений в хранилище Сервера администрирования
+3128,WmiEvent (WmiEventConsumer activity detected)
+2931,Автоматическая установка - Агент администрирования Kaspersky Security Center (14.2.0.26967)
+2836,Windows PowerShell has started an IPC listening thread
+2750,An Active Directory replica destination naming context was modified.
+2521,Защита от почтовых угроз
+2421,The system time was changed.
+2403,Защита от веб-угроз
+2380,Адаптивный контроль аномалий
+2379,Веб-Контроль
+2366,AMSI-защита
+2363,Защита от эксплойтов
+2363,Анализ поведения
+2355,Сетевой экран
+2320,CreateRemoteThread
+2191,FileBlockExecutable
+2164,PowerShell console is ready for user input
+2164,PowerShell console is starting up
+2009,The operating system started at system time
+2000,Инвентаризация
+1949,Сервер
+1888,Cryptographic operation.
+1806,The kernel power manager has initiated a shutdown transition
+1794,Key file operation.
+1787,RegistryEvent (Key and Value Rename)
+1783,Служба поиска
+1694,Auditing settings on object were changed.
+1686,Boot Configuration Data loaded.
+1608,The process has initiated the power off of computer on behalf of user for the following reason
+1568,A primary token was assigned to process.
+1560,Sysmon service state changed
+1554,The event logging service has shut down
+1415,Добавление ключа
+1318,Поиск уязвимостей и требуемых обновлений
+1266,Installation or update of device drivers.
+1229,A new service was installed in the system
+1125,Ведение журнала/Восстановление
+962,LMS
+848,Диспетчер транзакций
+819,Агент Центра обновления Windows
+775,ClipboardChange (New content in the clipboard)
+754,События сбоев приложения
+553,Поиск вредоносного ПО белых
+515,The system is entering sleep
+514,The system has resumed from sleep
+465,Database backed up
+462,Установка драйвера
+462,R281_02_Установка нового сервиса из общедоступной директории
+452,Миграция драйвера
+392,UNS
+307,Kerberos pre-authentication failed.
+288,R110_Использование подозрительных опций в командах PowerShell
+287,R110_01_Использование подозрительных опций в командах PowerShell
+270,Key migration operation.
+239,A new external device was recognized by the system.
+206,Выполнение службы
+203,R077_02_KSC. Обнаружено вредоносное ПО
+203,R077_Обнаружено вредоносное ПО
+180,R081_02_KSC. Повторное заражение ВПО
+175,Резервное копирование
+172,Startup of the UMDF reflector
+161,R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей
+161,R109_01_Использование известных зловредных фреймворков для эксплуатации уязвимостей
+147,Средство сбора данных
+136,A computer account was changed.
+132,A network share object was checked to see whether client can be granted desired access
+128,Обработка события
+124,Установка Kaspersky Endpoint Security для Windows (12.6.0) (Русский) (Lite encryption)_12.
+123,Установка или обновление драйверов устройств.
+120,R083_04_Возможная активность крипто-майнера
+120,R083_Обнаружены следы использования нежелательных утилит
+106,WmiEvent (WmiEventFilter activity detected)
+100,An operation was performed on an object.
+96,R224_02_Сбор информации об удаленной системе стандартными средствами Windows
+96,An attempt was made to register a security event source.
+93,The Windows Filtering Platform has permitted a bind to a local port.
+92,User initiated logoff
+88,Login failed for user
+86,An attempt was made to unregister a security event source.
+83,R281_01_Установка сервиса не из системной директории
+73,R005_01_Попытка входа под стандартной учетной записью в Windows
+73,Transactions rolled back in database
+70,A user account was locked out.
+62,Transactions rolled forward in database
+61,R089_02_Подозрительное массовое переименование или удаление файлов (Windows)
+61,R089_Обнаружены возможные следы действий программ-вымогателей
+59,R071_Получен доступ к ADMIN$
+59,Permissions on an object were changed.
+54,FileExecutableDetected
+50,The Windows Filtering Platform blocked a packet.
+50,The Windows Filtering Platform has blocked a connection.
+48,R221_Сбор информации о группах
+48,Logon Cache
+48,R221_02_Обнаружение сбора информации о локальных группах Windows с помощью PowerShell
+47,FileDeleteDetected (File Delete logged)
+46,This instance of SQL Server has been using a process ID
+43,The Windows Firewall Service has started successfully.
+43,The Password Policy Checking API was called.
+41,The Windows Firewall Driver has started successfully.
+40,Windows is starting up.
+40,The Per-user audit policy table was created.
+36,%1
+36,Инициализация/Завершение
+36,R224_Сбор информации о системе
+34,Other System Events
+32,R105_Подозрение на обфускацию кода с использованием спецсимволов
+32,A user account was changed.
+29,R105_04_Подозрительные PowerShell команды. Подозрение на обфускацию
+28,TM
+28,Запуск отражателя UMDF
+27,System security access was granted to an account.
+27,Поиск IOC
+25,R406_Получение учетных данных через GUI-запросы
+25,Recovery is writing a checkpoint in database
+25,The log file was cleared
+25,R406_01_Получение учетных данных через GUI-запросы (Windows)
+24,Драйвер
+23,A session was disconnected from a Window Station.
+20,Server is listening
+20,Configuration option changed
+19,MALWAREPROTECTION_SCAN_COMPLETED
+18,Recovery completed for database
+17,An attempt was made to reset an account's password.
+16,SVC
+16,The workstation was locked.
+15,Attempting to load library into memory
+15,Cloud Discovery
+15,Контроль приложений
+15,Execute extended stored procedure
+14,Service endpoint is in disabled or stopped state
+13,Быстродействие
+13,The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.
+11,Windows PowerShell ISE has started to run script file
+10,A session was reconnected to a Window Station.
+10,SQL Server Network Interface library could not register the Service Principal Name (SPN)
+9,Server local connection provider is ready to accept connection
+9,Удаленная установка программы ZEX
+9,R102_01_Доступ к WinAPI с использованием PowerShell
+9,A user account was enabled.
+9,Windows PowerShell ISE is stopping the current command
+9,R102_Доступ к WinAPI
+7,A member was added to a security-enabled local group.
+7,Authentication mode
+7,Microsoft SQL Server 2012 (SP1)
+7,Microsoft Corporation
+7,All rights reserved
+7,System Manufacturer and System Model Information
+7,Server name
+7,SQL Server is now ready for client connections
+7,SQL Server is starting
+7,Service Broker manager has started
+7,This instance of SQL Server last reported using a process ID
+7,SQL Server detected sockets
+7,R035_Возможный подбор пароля методом перебора учетных записей
+7,Using dynamic lock allocation
+7,Node configuration
+7,A self-generated certificate was successfully loaded for encryption
+7,SQL Trace was started
+7,Recovery is complete
+7,R035_02_Попытки входа на один хост под разными учетными записями
+7,Common language runtime (CLR) functionality initialized using CLR
+7,Logging SQL Server messages
+7,Registry startup parameters
+7,The resource database build version
+7,Server process ID
+7,Clearing tempdb database
+6,Обслуживание Сервера администрирования
+6,SQL Server is terminating because of a system shutdown
+6,The Windows Firewall Service blocked an application from accepting incoming connections on the network.
+6,An object in the COM+ Catalog was modified.
+6,A user account was unlocked.
+5,Detected RAM
+5,R080_02_KSC. Всплеск заражений ВПО
+5,SQL Server Audit is starting the audits
+5,A computer account was created.
+5,Using locked pages for buffer pool
+5,Service account
+5,A member was removed from a security-enabled local group.
+5,SQL Server is attempting to register a Service Principal Name (SPN)
+
+Последние инциденты
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:27+03:00
+[ТД] Солнечногорский МЗ
+
+severity,tenantName,tenantID,createdAt,name,priority,status,id
+Medium,[ТД] Солнечногорский МЗ,5a04be15-7477-4fc8-a22c-7c7a6603a501,2025-04-01T14:17:33+03:00,R083_Обнаружены следы использования нежелательных утилит,2,1,INC-356
+
+Затронутые активы
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:27+03:00
+[ТД] Солнечногорский МЗ
+
+criticality,frequency,tenantID,tenantName,id,displayName
+1,4,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,f029d687-a6c5-4350-a83d-70f5fcc204f2,WEBKASPSRV
+1,2,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,5424b833-d97d-4de5-abbe-369bdb1ef921,1CSRV
+1,2,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,521f3fc5-f7be-4028-be3c-e1d27acfb194,KANZ-15126
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,3fe92095-369c-4de4-870a-078ac339b7e8,BUH-15007
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,d484e878-77c7-4a2a-ad0f-5dce1e80c437,BUH-15090
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,ab25bb87-6fb6-4c85-ab47-92cdccb6693d,DC
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,fea65694-0663-4f93-a5cb-34b33b735b73,DC2
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,c674bd72-3bd0-4a1c-a21e-3f42559fc31a,EMO-19007
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,7e7ba529-a9e2-4fe0-981e-b48fff8b0cfa,FSO-19015
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,8e31ec10-f1b8-4ee6-a096-68c6b693c8fc,OIO-23002
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,06a72cc0-0356-4763-a30c-ef063231a22a,OIO-ASKGP
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,2eb0c94d-f767-49eb-9aad-582d2fc3a78b,RO-00441
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,a846bb08-2b9f-491d-98dd-3a0092cfefca,SQLSRV
+1,1,5a04be15-7477-4fc8-a22c-7c7a6603a501,[ТД] Солнечногорский МЗ,329ca24e-88de-4ec6-820d-d74d1461d7af,ZEX2-15060
+
+Последние 10 алертов
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:27+03:00
+[ТД] Солнечногорский МЗ
+
+id,tenantID,severity,tenantName,name,status,firstSeen,correlationRuleName,userName,priority
+03b938a0-8a33-4c59-950f-bdbddb538c8c,5a04be15-7477-4fc8-a22c-7c7a6603a501,Low,[ТД] Солнечногорский МЗ,R224_Сбор информации о системе,New,2025-04-09T09:00:49+03:00,R224_Сбор информации о системе,,1
+5de73bfd-5f81-4a4d-8571-38367c0dad52,5a04be15-7477-4fc8-a22c-7c7a6603a501,Low,[ТД] Солнечногорский МЗ,R220_Сбор информации об учетных записях,New,2025-04-07T15:25:21+03:00,R220_Сбор информации об учетных записях,,1
+f009f759-41aa-4254-9ff8-1bfa14670626,5a04be15-7477-4fc8-a22c-7c7a6603a501,Medium,[ТД] Солнечногорский МЗ,R078_Обнаружено большое количество вредоносных объектов на одном хосте,New,2025-04-03T15:43:35+03:00,R078_Обнаружено большое количество вредоносных объектов на одном хосте,,2
+cff053db-0e7f-4fdf-96d4-787a04839426,5a04be15-7477-4fc8-a22c-7c7a6603a501,Low,[ТД] Солнечногорский МЗ,R152_Запущенный процесс имеет подозрительный родительский процесс,New,2025-04-02T14:52:59+03:00,R152_Запущенный процесс имеет подозрительный родительский процесс,,1
+d3523790-ea7a-45db-ac85-ccf3af33d3f7,5a04be15-7477-4fc8-a22c-7c7a6603a501,Medium,[ТД] Солнечногорский МЗ,R077_Обнаружено вредоносное ПО,In progress,2025-04-02T08:06:36+03:00,R077_Обнаружено вредоносное ПО,Александра Зейферт,2
+4831dac8-a9c8-40db-9949-bac3b67b51a1,5a04be15-7477-4fc8-a22c-7c7a6603a501,Medium,[ТД] Солнечногорский МЗ,R083_Обнаружены следы использования нежелательных утилит,In incident,2025-04-01T13:46:18+03:00,R083_Обнаружены следы использования нежелательных утилит,Александра Зейферт,2
+4916ea76-fe2f-4d45-992d-2f37c4ed4823,5a04be15-7477-4fc8-a22c-7c7a6603a501,Low,[ТД] Солнечногорский МЗ,R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей,New,2025-04-01T02:00:25+03:00,R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей,,1
+
+Распределение алертов по правилам корреляции
+2025-04-01T00:00:00+03:00 - 2025-04-24T15:53:27+03:00
+[ТД] Солнечногорский МЗ
+
+metric,value
+8,R083_Обнаружены следы использования нежелательных утилит
+3,R077_Обнаружено вредоносное ПО
+2,R080_Всплеск заражений ВПО
+2,R107_Использование сжатия данных
+2,R294_Обфускация команд PowerShell
+2,R110_Использование подозрительных опций в командах PowerShell
+1,R152_Запущенный процесс имеет подозрительный родительский процесс
+1,R223_Сбор информации о процессах
+1,R071_Получен доступ к ADMIN$
+1,R078_Обнаружено большое количество вредоносных объектов на одном хосте
+1,R290_Запуск скриптов из общедоступной директории
+1,R220_Сбор информации об учетных записях
+1,R058_Локальная учетная запись была создана подозрительным пользователем
+1,R063_Добавление учетной записи в группу доменных или локальных администраторов
+1,R224_Сбор информации о системе
+1,R109_Использование известных зловредных фреймворков для эксплуатации уязвимостей
+1,R059_Большое количество манипуляций с учетными записями за короткий промежуток времени
+1,R052_Учетная запись была удалена из группы подозрительным пользователем
+

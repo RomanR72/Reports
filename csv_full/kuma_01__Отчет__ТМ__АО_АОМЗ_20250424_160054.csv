@@ -1,0 +1,140 @@
+Последние 10 алертов									
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:00:54+03:00									
+[ТМ] АОМЗ									
+									
+firstSeen	priority	tenantID	name	correlationRuleName	status	userName	tenantName	id	severity
+2025-04-23T14:30:27+03:00	2	273e1183-08cd-4cd7-bce7-69155bc7b765	R080_Всплеск заражений ВПО	R080_Всплеск заражений ВПО	New		[ТМ] АОМЗ	ec42009d-bc33-4d29-add0-f86c6575bd56	Medium
+2025-04-04T16:12:37+03:00	3	273e1183-08cd-4cd7-bce7-69155bc7b765	R401_Попытка обращения на запрещенный ресурс не из браузера	R401_Попытка обращения на запрещенный ресурс не из браузера	New		[ТМ] АОМЗ	2b822d75-090f-4e68-af04-7723f542fd6d	High
+									
+Распределение алертов по правилам корреляции									
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:00:54+03:00									
+[ТМ] АОМЗ									
+									
+metric	value								
+4	R401_Попытка обращения на запрещенный ресурс не из браузера								
+2	R058_Локальная учетная запись была создана подозрительным пользователем								
+2	R077_Обнаружено вредоносное ПО								
+2	Отключение правила на 7 дней								
+1	R105_Подозрение на обфускацию кода с использованием спецсимволов								
+1	R051_Учетная запись была добавлена в группу подозрительным пользователем								
+1	R080_Всплеск заражений ВПО								
+1	R078_Обнаружено большое количество вредоносных объектов на одном хосте								
+									
+Общее количество алертов и их статусы									
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:00:54+03:00									
+[ТМ] АОМЗ									
+									
+value	metric								
+Closed	12								
+New	2								
+									
+Затронутые активы									
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:00:54+03:00									
+[ТМ] АОМЗ									
+									
+No Data									
+									
+Активы в инцидентах									
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:00:54+03:00									
+[ТМ] АОМЗ									
+									
+No Data									
+									
+Общее число событий, обработанных в текущем периоде									
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:00:54+03:00									
+[ТМ] АОМЗ									
+									
+metric	value								
+668625									
+487836	Веб-Контроль								
+199582	Установка обновлений								
+161072	redential Manager credentials were read.								
+138888	Auditing settings on object were changed.								
+51945	R105_04_Подозрительные PowerShell команды. Подозрение на обфускацию								
+51735	R105_Подозрение на обфускацию кода с использованием спецсимволов								
+44605	An account was logged off.								
+11592	Защита								
+11293	An account was successfully logged on.								
+10429	Special privileges assigned to new logon.								
+6298	Инвентаризация (все)								
+5821	A security-enabled local group membership was enumerated.								
+5373	Проверка целостности приложения								
+4862	Engine Lifecycle								
+3481	Загрузка обновлений в хранилище Сервера администрирования								
+2800	A logon was attempted using explicit credentials.								
+2704	A new process has been created.								
+2199	Поиск уязвимостей и требуемых обновлений								
+1981	An attempt was made to query the existence of a blank password for an account.								
+1831	Антивирусная проверка								
+1514	Vault credentials were read.								
+1492	R005_01_Попытка входа под стандартной учетной записью в Windows								
+1397	Session has been disconnected								
+1391	Добавление ключа								
+1313	Сообщение для пользователя								
+1195	Обновление								
+1143	Remote Desktop Services: Shell start notification recieved								
+1089	Cryptographic operation.								
+1074	Remote Desktop Services: Session logon succeeded								
+1060	Key migration operation.								
+1053	A user's local group membership was enumerated.								
+1046	Key file operation.								
+1022	Проверка целостности системы								
+1021	Сброс статуса целостности системы								
+965	Интеграция с KUMA								
+898	User initiated logoff								
+747	The Windows Firewall Driver has started successfully.								
+746	The Windows Firewall Service has started successfully.								
+735	The Per-user audit policy table was created.								
+690	The file could be improperly signed without page hashes or corrupt due to unauthorized modification.								
+585	Поиск вредоносного ПО								
+472	Remote Desktop Services:  Session has been disconnected								
+421	Защита от сетевых угроз								
+362	A cryptographic self test was performed.								
+318	Синхронизация обновлений Windows Update								
+293	An attempt was made to unregister a security event source.								
+293	An attempt was made to register a security event source.								
+251	Boot Configuration Data loaded.								
+251	A primary token was assigned to process.								
+238	Защита от веб-угроз								
+189	Контроль устройств								
+178	R406_01_Получение учетных данных через GUI-запросы (Windows)								
+166	R406_Получение учетных данных через GUI-запросы								
+88	R081_02_KSC. Повторное заражение ВПО								
+65	R005_Попытка входа под стандартной учетной записью								
+59	Защита от файловых угроз								
+58	R401_Попытка обращения на запрещенный ресурс не из браузера								
+53	Update								
+53	An account failed to log on.								
+41	A user account was changed.								
+31	Изменение состава компонентов приложения								
+28	R077_Обнаружено вредоносное ПО								
+28	R077_02_KSC. Обнаружено вредоносное ПО								
+24	Отключение правила на 7 дней								
+12	Резервное копирование данных Сервера администрирования								
+9	Инвентаризация								
+8	R031_01_Вход с разных хостов на один Windows хост под одной учетной записью								
+6	Поиск вредоносного ПО (сетевые диски)								
+6	Обслуживание Сервера администрирования								
+6	R080_02_KSC. Всплеск заражений ВПО								
+6	R080_Всплеск заражений ВПО								
+5	Remote Desktop Services: Session reconnection succeeded								
+4	R051_Учетная запись была добавлена в группу подозрительным пользователем								
+2	A user account was created.								
+2	R058_Локальная учетная запись была создана подозрительным пользователем								
+2	R079_Несколько хостов заражены одним типом вируса								
+2	A member was added to a security-enabled local group.								
+2	R058_01_Локальная учетная запись в ОС Windows была создана подозрительным пользователем								
+2	An attempt was made to reset an account's password.								
+2	A user account was enabled.								
+2	A member was added to a security-enabled global group.								
+1	R078_Обнаружено большое количество вредоносных объектов на одном хосте								
+1	R079_02_KSC. Несколько хостов заражены одним типом вируса								
+1	Сетевой экран								
+1	R079_03_KSC. Несколько хостов заражены одним типом вируса (по хешу)								
+1	R078_02_KSC. Обнаружено большое количество вредоносных объектов на одном хосте								
+1901171									
+Последние инциденты									
+2025-04-01T00:00:00+03:00 - 2025-04-24T16:00:54+03:00									
+[ТМ] АОМЗ									
+									
+No Data									
