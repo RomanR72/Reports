@@ -21,7 +21,7 @@ def process_files():
     # Получаем путь к директории со скриптом
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
-    # Создаем новый файл 123.xlsx
+    # Создаем новый файл rules.xlsx
     output_wb = Workbook()
     output_ws = output_wb.active
     output_ws.title = "Processed Data"
@@ -64,7 +64,7 @@ def process_files():
     # Обрабатываем файлы в каталоге output
     processed_files = 0
     for filename in os.listdir(output_dir):
-        if filename.endswith('.xlsx') and filename != '123.xlsx':
+        if filename.endswith('.xlsx') and filename != 'rules.xlsx':
             filepath = os.path.join(output_dir, filename)
             try:
                 wb = openpyxl.load_workbook(filepath)
@@ -114,8 +114,8 @@ def process_files():
     for row in rows_to_keep:
         output_ws.append(row)
     
-    # Сохраняем файл 123.xlsx
-    output_path = os.path.join(script_dir, '123.xlsx')
+    # Сохраняем файл rules.xlsx
+    output_path = os.path.join(script_dir, 'rules.xlsx')
     try:
         output_wb.save(output_path)
         print(f"Файл успешно создан: {output_path}")

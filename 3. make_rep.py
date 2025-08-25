@@ -72,7 +72,7 @@ def fill_mitre_table(doc, techniques):
         target_table._tbl.remove(row._tr)
     
     try:
-        mitre_mapping = pd.read_excel("123.xlsx", sheet_name="Processed Data")
+        mitre_mapping = pd.read_excel("rules.xlsx", sheet_name="Processed Data")
         technique_to_tactic = dict(zip(
             mitre_mapping['Original'].astype(str),
             mitre_mapping['MITRE Match'].astype(str)
@@ -164,7 +164,7 @@ def create_mitre_chart(techniques, excel_path):
         return None
         
     try:
-        mitre_mapping = pd.read_excel("123.xlsx", sheet_name="Processed Data")
+        mitre_mapping = pd.read_excel("rules.xlsx", sheet_name="Processed Data")
         technique_to_tactic = dict(zip(
             mitre_mapping['Original'].astype(str),
             mitre_mapping['MITRE Match'].astype(str)
