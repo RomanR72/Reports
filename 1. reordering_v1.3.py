@@ -102,6 +102,12 @@ def calculate_column_width(ws, column_letter):
             pass
     return min(max_length, 50)
 
+def set_column_widths(ws, order):
+    """Устанавливает ширину столбцов согласно порядку"""
+    for col_idx in range(1, len(order) + 1):
+        col_letter = get_column_letter(col_idx)
+        ws.column_dimensions[col_letter].width = calculate_column_width(ws, col_letter)
+
 def copy_first_row(source_ws, target_ws):
     """Копирует первую строку без изменений"""
     for col_idx, cell in enumerate(source_ws[1], 1):
@@ -112,6 +118,30 @@ def copy_first_row(source_ws, target_ws):
             target_cell.fill = deepcopy(cell.fill)
             target_cell.number_format = cell.number_format
             target_cell.alignment = deepcopy(cell.alignment)
+
+def filter_distribution_alerts(ws):
+    """Фильтрует строки в листе 'Распределение ал', оставляя только начинающиеся с R"""
+    if ws.max_row <= 2:
+        return
+    
+    # Находим индекс столбца 'value'
+    value_col_idx = None
+    for idx, cell in enumerate(ws[2], 1):
+        if cell.value == "value":
+            value_col_idx = idx
+            break
+    
+    if not value_col_idx:
+        print("Столбец 'value' не найден в листе 'Распределение ал'")
+        return
+
+    # Удаляем строки, которые не начинаются с R (начиная с 3 строки)
+    row_idx = ws.max_row
+    while row_idx >= 3:
+        cell_value = ws.cell(row=row_idx, column=value_col_idx).value
+        if cell_value is None or not str(cell_value).startswith('R'):
+            ws.delete_rows(row_idx)
+        row_idx -= 1
 
 def reorder_columns(ws, order):
     """Изменяет порядок столбцов с сохранением первой строки"""
@@ -154,9 +184,7 @@ def reorder_columns(ws, order):
                     if val and hasattr(cell, attr):
                         setattr(cell, attr, val)
 
-    for col_idx in range(1, len(order) + 1):
-        col_letter = get_column_letter(col_idx)
-        ws.column_dimensions[col_letter].width = calculate_column_width(ws, col_letter)
+    set_column_widths(ws, order)
 
 def rename_sheets(wb):
     """Переименовывает листы в формате 1-1, 1-2 и т.д."""
@@ -222,6 +250,11 @@ def process_workbook(input_path, output_path):
                     
                     if sheet_name in COLUMN_ORDER:
                         reorder_columns(dest_ws, COLUMN_ORDER[sheet_name])
+                    
+                    # Специальная обработка для листа "Распределение ал"
+                    if sheet_name == "Распределение ал":
+                        filter_distribution_alerts(dest_ws)
+                        set_column_widths(dest_ws, COLUMN_ORDER[sheet_name])
                     
                     if sheet_name == "Общее количество" and results[sheet_name] is not None:
                         dest_ws['H1'] = results[sheet_name]

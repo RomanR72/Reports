@@ -1,127 +1,96 @@
 import os
-import openpyxl
-from openpyxl import Workbook
 import re
+import pandas as pd
+from openpyxl import load_workbook
+import tempfile
 
+# Функция для извлечения кодов правил из названий
+def extract_rule_code(rule_name):
+    match = re.search(r'R\d+(_\d+)*', rule_name)
+    return match.group(0) if match else None
 
-def has_three_digits(s):
-    """Проверяет, содержит ли строка ровно 3 цифры"""
-    if not s:
-        return False
-    digits = re.findall(r'\d', str(s))
-    return len(digits) == 3
+# Функция для поиска тактики MITRE по коду правила
+def find_mitre_tactic(rule_code, mitre_data):
+    if not rule_code:
+        return None
+        
+    code_only = rule_code[1:] if rule_code.startswith('R') else rule_code
+    
+    for col in mitre_data.columns[1:]:  # Пропускаем первый столбец
+        if code_only in mitre_data[col].values:
+            return mitre_data.columns[mitre_data.columns.get_loc(col)]
+    return None
 
-def starts_with_p_and_digits(s):
-    """Проверяет, начинается ли строка с P и цифр"""
-    if not s:
-        return False
-    return bool(re.match(r'^P\d', str(s), re.IGNORECASE))
-
-def process_files():
-    # Получаем путь к директории со скриптом
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    
-    # Создаем новый файл rules.xlsx
-    output_wb = Workbook()
-    output_ws = output_wb.active
-    output_ws.title = "Processed Data"
-    
-    # Устанавливаем заголовки столбцов
-    headers = ["Original", "First 4 chars", "Digits", "MITRE Match"]
-    for col, header in enumerate(headers, start=1):
-        output_ws.cell(row=1, column=col, value=header)
-    
-    # Множество для хранения уникальных значений
-    unique_values = set()
-    
-    # Проверяем существование каталога output
-    output_dir = os.path.join(script_dir, 'output')
-    if not os.path.exists(output_dir):
-        print(f"Ошибка: Каталог {output_dir} не существует!")
-        return
-    
-    # Загружаем данные из MITRE.xlsx
-    mitre_data = {}
-    mitre_path = os.path.join(script_dir, 'MITRE.xlsx')
-    if os.path.exists(mitre_path):
-        try:
-            mitre_wb = openpyxl.load_workbook(mitre_path)
-            mitre_ws = mitre_wb.active
-            
-            # Собираем данные из всех столбцов MITRE.xlsx
-            for col in mitre_ws.iter_cols():
-                header = col[0].value if col[0].value else ""
-                for cell in col[1:]:
-                    if cell.value:
-                        # Приводим значение к строке и удаляем лишние пробелы
-                        cell_value = str(cell.value).strip()
-                        mitre_data[cell_value] = header
-        except Exception as e:
-            print(f"Ошибка при чтении MITRE.xlsx: {e}")
-    else:
-        print(f"Предупреждение: Файл MITRE.xlsx не найден в {script_dir}")
-    
-    # Обрабатываем файлы в каталоге output
-    processed_files = 0
-    for filename in os.listdir(output_dir):
-        if filename.endswith('.xlsx') and filename != 'rules.xlsx':
-            filepath = os.path.join(output_dir, filename)
-            try:
-                wb = openpyxl.load_workbook(filepath)
-                if '1-6' in wb.sheetnames:
-                    sheet = wb['1-6']
-                    
-                    # Читаем значения из столбца A, начиная с A3
-                    for row in sheet.iter_rows(min_row=3, min_col=1, max_col=1):
-                        cell_value = row[0].value
-                        
-                        if cell_value and isinstance(cell_value, str):
-                            cell_value = cell_value.strip()
-                            
-                            # Проверяем условие: если есть _, то после него не должно быть цифр
-                            if '_' in cell_value:
-                                parts = cell_value.split('_')
-                                if len(parts) > 1 and any(c.isdigit() for c in parts[1]):
-                                    continue
-                            
-                            # Добавляем только уникальные значения
-                            if cell_value not in unique_values:
-                                unique_values.add(cell_value)
-                                processed_files += 1
-            except Exception as e:
-                print(f"Ошибка при обработке файла {filename}: {e}")
-    
-    print(f"Обработано файлов: {processed_files}")
-    print(f"Найдено уникальных значений: {len(unique_values)}")
-    
-    # Записываем данные в выходной файл с двойной фильтрацией
-    rows_to_keep = [headers]  # Сохраняем заголовки
-    for value in sorted(unique_values):
-        # Проверяем условия:
-        # 1. Содержит ровно 3 цифры
-        # 2. Не начинается с P и цифр
-        if has_three_digits(value) and not starts_with_p_and_digits(value):
-            first_4 = value[:4] if value else ""
-            digits = ''.join(filter(str.isdigit, first_4)) if first_4 else ""
-            
-            # Проверяем совпадение с MITRE.xlsx
-            mitre_match = mitre_data.get(digits, "")
-            
-            rows_to_keep.append([value, first_4, digits if digits else None, mitre_match])
-    
-    # Очищаем лист и записываем только подходящие строки
-    output_ws.delete_rows(1, output_ws.max_row)
-    for row in rows_to_keep:
-        output_ws.append(row)
-    
-    # Сохраняем файл rules.xlsx
-    output_path = os.path.join(script_dir, 'rules.xlsx')
+# Основной код
+def main():
     try:
-        output_wb.save(output_path)
-        print(f"Файл успешно создан: {output_path}")
-        print(f"Сохранено строк: {len(rows_to_keep)-1} (с 3 цифрами и не начинающихся с P+цифры)")
+        # Загрузка данных MITRE
+        mitre_file = 'MITRE.xlsx'
+        mitre_data = pd.read_excel(mitre_file, sheet_name='Лист1', header=0)
+        
+        # Поиск processed-файлов в каталоге output
+        output_dir = 'output'
+        processed_files = [f for f in os.listdir(output_dir) 
+                          if f.startswith('processed') and f.endswith('.xlsx')]
+        
+        # Сбор уникальных значений из столбца A листа 1-6
+        unique_rules = set()
+        
+        for file in processed_files:
+            file_path = os.path.join(output_dir, file)
+            try:
+                df = pd.read_excel(file_path, sheet_name='1-6', header=None)
+                # Пропускаем первые две строки и берем данные из столбца A
+                rules = df.iloc[2:, 0].dropna().unique()
+                unique_rules.update(rules)
+            except Exception as e:
+                print(f"Ошибка при обработке файла {file}: {e}")
+        
+        # Создание DataFrame для результатов
+        results = []
+        
+        for rule in unique_rules:
+            rule_code = extract_rule_code(str(rule))  # Преобразуем в строку на всякий случай
+            if rule_code:
+                code_only = rule_code[1:]  # Убираем 'R'
+                tactic = find_mitre_tactic(rule_code, mitre_data)
+                results.append([rule, rule_code, code_only, tactic])
+        
+        # Создание итогового DataFrame
+        result_df = pd.DataFrame(results, columns=[
+            'Original_Rule', 'Rule_Code', 'Code_Only', 'MITRE_Tactic'
+        ])
+        
+        # Попытка сохранения в текущую директорию
+        try:
+            result_df.to_excel('rules.xlsx', index=False)
+            print("Файл rules.xlsx успешно создан в текущей директории")
+        except Exception as e:
+            print(f"Не удалось сохранить в текущую директорию: {e}")
+            
+            # Попытка сохранения в временную директорию
+            try:
+                temp_dir = tempfile.gettempdir()
+                temp_path = os.path.join(temp_dir, 'rules.xlsx')
+                result_df.to_excel(temp_path, index=False)
+                print(f"Файл сохранен во временную директорию: {temp_path}")
+            except Exception as e2:
+                print(f"Не удалось сохранить во временную директорию: {e2}")
+                
+                # Попытка сохранения в домашнюю директорию пользователя
+                try:
+                    home_dir = os.path.expanduser("~")
+                    home_path = os.path.join(home_dir, 'rules.xlsx')
+                    result_df.to_excel(home_path, index=False)
+                    print(f"Файл сохранен в домашнюю директорию: {home_path}")
+                except Exception as e3:
+                    print(f"Не удалось сохранить файл ни в одну из директорий: {e3}")
+                    # Вывод данных в консоль как последний вариант
+                    print("Данные для сохранения:")
+                    print(result_df.to_string())
+                    
     except Exception as e:
-        print(f"Ошибка при сохранении файла: {e}")
+        print(f"Общая ошибка выполнения: {e}")
 
 if __name__ == "__main__":
-    process_files()
+    main()

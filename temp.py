@@ -4,12 +4,38 @@ from docx.shared import Pt
 from datetime import datetime, timedelta
 import os
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
+from docx.oxml import OxmlElement
 import re
 import matplotlib.pyplot as plt
 from docx.shared import Inches
 from collections import defaultdict
+import matplotlib.font_manager as fm
 
-def set_cell_text(cell, text, font_name='PF Centro Sans Pro', font_size=Pt(12)):
+# Установка шрифта для matplotlib
+def setup_matplotlib_font():
+    try:
+        # Ищем файл шрифта в каталоге PFCentroSansPro
+        font_dir = "PFCentroSansPro"
+        if os.path.exists(font_dir):
+            # Ищем файлы шрифтов в каталоге
+            font_files = []
+            for file in os.listdir(font_dir):
+                if file.lower().endswith(('.ttf', '.otf')):
+                    font_files.append(os.path.join(font_dir, file))
+            
+            if font_files:
+                # Используем первый найденный файл шрифта
+                prop = fm.FontProperties(fname=font_files[0])
+                plt.rcParams['font.family'] = prop.get_name()
+                print(f"Установлен шрифт: {prop.get_name()}")
+            else:
+                print("В каталоге PFCentroSansPro не найдено файлов шрифтов. Используется стандартный шрифт.")
+        else:
+            print("Каталог PFCentroSansPro не найден. Используется стандартный шрифт.")
+    except Exception as e:
+        print(f"Ошибка при настройке шрифта: {e}")
+
+def set_cell_text(cell, text, font_name='PF Centro Sans Pro', font_size=Pt(14)):
     """Устанавливает текст в ячейке с указанным шрифтом и размером"""
     cell.text = ''
     paragraph = cell.paragraphs[0]
@@ -20,32 +46,28 @@ def set_cell_text(cell, text, font_name='PF Centro Sans Pro', font_size=Pt(12)):
 
 def get_russian_month():
     """Возвращает предыдущий месяц на русском с заглавной буквы"""
-    today = datetime.now()
-    first_day = today.replace(day=1)
-    prev_month = first_day - timedelta(days=1)
-    
     months = {
         1: "Январь", 2: "Февраль", 3: "Март", 4: "Апрель",
         5: "Май", 6: "Июнь", 7: "Июль", 8: "Август",
         9: "Сентябрь", 10: "Октябрь", 11: "Ноябрь", 12: "Декабрь"
     }
-    return months.get(prev_month.month, "")
-
-def set_font_size(doc, size=Pt(12)):
-    """Устанавливает размер шрифта для всего документа"""
-    for paragraph in doc.paragraphs:
-        for run in paragraph.runs:
-            run.font.size = size
     
-    for table in doc.tables:
-        for row in table.rows:
-            for cell in row.cells:
-                for paragraph in cell.paragraphs:
-                    for run in paragraph.runs:
-                        run.font.size = size
+    # Получаем текущую дату
+    today = datetime.now()
+    
+    # Вычисляем первый день текущего месяца
+    first_day_of_current_month = today.replace(day=1)
+    
+    # Вычитаем один день, чтобы получить последний день предыдущего месяца
+    last_day_of_previous_month = first_day_of_current_month - timedelta(days=1)
+    
+    # Получаем номер предыдущего месяца
+    previous_month = last_day_of_previous_month.month
+    
+    return months.get(previous_month, "")
 
 def replace_placeholder(doc, placeholder, replacement):
-    """Заменяет плейсхолдеры в документе"""
+    """Заменяет плейсхолдеры в документе, включая титульную страницу"""
     replacement_str = str(replacement) if replacement is not None else ""
     
     for paragraph in doc.paragraphs:
@@ -64,7 +86,7 @@ def replace_placeholder(doc, placeholder, replacement):
                             run.font.name = 'PF Centro Sans Pro'
 
 def find_mitre_table(doc):
-    """Находит таблицу с тактиками и техниками MITRE ATT&CK"""
+    """Находит таблицу с тактиками и техниками MITRE ATT&CK по контексту"""
     table_title = "Таблица 2. Тактики и техники"
     
     for paragraph in doc.paragraphs:
@@ -76,26 +98,16 @@ def find_mitre_table(doc):
                             return table
     return None
 
-def fill_mitre_table(doc, techniques):
+def fill_mitre_table(doc, techniques, technique_to_tactic):
     """Заполняет таблицу с тактиками и техниками MITRE ATT&CK"""
     target_table = find_mitre_table(doc)
     
     if not target_table:
-        print("Таблица MITRE ATT&CK не найдена")
+        print("Таблица с тактиками и техниками MITRE ATT&CK не найдена в шаблоне")
         return
     
     for row in list(target_table.rows)[1:]:
         target_table._tbl.remove(row._tr)
-    
-    try:
-        mitre_mapping = pd.read_excel("123.xlsx", sheet_name="Processed Data")
-        technique_to_tactic = dict(zip(
-            mitre_mapping['Original'].astype(str),
-            mitre_mapping['MITRE Match'].astype(str)
-        ))
-    except Exception as e:
-        print(f"Ошибка чтения файла MITRE: {e}")
-        technique_to_tactic = {}
     
     for technique in techniques:
         tactic = technique_to_tactic.get(str(technique).strip() if technique else "", "Неизвестная тактика")
@@ -107,8 +119,76 @@ def fill_mitre_table(doc, techniques):
         set_cell_text(new_row.cells[0], tactic)
         set_cell_text(new_row.cells[1], technique)
 
+def create_tactics_chart(techniques, technique_to_tactic, output_dir, company_name):
+    """Создаёт столбчатую диаграмму распределения тактик MITRE ATT&CK"""
+    if not techniques:
+        print("Нет данных для построения диаграммы")
+        return None
+    
+    tactic_count = defaultdict(int)
+    for tech in techniques:
+        tactic = technique_to_tactic.get(str(tech).strip(), "Неизвестная тактика")
+        tactic_count[tactic] += 1
+    
+    if not tactic_count:
+        return None
+    
+    setup_matplotlib_font()
+    plt.figure(figsize=(12, 8))
+    tactics = list(tactic_count.keys())
+    counts = list(tactic_count.values())
+    
+    bars = plt.bar(tactics, counts, color='skyblue')
+    plt.xlabel('Тактики MITRE ATT&CK', fontsize=12)
+    plt.ylabel('Количество правил', fontsize=12)
+    plt.title('Распределение правил по тактикам MITRE ATT&CK', fontsize=14)
+    plt.xticks(rotation=45, ha='right')
+    
+    for bar, count in zip(bars, counts):
+        plt.text(bar.get_x() + bar.get_width()/2, bar.get_height() + 0.1,
+                str(count), ha='center', va='bottom')
+    
+    plt.tight_layout()
+    
+    # Создаем безопасное имя файла для компании
+    safe_company_name = re.sub(r'[\\/*?:"<>|]', "_", company_name)
+    chart_path = os.path.join(output_dir, f"{safe_company_name}_tactics_chart.png")
+    
+    plt.savefig(chart_path, dpi=300, bbox_inches='tight')
+    plt.close()
+    
+    return chart_path
+
+def replace_chart_placeholder(doc, chart_path):
+    """Заменяет плейсхолдер {chart} на диаграмму в документе"""
+    # Ищем плейсхолдер {chart} в параграфах
+    for paragraph in doc.paragraphs:
+        if "{chart}" in paragraph.text:
+            # Очищаем параграф и вставляем изображение
+            paragraph.text = ""
+            run = paragraph.add_run()
+            run.add_picture(chart_path, width=Inches(6))
+            paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+            return True
+    
+    # Ищем плейсхолдер {chart} в таблицах
+    for table in doc.tables:
+        for row in table.rows:
+            for cell in row.cells:
+                if "{chart}" in cell.text:
+                    # Очищаем ячейку и вставляем изображение
+                    cell.text = ""
+                    paragraph = cell.paragraphs[0]
+                    run = paragraph.add_run()
+                    run.add_picture(chart_path, width=Inches(6))
+                    paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+                    return True
+    
+    print("Плейсхолдер {chart} не найден в документе")
+    return False
+
 def format_period(period_str):
-    """Форматирует период отображения"""
+    """Преобразует период из формата '2025-05-01T00:00:00+03:00 - 2025-05-31T00:00:00+03:00' в '01.05.2025 - 31.05.2025'"""
     if not period_str or pd.isna(period_str):
         return "[период не указан]"
     
@@ -125,7 +205,7 @@ def format_period(period_str):
         return str(period_str)
 
 def find_sources_table(doc):
-    """Находит таблицу с затронутыми источниками"""
+    """Находит таблицу с затронутыми источниками по контексту"""
     table_title = "Таблица 1. Имена затронутых источников"
     
     for paragraph in doc.paragraphs:
@@ -142,7 +222,7 @@ def fill_sources_table(doc, assets):
     target_table = find_sources_table(doc)
     
     if not target_table:
-        print("Таблица источников не найдена")
+        print("Таблица с затронутыми источниками не найдена в шаблоне")
         return
     
     for row in list(target_table.rows)[1:]:
@@ -161,134 +241,13 @@ def fill_sources_table(doc, assets):
                 if j*2 + 1 < len(row.cells):
                     set_cell_text(row.cells[j*2], str(assets[idx][0]) if assets[idx][0] is not None else "")
                     set_cell_text(row.cells[j*2 + 1], str(assets[idx][1]) if assets[idx][1] is not None else "")
-                else:
-                    print(f"Недостаточно ячеек в строке {i+1}")
             else:
                 if j*2 + 1 < len(row.cells):
                     set_cell_text(row.cells[j*2], '')
                     set_cell_text(row.cells[j*2 + 1], '')
-                    
-def create_mitre_chart(techniques, excel_path):
-    """Создает диаграмму распределения тактик MITRE"""
-    if not techniques:
-        return None
-        
-    try:
-        mitre_mapping = pd.read_excel("123.xlsx", sheet_name="Processed Data")
-        technique_to_tactic = dict(zip(
-            mitre_mapping['Original'].astype(str),
-            mitre_mapping['MITRE Match'].astype(str)
-        ))
-    except Exception as e:
-        print(f"Ошибка чтения файла MITRE: {e}")
-        return None
-    
-    tactic_counts = defaultdict(int)
-    for technique in techniques:
-        technique_str = str(technique).strip() if technique else ""
-        tactic = technique_to_tactic.get(technique_str, "Неизвестная тактика")
-        if tactic != "Неизвестная тактика":
-            tactic_counts[tactic] += 1
-    
-    if not tactic_counts:
-        return None
-    
-    sorted_tactics = sorted(tactic_counts.items(), key=lambda x: x[1], reverse=True)
-    tactics, counts = zip(*sorted_tactics)
-    
-    plt.figure(figsize=(12, 6))
-    bars = plt.bar(tactics, counts, color='#4472C4')
-    plt.xlabel('Тактики MITRE ATT&CK')
-    plt.ylabel('Количество техник')
-    plt.xticks(rotation=45, ha='right')
-    plt.tight_layout()
-    
-    for bar in bars:
-        height = bar.get_height()
-        plt.text(bar.get_x() + bar.get_width()/2., height,
-                 f'{int(height)}',
-                 ha='center', va='bottom')
-    
-    chart_path = os.path.join(os.path.dirname(excel_path), "mitre_chart.png")
-    plt.savefig(chart_path, dpi=300, bbox_inches='tight')
-    plt.close()
-    
-    return chart_path
-
-def find_page3_chart(doc):
-    """Находит существующую диаграмму на 3 странице"""
-    # Поиск по заголовку страницы
-    page3_title = "3. Результаты анализа угроз"
-    page3_index = -1
-    
-    # Находим начало 3 страницы
-    for i, paragraph in enumerate(doc.paragraphs):
-        if page3_title in paragraph.text:
-            page3_index = i
-            break
-    
-    if page3_index == -1:
-        return None
-    
-    # Ищем первый графический элемент на странице
-    for i in range(page3_index, min(page3_index + 50, len(doc.paragraphs))):
-        para = doc.paragraphs[i]
-        for run in para.runs:
-            if run._element.xpath('.//pic:pic'):
-                return para
-    return None
-
-def replace_existing_chart(doc, chart_path):
-    """Заменяет существующую диаграмму на 3 странице новой"""
-    chart_para = find_page3_chart(doc)
-    
-    if chart_para is None:
-        print("Диаграмма на 3 странице не найдена, вставляем в конец")
-        return insert_chart_fallback(doc, chart_path)
-    
-    # Сохраняем выравнивание
-    alignment = chart_para.alignment
-    
-    # Очищаем параграф
-    chart_para.clear()
-    
-    # Вставляем новую диаграмму
-    run = chart_para.add_run()
-    try:
-        run.add_picture(chart_path, width=Inches(6.5))
-        chart_para.alignment = alignment
-        return True
-    except Exception as e:
-        print(f"Ошибка вставки изображения: {e}")
-        return insert_chart_fallback(doc, chart_path)
-
-def insert_chart_fallback(doc, chart_path):
-    """Вставляет диаграмму после таблицы MITRE (резервный вариант)"""
-    mitre_table = find_mitre_table(doc)
-    if not mitre_table:
-        print("Не удалось найти таблицу MITRE")
-        return False
-    
-    paragraph = doc.add_paragraph()
-    paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-    run = paragraph.add_run()
-    
-    try:
-        run.add_picture(chart_path, width=Inches(6.5))
-    except Exception as e:
-        print(f"Ошибка вставки изображения: {e}")
-        return False
-    
-    caption = doc.add_paragraph("Рисунок 1. Распределение техник по тактикам MITRE ATT&CK")
-    caption.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
-    for run in caption.runs:
-        run.font.name = 'PF Centro Sans Pro'
-        run.font.size = Pt(12)
-    
-    return True
 
 def process_excel_file(excel_path, template_path, output_dir):
-    """Обрабатывает Excel файл и генерирует отчет"""
+    """Обрабатывает один Excel файл и генерирует отчет"""
     try:
         df_1_1 = pd.read_excel(excel_path, sheet_name="1-1", header=None, nrows=1)
         company_name = str(df_1_1.iloc[0, 2]) if len(df_1_1.columns) > 2 and not pd.isna(df_1_1.iloc[0, 2]) else "[Название организации]"
@@ -302,24 +261,34 @@ def process_excel_file(excel_path, template_path, output_dir):
             df_1_5 = pd.read_excel(excel_path, sheet_name="1-5", header=None, usecols="E", skiprows=2)
             assets = [(i+1, str(val)) for i, val in enumerate(df_1_5.iloc[:, 0]) if not df_1_5.empty and not pd.isna(val)] if not df_1_5.empty else []
         except Exception as e:
-            print(f"Ошибка чтения листа 1-5: {e}")
+            print(f"Ошибка при чтении листа 1-5: {e}")
             assets = []
         
         try:
             df_1_6 = pd.read_excel(excel_path, sheet_name="1-6", header=None, usecols="A", skiprows=2)
             techniques = [str(val).strip() for val in df_1_6.iloc[:, 0] if not df_1_6.empty and not pd.isna(val)] if not df_1_6.empty else []
         except Exception as e:
-            print(f"Ошибка чтения листа 1-6: {e}")
+            print(f"Ошибка при чтении листа 1-6: {e}")
             techniques = []
         
     except Exception as e:
-        print(f"Ошибка чтения Excel: {e}")
+        print(f"Ошибка при чтении Excel файла {excel_path}: {e}")
         return
+
+    try:
+        mitre_mapping = pd.read_excel("rules.xlsx", sheet_name="Sheet1")
+        technique_to_tactic = dict(zip(
+            mitre_mapping['Original_Rule'].astype(str).str.strip(),
+            mitre_mapping['MITRE_Tactic'].astype(str)
+        ))
+    except Exception as e:
+        print(f"Ошибка при чтении файла сопоставления MITRE: {e}")
+        technique_to_tactic = {}
 
     try:
         doc = Document(template_path)
     except Exception as e:
-        print(f"Ошибка загрузки шаблона: {e}")
+        print(f"Ошибка при загрузке шаблона DOCX: {e}")
         return
 
     replace_data = {
@@ -337,32 +306,32 @@ def process_excel_file(excel_path, template_path, output_dir):
         replace_placeholder(doc, placeholder, value)
 
     fill_sources_table(doc, assets)
-    fill_mitre_table(doc, techniques)
+    fill_mitre_table(doc, techniques, technique_to_tactic)
     
-    chart_path = create_mitre_chart(techniques, excel_path)
+    # Создаем и вставляем диаграмму вместо плейсхолдера {chart}
+    chart_path = create_tactics_chart(techniques, technique_to_tactic, output_dir, company_name)
     if chart_path:
-        replace_existing_chart(doc, chart_path)
+        replace_chart_placeholder(doc, chart_path)
+        # Удаляем временный файл диаграммы
         try:
             os.remove(chart_path)
         except Exception as e:
-            print(f"Ошибка удаления временного файла: {e}")
-    
-    # Установка размера шрифта 12 для всего документа
-    set_font_size(doc, Pt(12))
-
-    report_name = os.path.splitext(os.path.basename(excel_path))[0] + "_report.docx"
+            print(f"Ошибка при удалении временного файла диаграммы: {e}")
+   
+    base_name = os.path.basename(excel_path)
+    report_name = os.path.splitext(base_name)[0] + "_report.docx"
     output_path = os.path.join(output_dir, report_name)
 
     try:
         doc.save(output_path)
-        print(f"Отчет сохранен: {output_path}")
+        print(f"Отчет успешно сгенерирован: {output_path}")
     except Exception as e:
-        print(f"Ошибка сохранения отчета: {e}")
+        print(f"Ошибка при сохранении отчета: {e}")
 
 def generate_reports():
     if not os.path.exists("output"):
-        os.makedirs("output")
-        print("Создан каталог 'output'")
+        print("Каталог 'output' не существует")
+        return
     
     if not os.path.exists("template.docx"):
         print("Файл шаблона 'template.docx' не найден")
@@ -373,12 +342,12 @@ def generate_reports():
     excel_files = [f for f in os.listdir("output") if f.lower().endswith(('.xlsx', '.xls'))]
     
     if not excel_files:
-        print("В каталоге 'output' нет Excel файлов")
+        print("В каталоге 'output' не найдено Excel файлов")
         return
     
     for excel_file in excel_files:
         excel_path = os.path.join("output", excel_file)
-        print(f"Обработка: {excel_path}")
+        print(f"Обработка файла: {excel_path}")
         process_excel_file(excel_path, "template.docx", "reports")
 
 if __name__ == "__main__":
